@@ -116,3 +116,52 @@ spring 프로젝트를 생성단계에서 힘들다 => 프로젝트 생성 방�
 **pom.xml** 내가 프로젝트에  사용할 라이브러리/모듈들을 메인 저장소로부터 다운로드 저절로 받을 수 있게 해준다.
 
 필요한 모듈을 명시만 해두면 알아서 다운로드 된다.
+
+
+
+### 4강 처음해 보는 스프링 프로젝트
+
+Hello World 출력단계
+
+##### 4.1 Java파일을 이용한 프로젝트 실행
+
+주의 : maven 버전 맞추기
+
+ 수많은 모듈들을 통해 프로젝트를 진행한다.
+
+스프링 객체 == bean
+
+applicationContext.xml로 만들어 resource에 넣는다.
+
+<  bean      / > 홑태그 ==> 이것을 통해 IoC에 자동으로 객체를 생성
+
+- 기존
+
+```java
+TranspotationWalk transpotationWalk = new TranspotationWalk();
+transpotationWalk.move();
+```
+
+- 스프링
+  1. 스프링컨테이너에 접근하는 방법
+
+```java
+import org.springframework.context.support.GenericXmlApplicationContext;
+
+
+GenericXmlApplicationContext ctx = new GenericXmlApplicationContext("classpath : applicationContext.xml"); //classpath 자원의 이름
+
+TranspotationWalk transpotationWalk  = ctx.getBean("tWalk",TranspotationWalk.class);
+transpotationWalk.move();
+
+ctx.close();
+// 어노테이션과 xml을 통해 객체를 생성한다.
+```
+
+
+
+**스프링은 처음이 어렵다!! 설정하는 부분, 프로젝트 구조, 디렉토리 구조를 잘 파악하자!!!**
+
+
+
+##### 4.2 우선 따라해보는 스프링 프로젝트

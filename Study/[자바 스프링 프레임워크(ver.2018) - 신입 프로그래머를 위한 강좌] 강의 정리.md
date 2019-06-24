@@ -103,7 +103,7 @@ spring 프로젝트를 생성단계에서 힘들다 => 프로젝트 생성 방�
 
 
 
-프로젝트 폴더 -> src -> main -> java와 resource 
+**프로젝트 폴더 -> src -> main -> java와 resource** 
 
 
 
@@ -165,3 +165,77 @@ ctx.close();
 
 
 ##### 4.2 우선 따라해보는 스프링 프로젝트
+
+
+
+### 5강 또 다른 프로젝트 생성 방법
+
+**방법 2개**
+
+	1.  **개발환경**
+ 	2.  **로컬**
+
+로컬에서 프로젝트 생성하는 방법!!!!!
+
+이클립스에서 import해서 사용
+
+
+
+폴더를 직접 생성
+
+그리고 src-> main 폴더를생성하고 그 아래 java와 resource 폴더 생성
+
+그리고 편집기를 통해서 pom.xml파일을 생성 src아래에 넣음
+
+```java
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>spring4</groupId>
+    <artifactId>testPjt001</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>4.1.0.RELEASE</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                    <encoding>utf-8</encoding>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

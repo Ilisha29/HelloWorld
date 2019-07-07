@@ -316,3 +316,25 @@ appCtx1에 나머지 두개를
 주입하려고 하는 **객체의 이름이 일치**하는 객체를 자동으로 주입
 
 디폴트생성자 명시해주기!!!
+
+
+
+### 10강 의존객체 선택
+
+어떠한 객체자 주입이 될것인지 선택
+
+동일한 객체가 2개 이상인 경우 스프링 컨테이너는 자동주입 대상객체를 판단하지 못해서 Exception을 발생시킨다.
+
+qualifier 태그를 사용 ㅎㅎ
+
+@Autowried(required = false) => 빈객체가 생성되지 않으면 주입하지 않도록 Exception 피하기 위해
+
+**@Inject**자주 사용되지는 않음 // required속성을 지원하지 않음
+
+qualifier == named
+
+즉,
+
+@Inject
+
+@Named(value = "wordDao1")

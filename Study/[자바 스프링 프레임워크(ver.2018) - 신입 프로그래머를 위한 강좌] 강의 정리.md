@@ -225,6 +225,8 @@ ctx.close();
 
 
 
+## 의존 객체
+
 ### 6강 DI 의존 주입
 
 생성자에서 주입
@@ -338,3 +340,49 @@ qualifier == named
 @Inject
 
 @Named(value = "wordDao1")
+
+
+
+## 설정 및 구현
+
+### 11강 생명주기
+
+객체의 생명주기에 대한 내용
+
+##### 11-1 스프링 컨테이너 생명주기
+
+GenericXmlApplicationContext ctx = new GenericXmlApplicationContext ctx(경로); // 컨테이너 생성
+
+스프링 생성시점 == 빈객체 생성시점
+
+ctx.close(); // 컨테이너 종료 빈객체들도 제거
+
+##### 11-2 빈 객체 생명주기
+
+**빈 객체의 생명주기는 스프링 컨테이너의 생명주기와 같다.**
+
+##### 11-3 init-method, destroy-method 속성
+
+ init-method 객체가 생성될때 실행되는 // 메소드 특정한작업을 할 수 있게 해줌
+
+destroy-method 객체가 소멸될때 실행되는 메소드 // 메소드 특정한작업을 할 수 있게 해줌
+
+
+
+### 12-1강 어노테이션을 이용한 스프링 설정
+
+XML 파일을 JAVA파일로 변환하기
+
+@Configuration //java파일을 이용한다 라는 의미
+
+@Bean
+
+class는 반환타입으로
+
+id는 메소드 이름으로
+
+property는 set메소드 이용해서 값 설정
+
+list는 ArrayList사용
+
+map 은 Map 타입으로

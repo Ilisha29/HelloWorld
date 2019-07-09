@@ -386,3 +386,74 @@ property는 set메소드 이용해서 값 설정
 list는 ArrayList사용
 
 map 은 Map 타입으로
+
+
+
+### 12-2강 어노테이션을 이용한 스프링 설정
+
+12-2-1 Java파일 분리
+
+12-2-2 @Import 어노테이션
+
+
+
+### 13강 웹 프로그래밍 설계 모델
+
+##### 1. 웹프로그래밍을 구축하기 위한 설계 모델
+
+**Model1**
+
+이용자(for 브라우저) <-요청 -> WAS <-요청-> 데이터베이스
+
+장점 : 개발속도가 빠르다
+
+단점 : 하나의 html에 모든 소스가 들어가서 유지보수가 힘들다.
+
+**Model2**
+
+브라우저 <-요청-> WAS(컨트롤러, 서비스, DAO(데이터베이스관련) / View<JSP> ) <-요청-> 데이터베이스
+
+MVC 방법
+
+##### 2. 스프링 MVC 프레임워크 설계구조
+
+DispatcherServlet 요청을 받음
+
+HandlerMapping 알맞은 컨트롤러 선택
+
+HandlerMapping 적합한 컨트롤러에서 알맞은 메소드 탐색
+
+ViewResolver 적합한 JSP 뷰를 찾아줌
+
+##### 3. DispatcherServlet 설정
+
+web.xml에 서블릿을 매핑
+
+##### 4. Controller 객체
+
+@Controller
+
+##### 5. Controller 객체 - @RequestMapping
+
+컨트롤러 아래의 메소드에는 @RequestMapping 어노테이션을 사용한다.
+
+##### 6. Controller 객체 - @Model 타입의 파라미터
+
+컨트롤러에서 작업한 것을 위로 올릴때 사용
+
+##### 7. View객체
+
+리퀘스트에 관련된 내용
+
+
+
+**정리**
+
+![1562660430640](C:\Users\Owner\AppData\Roaming\Typora\typora-user-images\1562660430640.png)
+
+ 개발자의 관여가 필요한 부분      : Model View Controller
+ 개발자의 관여가 필요 없는 부분
+
+ : DispatcherServlet(설정만 하면됨), HandlerMapping, Handler Adapter, ViewResolver
+
+### 14강. 스프링 MVC 웹서비스 - 1

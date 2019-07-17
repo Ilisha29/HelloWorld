@@ -457,3 +457,11 @@ web.xml에 서블릿을 매핑
  : DispatcherServlet(설정만 하면됨), HandlerMapping, Handler Adapter, ViewResolver
 
 ### 14강. 스프링 MVC 웹서비스 - 1
+
+웹 서비스를 하기 위한 기본적인 요소들을 배우는시간
+
+톰캣 => 서버 제공
+
+1. 톰캣 설치
+2. STS(Spring Tool Suit) 설치
+3. STS이용해서 프로젝트 생성

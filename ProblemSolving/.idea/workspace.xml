@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/BOJ1913.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/BOJ1913.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/BOJ10171.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/BOJ10171.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/BOJ1100.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/BOJ1100.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,18 +15,24 @@
     <session id="-1291965742">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="19" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.23" value="1" />
-          <entry key="project.open.time.24" value="1" />
-          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.24" value="2" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.27" value="2" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.35" value="1" />
-          <entry key="project.open.time.40" value="1" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.open.time.40" value="2" />
           <entry key="project.open.time.42" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.open.time.48" value="1" />
+          <entry key="project.open.time.56" value="1" />
+          <entry key="project.open.time.57" value="1" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -105,7 +108,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/company/BOJ10171.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
-              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -143,7 +146,7 @@
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
-    <option name="height" value="784" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -181,6 +184,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563376009587" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../spring-study-qna" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -293,16 +297,26 @@
       <workItem from="1563177667033" duration="406000" />
       <workItem from="1563268402031" duration="597000" />
       <workItem from="1563375607763" duration="521000" />
+      <workItem from="1563459740973" duration="596000" />
+      <workItem from="1563589873282" duration="1318000" />
+      <workItem from="1563963474036" duration="15000" />
+      <workItem from="1563969616813" duration="595000" />
+      <workItem from="1563970743713" duration="594000" />
+      <workItem from="1563979190550" duration="9000" />
+      <workItem from="1564051715726" duration="594000" />
+      <workItem from="1564379446846" duration="25000" />
+      <workItem from="1564476807100" duration="1742000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21155000" />
+    <option name="totallyTimeSpent" value="26643000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.301059" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34568834" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -377,7 +391,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/company/BOJ10171.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
         </state>
       </provider>
     </entry>

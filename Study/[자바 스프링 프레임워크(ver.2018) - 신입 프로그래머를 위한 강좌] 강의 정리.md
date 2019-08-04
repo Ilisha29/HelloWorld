@@ -463,5 +463,80 @@ web.xml에 서블릿을 매핑
 톰캣 => 서버 제공
 
 1. 톰캣 설치
-2. STS(Spring Tool Suit) 설치
+2. STS(Spring Tool Suit) 설치 //웹서비스를 쉽게 구현할 수 있도록 하는 기능
 3. STS이용해서 프로젝트 생성
+
+
+
+### 15강. 스프링 MVC 웹서비스 - 2
+
+##### 15-1 프로젝트 전체 구조
+
+1. java파일
+2. webapp
+3. resources
+4. spring폴더
+5. views폴더 : jsp파일 위치, 웹설정 파일(web.xml)
+6. pom.xml파일(pom.xml)
+
+##### 15-2  web.xml
+
+DispathcerServlet이 사용자의 요청을 받는거로 하였다. 따라서 DispatcherServlet을 경로를 / 로 등록한다.
+
+
+
+### 16강.  STS를 이용하지 않은 웹 프로젝트
+
+1. 웹 어플 폴더 생성
+
+main - java
+
+main - webapp - resource
+
+​							- WEB INF  - spring   &  views
+
+
+
+2.  pom.xml작성
+3.  web.xml작성
+4.  스프링 설정 파일(servlet-context.xml) 작성
+5. root-context.xml 작성
+6. 컨트롤러와 뷰 작성
+
+STS를 이용한것 뿐만 아니라 손수 만들어보면서 전체적인 흐름과 구조를 파악해야 한다.!!!!
+
+구조를 익히기!!
+
+![캡처](https://user-images.githubusercontent.com/40922963/62420958-a1c76780-b6d5-11e9-80a5-3e8d75645e86.JPG)
+
+![캡처2](https://user-images.githubusercontent.com/40922963/62420960-a4c25800-b6d5-11e9-83a3-2c3061cc391b.JPG)
+
+### 17강. Service & Dao 객체 구현
+
+컨트롤러에서 기능하는 서비스를 구현
+
+1. 웹 어플리 케이션 준비
+
+web.xml에서 가장 중요한 일은 디스패처서블릿 경로를 등록하는것
+
+뭐다 가져오기만 하네......
+
+서비스 객체 구현 방법 3가지
+
+1. new 연산자 이용한 service 객체 생성 및 참조 // 자바 이용
+2. 빈객체 생성 -> autowired 의존 객체 자동 주입 // 빈생성 
+3. @service 어노테이션을 달아주면 알아서 컨테이너에서 객체를 생성 @Repository @Resource
+
+
+
+##### DAO 객체 구현 // 스프링 자동주입 이용
+
+@Repository
+
+public class ~~~~ implements ~~Dao{
+
+
+
+@Autowired
+
+MemberDao dao;

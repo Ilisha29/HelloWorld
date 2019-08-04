@@ -540,3 +540,47 @@ public class ~~~~ implements ~~Dao{
 @Autowired
 
 MemberDao dao;   
+
+
+
+### 18강. 컨트롤러 객체 구현
+
+@RequestMapping
+
+method -> POST OR GET
+
+GET이 메소드의 디폴트값
+
+POST는 명시를 해줘야한다.
+
+
+
+파라미터를 어노테이션을 이용해서 받을 수 있따.
+
+@RequestParam("memId") String memId
+
+@RequestParam(value = "memPw", required = false, defaultValue = "1234") String memPw
+
+
+
+### 19강. 컨트롤러 객체 구현
+
+@ModelAttribute("설정이름")  Member member
+
+뷰에서 : 설정이름.memId 등 사용가능
+
+뷰에서 사용될 이름을 바꿀 수 있다.
+
+
+
+ModelAtrribute가 적용된 메소드는 항상 같이 호출된다.!!
+
+
+
+Model : 뷰에 데이터만 전달하기 위한 객체
+
+Model & View : 데이터와 뷰를 함께 전달
+
+
+
+실행 결과는 같다.

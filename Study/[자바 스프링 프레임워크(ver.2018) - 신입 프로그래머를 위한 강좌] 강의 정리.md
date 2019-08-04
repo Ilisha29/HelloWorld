@@ -581,6 +581,6 @@ Model : 뷰에 데이터만 전달하기 위한 객체
 
 Model & View : 데이터와 뷰를 함께 전달
 
-
+![캡처](https://user-images.githubusercontent.com/40922963/62427001-30b0a000-b727-11e9-83b8-d57ad98bd70f.JPG)
 
 실행 결과는 같다.

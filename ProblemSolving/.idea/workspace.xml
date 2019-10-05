@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/BOJ1912.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/NAVER1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/NAVER2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/NAVER3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/NHN_01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/BOJ1912.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/BOJ1912.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Study/런타임 에러의 원인.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Study/런타임 에러의 원인.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,7 +21,7 @@
     <session id="-1291965742">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="22" />
+          <entry key="project.closed" value="28" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.23" value="1" />
@@ -31,75 +35,43 @@
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.38" value="1" />
+          <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.40" value="2" />
           <entry key="project.open.time.42" value="1" />
           <entry key="project.open.time.48" value="1" />
-          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.5" value="3" />
+          <entry key="project.open.time.51" value="1" />
           <entry key="project.open.time.56" value="1" />
           <entry key="project.open.time.57" value="1" />
-          <entry key="project.opened" value="23" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="10" />
+          <entry key="java" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="10" />
+          <entry key="JAVA" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5661" />
+          <entry key="java" value="7574" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5661" />
+          <entry key="JAVA" value="7574" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/BOJ1913.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/BoostCampPS01.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/BoostCampPS02.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/BOJ1100.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/BOJ10171.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -140,16 +112,58 @@
         <entry file="file://$PROJECT_DIR$/src/com/company/BOJ9095.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
-              <caret line="5" column="44" lean-forward="true" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+              <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/BOJ1912.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="31" selection-start-line="9" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/NAVER1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/NAVER2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/BOJ1912.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/NHN_01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+            <state relative-caret-position="114">
+              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="8" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/NAVER3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="14" selection-start-line="6" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -184,6 +198,10 @@
         <option value="$PROJECT_DIR$/src/com/company/BOJ2193.java" />
         <option value="$PROJECT_DIR$/src/com/company/BOJ9095.java" />
         <option value="$PROJECT_DIR$/src/com/company/BOJ1912.java" />
+        <option value="$PROJECT_DIR$/src/com/company/NAVER3.java" />
+        <option value="$PROJECT_DIR$/src/com/company/NAVER1.java" />
+        <option value="$PROJECT_DIR$/src/com/company/NAVER2.java" />
+        <option value="$PROJECT_DIR$/src/com/company/NHN_01.java" />
       </list>
     </option>
   </component>
@@ -194,9 +212,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="697" />
-    <option name="height" value="735" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -204,7 +223,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -231,13 +250,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568463619380" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569826485429" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../spring-study-qna" />
   </component>
   <component name="RunDashboard">
@@ -252,20 +271,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BOJ1912">
-    <configuration name="BOJ1463" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.BOJ1463" />
-      <module name="ProblemSolving" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.NHN_01">
     <configuration name="BOJ1912" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.BOJ1912" />
       <module name="ProblemSolving" />
@@ -305,8 +311,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KAKAO2020BLIND_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.KAKAO2020BLIND_01" />
+    <configuration name="NAVER2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.NAVER2" />
+      <module name="ProblemSolving" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NHN_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.NHN_01" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
@@ -319,19 +338,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.KAKAO2020BLIND_01" />
-      <item itemvalue="Application.BOJ1463" />
       <item itemvalue="Application.BOJ2193" />
       <item itemvalue="Application.BOJ9095" />
       <item itemvalue="Application.BOJ1912" />
+      <item itemvalue="Application.NAVER2" />
+      <item itemvalue="Application.NHN_01" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NHN_01" />
+        <item itemvalue="Application.NAVER2" />
         <item itemvalue="Application.BOJ1912" />
         <item itemvalue="Application.BOJ9095" />
         <item itemvalue="Application.BOJ2193" />
-        <item itemvalue="Application.BOJ1463" />
-        <item itemvalue="Application.KAKAO2020BLIND_01" />
       </list>
     </recent_temporary>
   </component>
@@ -367,12 +386,17 @@
       <workItem from="1567832528464" duration="13083000" />
       <workItem from="1568041068606" duration="8976000" />
       <workItem from="1568398544818" duration="1623000" />
-      <workItem from="1568456136739" duration="5430000" />
+      <workItem from="1568456136739" duration="5528000" />
+      <workItem from="1568642402153" duration="600000" />
+      <workItem from="1568834507787" duration="59000" />
+      <workItem from="1569131539882" duration="7458000" />
+      <workItem from="1569648902995" duration="107000" />
+      <workItem from="1569720233415" duration="4789000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55755000" />
+    <option name="totallyTimeSpent" value="68866000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -387,8 +411,8 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18986385" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49620253" visible="true" weight="0.20499243" />
+      <window_info id="Structure" order="1" sideWeight="0.5037975" side_tool="true" weight="0.20499243" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -396,14 +420,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35139573" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35139573" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3994602" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32928476" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.39244664" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.26436782" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32840723" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -508,14 +532,48 @@
     <entry file="file://$PROJECT_DIR$/src/com/company/BOJ9095.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="5" column="44" lean-forward="true" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/BOJ1912.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        <state relative-caret-position="171">
+          <caret line="9" column="31" selection-start-line="9" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/NAVER1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/NAVER3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="14" selection-start-line="6" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/NAVER2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/NHN_01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="8" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

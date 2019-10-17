@@ -584,3 +584,37 @@ Model & View : 데이터와 뷰를 함께 전달
 ![캡처](https://user-images.githubusercontent.com/40922963/62427001-30b0a000-b727-11e9-83b8-d57ad98bd70f.JPG)
 
 실행 결과는 같다.
+
+
+
+### 20강. 세션, 쿠키
+
+공통점 : 클라이언트와 서버 관계를 유지
+
+**세션 : 서버에서 관리**
+
+**쿠키 : 클라이언트에서 관리**
+
+HTTP : Connectionless Protocol (서버의 효율적인 유지를 위해) 
+
+
+
+세션 사용방법 2가지
+
+1 : HttpServletRequest / getSession()으로 세션을 얻음.
+
+2 : HttpSesssion 
+
+세션 객채를 얻는 방법에 차이가 있을 뿐 거의 동일
+
+
+
+세션 삭제
+
+session.invalidate();
+
+
+
+### 21강. 리다이렉트, 인터셉트
+
+리다이렉트 : 지금 페이지에서 특정 페이지로 전환하는 기능

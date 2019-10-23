@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/SWEA8658.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/SWEA7532.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/SWEA7532.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,37 +44,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="15" />
+          <entry key="java" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="15" />
+          <entry key="JAVA" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="8059" />
+          <entry key="java" value="8500" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8059" />
+          <entry key="JAVA" value="8500" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/KAKAO2020BLIND_01.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="760">
-              <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/BOJ1463.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -144,11 +135,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/SWEA8658.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="46" column="8" lean-forward="true" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+            <state relative-caret-position="288">
+              <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/SWEA7532.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -197,6 +197,7 @@
         <option value="$PROJECT_DIR$/src/com/company/NAVER2.java" />
         <option value="$PROJECT_DIR$/src/com/company/NHN_01.java" />
         <option value="$PROJECT_DIR$/src/com/company/SWEA8658.java" />
+        <option value="$PROJECT_DIR$/src/com/company/SWEA7532.java" />
       </list>
     </option>
   </component>
@@ -206,11 +207,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="495" />
+    <option name="width" value="878" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -251,7 +251,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571795648389" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571797791147" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../spring-study-qna" />
   </component>
   <component name="RunDashboard">
@@ -266,22 +266,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SWEA8658">
+  <component name="RunManager" selected="Application.SWEA7532">
     <configuration name="BOJ1912" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.BOJ1912" />
-      <module name="ProblemSolving" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BOJ9095" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.BOJ9095" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
@@ -319,6 +306,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SWEA7532" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.SWEA7532" />
+      <module name="ProblemSolving" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SWEA8658" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.SWEA8658" />
       <module name="ProblemSolving" />
@@ -333,19 +333,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BOJ9095" />
       <item itemvalue="Application.BOJ1912" />
       <item itemvalue="Application.NAVER2" />
       <item itemvalue="Application.NHN_01" />
       <item itemvalue="Application.SWEA8658" />
+      <item itemvalue="Application.SWEA7532" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SWEA7532" />
         <item itemvalue="Application.SWEA8658" />
         <item itemvalue="Application.NHN_01" />
         <item itemvalue="Application.NAVER2" />
         <item itemvalue="Application.BOJ1912" />
-        <item itemvalue="Application.BOJ9095" />
       </list>
     </recent_temporary>
   </component>
@@ -387,12 +387,12 @@
       <workItem from="1569131539882" duration="7458000" />
       <workItem from="1569648902995" duration="107000" />
       <workItem from="1569720233415" duration="4789000" />
-      <workItem from="1571794349776" duration="1144000" />
+      <workItem from="1571794349776" duration="3348000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70010000" />
+    <option name="totallyTimeSpent" value="72214000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -407,7 +407,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49620253" visible="true" weight="0.20801815" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49620253" weight="0.75342464" />
       <window_info id="Structure" order="1" sideWeight="0.5037975" side_tool="true" weight="0.20499243" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -575,8 +575,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/SWEA8658.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="46" column="8" lean-forward="true" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+        <state relative-caret-position="288">
+          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/SWEA7532.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
         </state>
       </provider>
     </entry>

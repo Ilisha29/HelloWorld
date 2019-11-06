@@ -618,3 +618,48 @@ session.invalidate();
 ### 21강. 리다이렉트, 인터셉트
 
 리다이렉트 : 지금 페이지에서 특정 페이지로 전환하는 기능
+
+인터셉트 : 리다이렉트의 편한방법
+
+
+
+**인터셉터** : 리다이렉트가 많은 경우
+
+컨트롤러가 시작하거나 종료 된후 무엇인가를 검사
+
+HandlerInterceptor(인터페이스) =
+
+preHandle(컨트롤러 작동전) + postHandle(컨트롤러 작동후) + afterCompletion(컨트롤러 뷰 작동후)
+
+preHandle 자주 사용!!!
+
+![1573021565982](C:\Users\Owner\AppData\Roaming\Typora\typora-user-images\1573021565982.png)
+
+Spring에서는 HandlerInterceptorAdapter사용
+
+HandlerLoginInteceptorAdapter extends HandlerInterceptorAdaptor{
+
+}
+
+클래스 만든후
+
+pom.xml에 등록
+
+```
+<interceptors>
+	<interceptor>
+		<mapping path = "/member/modifyForm"/>
+		<mapping path = "/member/removeForm"/>
+		<!--
+		<mapping path = "/member/**"/>
+		<exclude-mapping path = "/member/joinForm"/>
+		<exclude-mapping path = "/member/join"/>
+		<exclude-mapping path = "/member/login"/>
+		<exclude-mapping path = "/member/modify"/>
+		-->
+		<beans:bean class = "com.bs.lec21.member.MemberLoginInterceptor"/>
+	</interceptor>
+</interceptors>
+		
+```
+

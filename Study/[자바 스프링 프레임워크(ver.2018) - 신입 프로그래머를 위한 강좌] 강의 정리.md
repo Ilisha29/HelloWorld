@@ -776,7 +776,10 @@ jdbcTemplate 사용을 위해 의존설정해야한다.
 
 
 
-update 방법이 3가지가있다
+1.update 방법이 3가지가있다
 
-query날리는 방법은 4가지가 있다.
+2.query날리는 방법은 4가지가 있다.
 
+
+
+JDBC를 그대로 사용하는 경우는 없다. 스프링 또는 c3p0에서 제공하는 JdbcTemplate를 사용한다.

@@ -663,3 +663,120 @@ pom.xml에 등록
 		
 ```
 
+
+
+### 22강. Database
+
+1. 오라클 다운로드..
+2. 오라클 설치....
+3. user  : system / passowrd : oracle
+4. Oracle SQL Developer (오라클 매니지먼트)
+
+
+
+### 23강. JDBC
+
+**핵심** 드라이버 연결 -> DB연결 -> SQL작성 및 전송 -> 자원해제
+
+
+
+private String driver = "oracle.jdbc.driver.OracleDriver";   jdbc와 연결 
+
+private String url = "jdbc:oracle:this:@localhost:1521:xe";
+
+private String userid = "scott";
+
+private String userpw = "tiger";
+
+
+
+private Connection conn = null;
+
+private PreparedStatment pstmt = null;
+
+private ResultSet rs = nul;
+
+
+
+try{
+
+​	Class.forName(driver);
+
+​	conn - DriverManager.getConnection(url, userid, userpw);
+
+​	String sql = "INSERT INTO member (memId, memPW, memMail) values (?,?,?)";
+
+​	pstmt.setString(1, member.getMemId());
+
+​	pstmt.setString(2, member.getMemPw());
+
+​	pstmt.setString(3, member.getMemMail());
+
+​	result = psmt.executeUpdate();	
+
+} catch (ClassNotFoundException e){
+
+​	e.printStackTrace();
+
+} catch (SQLException e){
+
+​	e.printStackTrace();
+
+} finally {
+
+​	try{
+
+​		if(pstmt != null) pstmt.close();
+
+​		if(conn != null) conn.close();
+
+​	} catch(SQLException e){
+
+​		e.printStackTrace();
+
+​	}
+
+}
+
+
+
+java언어로 db와 통신을 한다. 하지만 단점은 연결과 쿼리문 질의 그리고 자원해제를 매번 해줘야한다....
+
+스프링에서 jdbcTemplate를 제공한다. 이것은 기존의 반복되는 작업을 해결해준다.
+
+
+
+### 24강 JdbcTemplate
+
+반복되는 과정을 spring이 맡아서 한다.
+
+**JDBC**
+
+드라이버로딩 -> DB연결 -> SQL 작성 및 전송 -> 자원해제
+
+**JdbcTemplate**
+
+jdbcTemplate(드라이버 로딩, DB연결, 자원해제) -> SQL 작성 및 전송
+
+
+
+ DataSource클래스 : 데이터베이스 연결과 관련된 정보를 가지고 있는 DataSource는 **스프링** 또는 **c3p0**에 제공하는 클래스를 이용할 수 있다.
+
+
+
+jdbcTemplate 사용을 위해 의존설정해야한다.
+
+```
+<dependency>
+	<groupId>prg.springframework</groupId>
+	<artifactId>spring-jdbc</artifactId>
+	<version>4.1.6.RELEASE</version>
+</dependency>
+```
+
+
+
+update 방법이 3가지가있다
+
+query날리는 방법은 4가지가 있다.
+

@@ -18,5 +18,112 @@ public class BOJ2096 {
      */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        int N = scanner.nextInt();
+        int[][] map = new int[N][3];
+        int[][] answer1 = new int[N][3];
+        int[][] answer2 = new int[N][3];
+        int max = 0;
+        int min = 0;
+        //입력
+        for (int i = 0; i < N; i++) {
+            for (int j = 0; j < 3; j++) {
+                map[i][j] = scanner.nextInt();
+            }
+        }
+        answer1[0][0] = map[0][0];
+        answer1[0][1] = map[0][1];
+        answer1[0][2] = map[0][2];
+
+        answer2[0][0] = map[0][0];
+        answer2[0][1] = map[0][1];
+        answer2[0][2] = map[0][2];
+
+        //최대 계산
+        for (int i = 1; i < N; i++) {
+            for (int j = 0; j < 3; j++) {
+                if (j == 0) {
+                    if (answer1[i - 1][0] > answer1[i - 1][1]) {
+                        answer1[i][j] += map[i][j] + answer1[i - 1][0];
+                    } else {
+                        answer1[i][j] += map[i][j] + answer1[i - 1][1];
+                    }
+                } else if (j == 1) {
+                    int tmpMax = answer1[i - 1][0];
+                    if (tmpMax < answer1[i - 1][1]) {
+                        tmpMax = answer1[i - 1][1];
+                    }
+                    if (tmpMax < answer1[i - 1][2]) {
+                        tmpMax = answer1[i - 1][2];
+                    }
+                    answer1[i][j] = map[i][j] + tmpMax;
+                } else if (j == 2) {
+                    if (answer1[i - 1][1] > answer1[i - 1][2]) {
+                        answer1[i][j] += map[i][j] + answer1[i - 1][1];
+                    } else {
+                        answer1[i][j] += map[i][j] + answer1[i - 1][2];
+                    }
+                }
+            }
+        }
+
+        if (answer1[N - 1][0] > answer1[N - 1][1]) {
+            max = answer1[N - 1][0];
+        } else {
+            max = answer1[N - 1][1];
+        }
+        if (max < answer1[N - 1][2]) {
+            max = answer1[N - 1][2];
+        }
+        System.out.print(max + " ");
+
+
+        //최소 계산
+        for (int i = 1; i < N; i++) {
+            for (int j = 0; j < 3; j++) {
+                if (j == 0) {
+                    if (answer2[i - 1][0] > answer2[i - 1][1]) {
+                        answer2[i][j] += map[i][j] + answer2[i - 1][1];
+                    } else {
+                        answer2[i][j] += map[i][j] + answer2[i - 1][0];
+                    }
+                } else if (j == 1) {
+                    int tmpMin = answer2[i - 1][0];
+                    if (tmpMin > answer2[i - 1][1]) {
+                        tmpMin = answer2[i - 1][1];
+                    }
+                    if (tmpMin > answer2[i - 1][2]) {
+                        tmpMin = answer2[i - 1][2];
+                    }
+                    answer2[i][j] = map[i][j] + tmpMin;
+                } else if (j == 2) {
+                    if (answer2[i - 1][1] < answer2[i - 1][2]) {
+                        answer2[i][j] += map[i][j] + answer2[i - 1][1];
+                    } else {
+                        answer2[i][j] += map[i][j] + answer2[i - 1][2];
+                    }
+                }
+            }
+        }
+
+        if (answer2[N - 1][0] > answer2[N - 1][1]) {
+            min = answer2[N - 1][1];
+        } else {
+            min = answer2[N - 1][0];
+        }
+
+        if (min > answer2[N - 1][2]) {
+            min = answer2[N - 1][2];
+        }
+        System.out.println(min);
+
+
+        /*
+        for (int i = 0; i < N; i++) {
+            for (int j = 0; j < 3; j++) {
+                System.out.print(answer2[i][j] + " ");
+            }
+            System.out.println();
+        }
+        */
     }
 }

@@ -118,12 +118,10 @@ public class BOJ2096 {
 
 
         /*
-        for (int i = 0; i < N; i++) {
-            for (int j = 0; j < 3; j++) {
-                System.out.print(answer2[i][j] + " ");
-            }
-            System.out.println();
-        }
+        회고 : 알고리즘 파악은 30분 걸렸다......
+        결국 로직은 맞았었는데.....
+        구현하는데 2시간 10분이 걸렸다.......
+        구현능력부족......
         */
     }
 }

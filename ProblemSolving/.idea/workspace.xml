@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/BOJ1330.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/BOJ2588.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/BOJ2753.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,7 +15,7 @@
     <session id="-1291965742">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="36" />
+          <entry key="project.closed" value="37" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.23" value="1" />
@@ -221,10 +218,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-339" />
-    <option name="y" value="-1088" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -261,7 +258,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573724419115" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574165899530" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../CapstoneDesign_FootNavi-master" />
   </component>
   <component name="RunDashboard">
@@ -356,6 +353,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.KAKAO2020BLIND_자물쇠와열쇠" />
       <item itemvalue="Application.카카오인턴04" />
       <item itemvalue="Application.Programmers주식가격" />
       <item itemvalue="Application.BOJ2588" />
@@ -418,12 +416,12 @@
       <workItem from="1573334465538" duration="631000" />
       <workItem from="1573465816685" duration="1924000" />
       <workItem from="1573492543521" duration="2131000" />
-      <workItem from="1573721828836" duration="2279000" />
+      <workItem from="1573721828836" duration="2324000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117955000" />
+    <option name="totallyTimeSpent" value="118000000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -436,7 +434,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-339" y="-1088" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49620253" visible="true" weight="0.117803834" />
       <window_info id="Structure" order="1" sideWeight="0.5037975" side_tool="true" weight="0.20499243" />
@@ -447,14 +444,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35613462" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35613462" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39901477" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32928476" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.26272577" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2616721" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32840723" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />

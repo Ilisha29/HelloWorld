@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/company/BOJ1260Practice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/BOJ14502.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/BOJ1260.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/BOJ1260.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Study/Layered Architecture(계층형 아키텍쳐).md" beforeDir="false" afterPath="$PROJECT_DIR$/../Study/Layered Architecture(계층형 아키텍쳐).md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,7 +32,7 @@
           <entry key="project.open.time.31" value="4" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.34" value="1" />
-          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.35" value="2" />
           <entry key="project.open.time.38" value="1" />
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.4" value="1" />
@@ -46,27 +46,27 @@
           <entry key="project.open.time.6" value="7" />
           <entry key="project.open.time.62" value="1" />
           <entry key="project.open.time.7" value="5" />
-          <entry key="project.opened" value="52" />
+          <entry key="project.opened" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="43" />
+          <entry key="java" value="45" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="43" />
+          <entry key="JAVA" value="45" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="21522" />
+          <entry key="java" value="22632" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="21522" />
+          <entry key="JAVA" value="22632" />
         </counts>
       </usages-collector>
     </session>
@@ -74,31 +74,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/BOJ10950.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/BOJ1260.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="5" selection-start-line="5" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="233">
+              <caret line="34" column="31" lean-forward="true" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/BOJ11021.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/BOJ1260Practice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="342">
+              <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/BOJ1260.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/BOJ14502.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="30" column="38" lean-forward="true" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="488">
+              <caret line="43" column="31" lean-forward="true" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -224,6 +227,8 @@
         <option value="$PROJECT_DIR$/src/com/company/BOJ10950.java" />
         <option value="$PROJECT_DIR$/src/com/company/BOJ11021.java" />
         <option value="$PROJECT_DIR$/src/com/company/BOJ1260.java" />
+        <option value="$PROJECT_DIR$/src/com/company/BOJ1260Practice.java" />
+        <option value="$PROJECT_DIR$/src/com/company/BOJ14502.java" />
       </list>
     </option>
   </component>
@@ -234,7 +239,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="555" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="818" />
     <option name="height" value="735" />
   </component>
@@ -244,6 +250,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -267,13 +274,12 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578882257605" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579058228101" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../CapstoneDesign_FootNavi-master" />
   </component>
   <component name="RunDashboard">
@@ -288,7 +294,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BOJ1260">
+  <component name="RunManager" selected="Application.BOJ1260Practice">
     <configuration name="BOJ10950" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.BOJ10950" />
       <module name="ProblemSolving" />
@@ -341,8 +347,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ1932" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.BOJ1932" />
+    <configuration name="BOJ1260Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.BOJ1260Practice" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
@@ -355,19 +361,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BOJ1932" />
       <item itemvalue="Application.BOJ11057" />
       <item itemvalue="Application.BOJ10950" />
       <item itemvalue="Application.BOJ11021" />
       <item itemvalue="Application.BOJ1260" />
+      <item itemvalue="Application.BOJ1260Practice" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BOJ1260Practice" />
         <item itemvalue="Application.BOJ1260" />
         <item itemvalue="Application.BOJ11021" />
         <item itemvalue="Application.BOJ10950" />
         <item itemvalue="Application.BOJ11057" />
-        <item itemvalue="Application.BOJ1932" />
       </list>
     </recent_temporary>
   </component>
@@ -432,12 +438,13 @@
       <workItem from="1577973907465" duration="77000" />
       <workItem from="1578061478619" duration="3719000" />
       <workItem from="1578496679827" duration="557000" />
-      <workItem from="1578837012086" duration="4878000" />
+      <workItem from="1578837012086" duration="5123000" />
+      <workItem from="1578985336079" duration="10224000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150555000" />
+    <option name="totallyTimeSpent" value="161024000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -450,8 +457,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48586118" visible="true" weight="0.15582451" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48586118" weight="0.28627968" />
       <window_info id="Structure" order="1" sideWeight="0.5141388" side_tool="true" weight="0.24659607" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -460,14 +468,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43513957" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.272578" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39901477" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32928476" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3316913" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32676518" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32840723" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -501,6 +509,12 @@
           <line>45</line>
           <properties />
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/BOJ1260Practice.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -718,6 +732,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/BOJ11021.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Programmers주식가격.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -767,20 +788,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/BOJ11021.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/BOJ1260.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="30" column="38" lean-forward="true" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+        <state relative-caret-position="233">
+          <caret line="34" column="31" lean-forward="true" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/BOJ1260Practice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/BOJ14502.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="43" column="31" lean-forward="true" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
         </state>
       </provider>
     </entry>

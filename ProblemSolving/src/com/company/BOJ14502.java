@@ -20,10 +20,7 @@ public class BOJ14502 {
     static int[][] map;
 
     static int[][] wall(int[][] copyMap, int wallNum) {
-        if()
-        for (int i = 0; i < ; i++) {
-
-        }
+        return copyMap;
     }
 
     public static void main(String[] args) {

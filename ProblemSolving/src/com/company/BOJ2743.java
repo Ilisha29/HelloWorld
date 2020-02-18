@@ -9,5 +9,6 @@ public class BOJ2743 {
         String string = bufferedReader.readLine();
         System.out.println(string.length());
         bufferedReader.close();
+
     }
 }

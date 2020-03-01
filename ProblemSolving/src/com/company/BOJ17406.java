@@ -19,10 +19,14 @@ public class BOJ17406 {
                 map[i][j] = Integer.parseInt(stringTokenizer1.nextToken());
             }
         }
+        int[][] repCycle = new int[rep][3];
         for (int i = 0; i < rep; i++) {
             StringTokenizer stringTokenizer2 = new StringTokenizer(bufferedReader.readLine());
-
+            for (int j = 0; j < 3; j++) {
+                repCycle[i][j] = Integer.parseInt(stringTokenizer2.nextToken());
+            }
         }
+
 
         bufferedReader.close();
     }

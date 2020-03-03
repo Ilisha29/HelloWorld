@@ -2,68 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BOJ1072.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BOJ14503.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BOJ14889.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/BOJ10171.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/BOJ10950.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/BOJ1100.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/BOJ11021.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/BOJ11057.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/BOJ1260.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/BOJ1260Practice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/BOJ1330.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/BOJ13458.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/BOJ14502.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/BOJ1463.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/BOJ1735.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/BOJ17406.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/BOJ1764.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/BOJ1912.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/BOJ1913.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/BOJ1924.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/BOJ1932.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/BOJ1946.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/BOJ2096.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/BOJ2166.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/BOJ2178.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/BOJ2193.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/BOJ2583.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/BOJ2588.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/BOJ2667.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/BOJ2743.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/BOJ2753.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/BOJ2798.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/BOJ2884.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/BOJ3190.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/BOJ5555.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/BOJ9095.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/BoostCampPS01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/BoostCampPS02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/EverydayProgramming01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/Ex.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/KAKAO2020BLIND_01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/KAKAO2020BLIND_가사검색.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/KAKAO2020BLIND_자물쇠와열쇠.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/KAKAO인턴02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/KAKAO인턴05.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/N2019_01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/N2019_02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/NAVER1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/NAVER2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/NAVER3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/NHN_01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/Prac_KAKA2020_01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/Programmers주식가격.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/SWEA7532.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/SWEA8658.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/SWEA_GNS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/TEST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/WINTERCODING01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/카카오인턴01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/com/company/카카오인턴04.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ14502.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ14502.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/BOJ14503.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -114,24 +55,24 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="1" />
-          <entry key="java" value="84" />
+          <entry key="java" value="85" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="84" />
+          <entry key="JAVA" value="85" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="16" />
-          <entry key="java" value="39291" />
+          <entry key="java" value="40922" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="39291" />
+          <entry key="JAVA" value="40922" />
           <entry key="PLAIN_TEXT" value="16" />
         </counts>
       </usages-collector>
@@ -139,26 +80,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BOJ14503.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-198">
-              <caret line="43" column="25" lean-forward="true" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+            <state relative-caret-position="-152">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#Game#0;class#BOJ14503#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/StringBuilder.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BOJ14889.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="88" selection-start-line="88" selection-end-line="88" />
+            <state relative-caret-position="131">
+              <caret line="100" column="36" lean-forward="true" selection-start-line="100" selection-start-column="36" selection-end-line="100" selection-end-column="36" />
               <folding>
-                <element signature="e#2896#2897#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -185,7 +125,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/KAKAO2020BLIND_자물쇠와열쇠.java" />
         <option value="$PROJECT_DIR$/src/com/company/KAKAO인턴02.java" />
         <option value="$PROJECT_DIR$/src/com/company/KAKAO인턴05.java" />
         <option value="$PROJECT_DIR$/src/com/company/카카오인턴01.java" />
@@ -236,6 +175,7 @@
         <option value="$PROJECT_DIR$/src/BOJ1072.java" />
         <option value="$PROJECT_DIR$/src/BOJ14502.java" />
         <option value="$PROJECT_DIR$/src/BOJ14503.java" />
+        <option value="$PROJECT_DIR$/src/BOJ14889.java" />
       </list>
     </option>
   </component>
@@ -248,8 +188,8 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="764" />
-    <option name="height" value="735" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -280,7 +220,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583228413094" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583265564373" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../CapstoneDesign_FootNavi-master" />
   </component>
   <component name="RunDashboard">
@@ -295,7 +235,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BOJ14503">
+  <component name="RunManager" selected="Application.BOJ14889">
     <configuration name="BOJ1072" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BOJ1072" />
       <module name="ProblemSolving" />
@@ -306,19 +246,6 @@
     <configuration name="BOJ1072_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BOJ1072_2" />
       <module name="ProblemSolving" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BOJ13458" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ13458" />
-      <module name="ProblemSolving" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -337,20 +264,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BOJ14889" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ14889" />
+      <module name="ProblemSolving" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.BOJ13458" />
       <item itemvalue="Application.BOJ1072" />
       <item itemvalue="Application.BOJ1072_2" />
       <item itemvalue="Application.BOJ14502" />
       <item itemvalue="Application.BOJ14503" />
+      <item itemvalue="Application.BOJ14889" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BOJ14889" />
         <item itemvalue="Application.BOJ14503" />
         <item itemvalue="Application.BOJ14502" />
         <item itemvalue="Application.BOJ1072" />
         <item itemvalue="Application.BOJ1072_2" />
-        <item itemvalue="Application.BOJ13458" />
       </list>
     </recent_temporary>
   </component>
@@ -422,12 +356,12 @@
       <workItem from="1580540566121" duration="2450000" />
       <workItem from="1581252036117" duration="4500000" />
       <workItem from="1582033552671" duration="3420000" />
-      <workItem from="1582519893086" duration="63184000" />
+      <workItem from="1582519893086" duration="69806000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="253345000" />
+    <option name="totallyTimeSpent" value="259967000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -439,7 +373,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="609" y="0" width="764" height="735" extended-state="0" />
+    <frame x="495" y="0" width="878" height="735" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.5185185" side_tool="true" weight="0.27158555" />
       <window_info id="Image Layers" order="1" />
@@ -447,11 +382,11 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.48019803" weight="0.11875945" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.48019803" weight="0.11737089" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26666668" />
-      <window_info anchor="bottom" x="0" y="160" width="1322" height="321" id="Debug" order="3" weight="0.575" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36666667" />
+      <window_info active="true" anchor="bottom" x="0" y="160" width="1322" height="321" id="Debug" order="3" visible="true" weight="0.45" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32840723" />
@@ -459,7 +394,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.27093595" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32840723" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32833335" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -553,16 +488,22 @@
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/BOJ14503.java</url>
-          <line>79</line>
+          <url>file://$PROJECT_DIR$/src/BOJ14889.java</url>
+          <line>63</line>
           <properties />
-          <option name="timeStamp" value="39" />
+          <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/BOJ14503.java</url>
-          <line>41</line>
+          <url>file://$PROJECT_DIR$/src/BOJ14889.java</url>
+          <line>80</line>
           <properties />
-          <option name="timeStamp" value="40" />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BOJ14889.java</url>
+          <line>95</line>
+          <properties />
+          <option name="timeStamp" value="50" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -580,13 +521,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/KAKAO인턴05.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/카카오인턴04.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="741">
@@ -962,11 +896,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BOJ14503.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-198">
-          <caret line="43" column="25" lean-forward="true" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+        <state relative-caret-position="-152">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#Game#0;class#BOJ14503#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BOJ14889.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="100" column="36" lean-forward="true" selection-start-line="100" selection-start-column="36" selection-end-line="100" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

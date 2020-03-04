@@ -105,4 +105,4 @@ public class BOJ15686 {
         bufferedReader.close();
     }
 }
-//19 : 25 end
+//17 : 25 end

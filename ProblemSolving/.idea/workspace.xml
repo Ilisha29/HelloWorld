@@ -2,143 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BOJ/BOJ16234.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/연습할것/Permutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BOJ/BOJ14501.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/BOJ10171.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/BOJ1072.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/BOJ10757.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/BOJ10950.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/BOJ10953.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/BOJ1100.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/BOJ11021.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/BOJ11057.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/BOJ1260.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/BOJ1260Practice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/BOJ1330.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/BOJ13458.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/BOJ14502.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/BOJ14503.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/BOJ1463.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/BOJ14888.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/BOJ14889.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/BOJ15686.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/BOJ15740.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/BOJ17144.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/BOJ1735.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/BOJ17406.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/BOJ1764.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/BOJ1912.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/BOJ1913.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/BOJ1924.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/BOJ1932.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/BOJ1946.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/BOJ2096.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/BOJ2166.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/BOJ2178.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/BOJ2193.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/BOJ2583.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/BOJ2588.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/BOJ2667.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/BOJ2743.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/BOJ2753.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/BOJ2798.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/BOJ2884.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/BOJ3190.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/BOJ5555.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/BOJ9095.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/BoostCampPS01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/BoostCampPS02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/EverydayProgramming01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/Ex.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/KAKAO2020BLIND_01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/KAKAO2020BLIND_가사검색.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/KAKAO2020BLIND_자물쇠와열쇠.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/KAKAO인턴02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/KAKAO인턴05.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/N2019_01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/N2019_02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/NAVER1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/NAVER2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/NAVER3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/NHN_01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/Prac_KAKA2020_01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/Programmers주식가격.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/SWEA7532.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/SWEA8658.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/SWEA_GNS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/TEST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/WINTERCODING01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/카카오인턴01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/카카오인턴04.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ10171.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/BOJ10171.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ1072.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/BOJ1072.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ10757.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/BOJ10757.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ10950.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/BOJ10950.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ10953.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/BOJ10953.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ1100.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/BOJ1100.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ11021.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/BOJ11021.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ11057.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/BOJ11057.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ1260.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/BOJ1260.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ1260Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/BOJ1260Practice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ1330.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/BOJ1330.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ13458.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/BOJ13458.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ14502.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/BOJ14502.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ14503.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/BOJ14503.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ1463.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/BOJ1463.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ14888.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/BOJ14888.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ14889.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/BOJ14889.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ15686.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/BOJ15686.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ15740.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/BOJ15740.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ17144.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/BOJ17144.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ1735.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/BOJ1735.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ17406.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/BOJ17406.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ1764.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/BOJ1764.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ1912.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/BOJ1912.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ1913.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/BOJ1913.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ1924.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/BOJ1924.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ1932.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/BOJ1932.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ1946.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/BOJ1946.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ2096.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/BOJ2096.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ2166.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/BOJ2166.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ2178.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/BOJ2178.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ2193.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/BOJ2193.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ2583.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/BOJ2583.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ2588.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/BOJ2588.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ2667.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/BOJ2667.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ2743.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/BOJ2743.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ2753.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/BOJ2753.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ2798.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/BOJ2798.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ2884.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/BOJ2884.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ3190.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/BOJ3190.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ5555.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/BOJ5555.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ9095.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/BOJ9095.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BoostCampPS01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/기출/BoostCampPS01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BoostCampPS02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/기출/BoostCampPS02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EverydayProgramming01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/기출/EverydayProgramming01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KAKAO2020BLIND_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/기출/KAKAO2020BLIND_01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KAKAO2020BLIND_가사검색.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/기출/KAKAO2020BLIND_가사검색.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KAKAO2020BLIND_자물쇠와열쇠.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/기출/KAKAO2020BLIND_자물쇠와열쇠.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KAKAO인턴02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/기출/KAKAO인턴02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KAKAO인턴05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/기출/KAKAO인턴05.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/N2019_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/기출/N2019_01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/N2019_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/기출/N2019_02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NAVER1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/기출/NAVER1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NAVER2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/기출/NAVER2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NAVER3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/기출/NAVER3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NHN_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/기출/NHN_01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Prac_KAKA2020_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/기출/Prac_KAKA2020_01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Programmers주식가격.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programmers/Programmers주식가격.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SWEA7532.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SWEA/SWEA7532.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SWEA8658.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SWEA/SWEA8658.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SWEA_GNS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SWEA/SWEA_GNS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TEST.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WINTERCODING01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/기출/WINTERCODING01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/카카오인턴01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/기출/카카오인턴01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/카카오인턴04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/기출/카카오인턴04.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -190,24 +55,24 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="2" />
-          <entry key="java" value="124" />
+          <entry key="java" value="125" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="124" />
+          <entry key="JAVA" value="125" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="16" />
-          <entry key="java" value="45458" />
+          <entry key="java" value="46509" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="45458" />
+          <entry key="JAVA" value="46509" />
           <entry key="PLAIN_TEXT" value="16" />
         </counts>
       </usages-collector>
@@ -216,10 +81,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/BOJ/BOJ16234.java">
+        <entry file="file://$PROJECT_DIR$/src/BOJ/BOJ14501.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="301">
+              <caret line="62" column="9" lean-forward="true" selection-end-line="68" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -248,7 +113,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/TEST.java" />
         <option value="$PROJECT_DIR$/src/com/company/BOJ1946.java" />
         <option value="$PROJECT_DIR$/src/com/company/Ex.java" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
@@ -299,6 +163,7 @@
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/연습할것/Permutation.java" />
         <option value="$PROJECT_DIR$/src/BOJ/BOJ16234.java" />
+        <option value="$PROJECT_DIR$/src/BOJ/BOJ14501.java" />
       </list>
     </option>
   </component>
@@ -308,11 +173,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="617" />
+    <option name="width" value="756" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -349,7 +213,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583510494719" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583516361790" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../CapstoneDesign_FootNavi-master" />
   </component>
   <component name="RunDashboard">
@@ -364,16 +228,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BOJ16234">
-    <configuration name="BOJ14888" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.BOJ14888" />
+  <component name="RunManager" selected="Application.BOJ14501">
+    <configuration name="BOJ14501" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.BOJ14501" />
       <module name="ProblemSolving" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BOJ.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ15740" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.BOJ15740" />
+    <configuration name="BOJ14888" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.BOJ14888" />
       <module name="ProblemSolving" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -413,19 +283,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BOJ15740" />
       <item itemvalue="Application.BOJ17144" />
       <item itemvalue="Application.BOJ14888" />
       <item itemvalue="Application.Permutation" />
       <item itemvalue="Application.BOJ16234" />
+      <item itemvalue="Application.BOJ14501" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BOJ14501" />
         <item itemvalue="Application.BOJ16234" />
         <item itemvalue="Application.Permutation" />
         <item itemvalue="Application.BOJ14888" />
         <item itemvalue="Application.BOJ17144" />
-        <item itemvalue="Application.BOJ15740" />
       </list>
     </recent_temporary>
   </component>
@@ -498,12 +368,12 @@
       <workItem from="1581252036117" duration="4500000" />
       <workItem from="1582033552671" duration="3420000" />
       <workItem from="1582519893086" duration="70755000" />
-      <workItem from="1583305216630" duration="17748000" />
+      <workItem from="1583305216630" duration="21328000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="278664000" />
+    <option name="totallyTimeSpent" value="282244000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -515,7 +385,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="617" y="0" width="756" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.5185185" side_tool="true" weight="0.27158555" />
@@ -524,17 +394,17 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.48019803" weight="0.23076923" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.48019803" weight="0.23071104" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32840723" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32840723" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.06666667" />
       <window_info anchor="bottom" x="0" y="160" width="1322" height="321" id="Debug" order="3" weight="0.44170773" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32840723" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3464696" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.35166666" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32833335" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -675,13 +545,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/BOJ/BOJ10171.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="44" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BOJ/BOJ2178.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -1072,8 +935,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BOJ/BOJ16234.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="209">
+          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BOJ/BOJ14501.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="62" column="9" lean-forward="true" selection-end-line="68" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BOJ/BOJ14500.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_문제가_안풀린다면_읽어보자.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_문제가_안풀린다면_읽어보자.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,24 +55,24 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="2" />
-          <entry key="java" value="128" />
+          <entry key="java" value="129" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="128" />
+          <entry key="JAVA" value="129" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="16" />
-          <entry key="java" value="49731" />
+          <entry key="java" value="49862" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="49731" />
+          <entry key="JAVA" value="49862" />
           <entry key="PLAIN_TEXT" value="16" />
         </counts>
       </usages-collector>
@@ -81,7 +80,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/_문제가_안풀린다면_읽어보자.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
@@ -93,11 +92,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BOJ/BOJ14500.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="337" column="14" lean-forward="true" selection-start-line="337" selection-start-column="14" selection-end-line="337" selection-end-column="14" />
+            <state relative-caret-position="953">
+              <caret line="338" lean-forward="true" selection-start-line="338" selection-end-line="338" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -167,13 +175,13 @@
         <option value="$PROJECT_DIR$/src/BOJ17144.java" />
         <option value="$PROJECT_DIR$/src/BOJ14888.java" />
         <option value="$PROJECT_DIR$/src/BOJ/BOJ14888.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/연습할것/Permutation.java" />
         <option value="$PROJECT_DIR$/src/BOJ/BOJ16234.java" />
         <option value="$PROJECT_DIR$/src/BOJ/BOJ14501.java" />
         <option value="$PROJECT_DIR$/src/BOJ/BOJ14499.java" />
         <option value="$PROJECT_DIR$/src/BOJ/BOJ14500.java" />
         <option value="$PROJECT_DIR$/src/_문제가_안풀린다면_읽어보자.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
   </component>
@@ -184,10 +192,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="864" />
-    <option name="height" value="735" />
+    <option name="x" value="1" />
+    <option name="y" value="283" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -218,7 +226,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583590756822" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583596503506" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../CapstoneDesign_FootNavi-master" />
   </component>
   <component name="RunDashboard">
@@ -233,7 +241,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BOJ14500">
+  <component name="RunManager" selected="Application.BOJ5337">
     <configuration name="BOJ14499" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BOJ.BOJ14499" />
       <module name="ProblemSolving" />
@@ -260,8 +268,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ14501" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.BOJ14501" />
+    <configuration name="BOJ5337" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.BOJ5337" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
@@ -273,15 +281,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ16234" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.BOJ16234" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="ProblemSolving" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BOJ.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -300,19 +302,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Permutation" />
-      <item itemvalue="Application.BOJ16234" />
-      <item itemvalue="Application.BOJ14501" />
       <item itemvalue="Application.BOJ14499" />
       <item itemvalue="Application.BOJ14500" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Permutation" />
+      <item itemvalue="Application.BOJ5337" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BOJ5337" />
+        <item itemvalue="Application.Permutation" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.BOJ14500" />
         <item itemvalue="Application.BOJ14499" />
-        <item itemvalue="Application.BOJ14501" />
-        <item itemvalue="Application.BOJ16234" />
-        <item itemvalue="Application.Permutation" />
       </list>
     </recent_temporary>
   </component>
@@ -385,12 +387,12 @@
       <workItem from="1581252036117" duration="4500000" />
       <workItem from="1582033552671" duration="3420000" />
       <workItem from="1582519893086" duration="70755000" />
-      <workItem from="1583305216630" duration="35053000" />
+      <workItem from="1583305216630" duration="36506000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="295969000" />
+    <option name="totallyTimeSpent" value="297422000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -411,17 +413,17 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.48019803" weight="0.26059654" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.48019803" visible="true" weight="0.2602118" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32840723" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20689656" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2545156" />
       <window_info anchor="bottom" x="0" y="160" width="1322" height="321" id="Debug" order="3" weight="0.44166666" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32840723" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.53858787" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.53858787" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32833335" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -883,13 +885,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TEST.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -958,20 +953,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/_문제가_안풀린다면_읽어보자.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/BOJ/BOJ14500.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="337" column="14" lean-forward="true" selection-start-line="337" selection-start-column="14" selection-end-line="337" selection-end-column="14" />
+        <state relative-caret-position="953">
+          <caret line="338" lean-forward="true" selection-start-line="338" selection-end-line="338" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/_문제가_안풀린다면_읽어보자.java">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        <state relative-caret-position="155">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
         </state>
       </provider>
     </entry>

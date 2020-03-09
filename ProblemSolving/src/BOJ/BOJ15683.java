@@ -81,10 +81,7 @@ public class BOJ15683 {
                     tmpMap[i][j] = map[i][j];
                 }
             }
-            /*for (int i = 0; i < tmpCase.length; i++) {
-                System.out.print(tmpCase[i]+" ");
-            }
-            System.out.println();*/
+
             for (int i = 0; i < tmpCase.length; i++) {
                 int x = cameraX[i];
                 int y = cameraY[i];

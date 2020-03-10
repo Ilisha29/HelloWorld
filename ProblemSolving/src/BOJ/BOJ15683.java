@@ -1,9 +1,9 @@
 package BOJ;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.StringTokenizer;
+        import java.io.BufferedReader;
+        import java.io.IOException;
+        import java.io.InputStreamReader;
+        import java.util.StringTokenizer;
 
 // 04 : 20 start
 public class BOJ15683 {
@@ -184,7 +184,7 @@ public class BOJ15683 {
                         }
 
                     } else if (tmpCase[i] == 2) {
-                        for (int j = y; j <= tmpMap[0].length; j++) { //오른
+                        for (int j = y; j < tmpMap[0].length; j++) { //오른
                             if (tmpMap[x][j] == 6) {
                                 break;
                             }
@@ -193,7 +193,7 @@ public class BOJ15683 {
                             }
                         }
 
-                        for (int j = x; j <= tmpMap.length; j++) { //아래
+                        for (int j = x; j < tmpMap.length; j++) { //아래
                             if (tmpMap[j][y] == 6) {
                                 break;
                             }
@@ -203,7 +203,7 @@ public class BOJ15683 {
                         }
 
                     } else if (tmpCase[i] == 3) {
-                        for (int j = x; j <= tmpMap.length; j++) { //아래
+                        for (int j = x; j < tmpMap.length; j++) { //아래
                             if (tmpMap[j][y] == 6) {
                                 break;
                             }
@@ -261,7 +261,7 @@ public class BOJ15683 {
                             }
                         }
 
-                        for (int j = x; j <= tmpMap.length; j++) { //아래
+                        for (int j = x; j < tmpMap.length; j++) { //아래
                             if (tmpMap[j][y] == 6) {
                                 break;
                             }
@@ -281,7 +281,7 @@ public class BOJ15683 {
                             }
                         }
 
-                        for (int j = x; j <= tmpMap.length; j++) { //아래
+                        for (int j = x; j < tmpMap.length; j++) { //아래
                             if (tmpMap[j][y] == 6) {
                                 break;
                             }
@@ -310,7 +310,7 @@ public class BOJ15683 {
                         }
 
 
-                        for (int j = x; j <= tmpMap.length; j++) { //아래
+                        for (int j = x; j < tmpMap.length; j++) { //아래
                             if (tmpMap[j][y] == 6) {
                                 break;
                             }
@@ -367,7 +367,7 @@ public class BOJ15683 {
                         }
                     }
 
-                    for (int j = y; j <= tmpMap[0].length; j++) { //오른쪽
+                    for (int j = y; j < tmpMap[0].length; j++) { //오른쪽
                         if (tmpMap[x][j] == 6) {
                             break;
                         }
@@ -376,7 +376,7 @@ public class BOJ15683 {
                         }
                     }
 
-                    for (int j = x; j <= tmpMap.length; j++) { //아래
+                    for (int j = x; j < tmpMap.length; j++) { //아래
                         if (tmpMap[j][y] == 6) {
                             break;
                         }
@@ -412,3 +412,4 @@ public class BOJ15683 {
         }
     }
 }
+// 2시간 내에 해결 했을 수 있었는데 = 이거 하나 잘 못 넣어서 틀렸었다. ㅜ

@@ -32,6 +32,7 @@ public class Main {
             newArray[i] = arrayList.get(i);
         }
 
+        
 
         for (int i = 0; i < newArray.length; i++) {
             System.out.print(newArray[i] + " ");

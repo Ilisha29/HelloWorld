@@ -70,6 +70,7 @@ public class BOJ16236 {
                     if (map[i][j] >= 1 && map[i][j] < babySharkSize) {
                         boolean[][] check = new boolean[size][size];
                         lengthMap = new int[size][size];
+                        
                         for (int k = 0; k < lengthMap.length; k++) {
                             for (int l = 0; l < lengthMap.length; l++) {
                                 lengthMap[k][l] = size * size - 1;
@@ -142,6 +143,7 @@ public class BOJ16236 {
             }
         }
     }
+
 */
 
     private static void BFS(int sharkX, int sharkY, int tmpLength, boolean[][] check) {

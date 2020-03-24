@@ -16,7 +16,6 @@ public class BOJ17142 {
     static int[][] tmpMap;
     static boolean[][] virusCheck;
 
-
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         String[] strings = bufferedReader.readLine().split(" ");

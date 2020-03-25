@@ -5,7 +5,6 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-// 18 : 15 start
 public class BOJ13460 {
     static String[][] map;
 

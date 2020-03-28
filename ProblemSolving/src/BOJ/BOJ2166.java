@@ -25,7 +25,7 @@ public class BOJ2166 {
         }
         long sum = sumA - sumB;
         double answer = Math.abs(sum) / 2.0;
-        String s  = String.format("%.1f", answer); //너무한거아님???? 로직문제가 아니라 출력 형식!!! 및  반올림!!!! 오류
+        String s  = String.format("%.1f", answer); //너무한거아님???? 로직문제가 아니라 출력 형식 및  반올림 오류
         System.out.println(s);
         bufferedReader.close();
     }

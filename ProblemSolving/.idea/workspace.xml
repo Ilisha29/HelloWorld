@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BOJ/BOJ15684.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/BOJ15684.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/BOJ15684.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -77,24 +78,24 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="2" />
-          <entry key="java" value="174" />
+          <entry key="java" value="175" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="174" />
+          <entry key="JAVA" value="175" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="35" />
-          <entry key="java" value="84127" />
+          <entry key="java" value="86054" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="84127" />
+          <entry key="JAVA" value="86054" />
           <entry key="PLAIN_TEXT" value="35" />
         </counts>
       </usages-collector>
@@ -105,21 +106,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+            <state relative-caret-position="95">
+              <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BOJ/BOJ15684.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="102" column="21" lean-forward="true" selection-start-line="102" selection-start-column="21" selection-end-line="102" selection-end-column="21" />
               <folding>
-                <element signature="e#440#441#0" expanded="true" />
-                <element signature="e#464#465#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/BOJ/BOJ15684.java">
+        <entry file="file://$PROJECT_DIR$/src/BOJ/BOJ14891.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="147" column="72" lean-forward="true" selection-start-line="147" selection-start-column="72" selection-end-line="147" selection-end-column="72" />
+            <state relative-caret-position="587">
+              <caret line="104" column="19" selection-start-line="104" selection-start-column="19" selection-end-line="104" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -164,7 +173,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/BOJ2667.java" />
         <option value="$PROJECT_DIR$/src/com/BOJ17406.java" />
         <option value="$PROJECT_DIR$/src/com/company/BOJ2166.java" />
         <option value="$PROJECT_DIR$/src/com/BOJ2583.java" />
@@ -210,11 +218,12 @@
         <option value="$PROJECT_DIR$/src/BOJ/ex.java" />
         <option value="$PROJECT_DIR$/src/BOJ/BOJ2166.java" />
         <option value="$PROJECT_DIR$/src/BOJ/BOJ13460.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/BOJ/BOJ13460re.java" />
         <option value="$PROJECT_DIR$/src/BOJ/BOJ13460_failCode.java" />
         <option value="$PROJECT_DIR$/src/BOJ/BOJ15644.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/BOJ/BOJ15684.java" />
+        <option value="$PROJECT_DIR$/src/BOJ/BOJ14891.java" />
       </list>
     </option>
   </component>
@@ -225,9 +234,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-305" />
+    <option name="x" value="-326" />
     <option name="y" value="768" />
-    <option name="width" value="1166" />
+    <option name="width" value="974" />
     <option name="height" value="1087" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -271,7 +280,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585566733832" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586010934431" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../spring-study-qna" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
@@ -287,9 +296,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BOJ15684">
+  <component name="RunManager" selected="Application.BOJ14891">
     <configuration name="BOJ13460_failCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BOJ.BOJ13460_failCode" />
+      <module name="ProblemSolving" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BOJ.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BOJ14891" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.BOJ14891" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
@@ -327,19 +349,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ2166" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.BOJ2166" />
-      <module name="ProblemSolving" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BOJ.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="ProblemSolving" />
@@ -348,19 +357,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BOJ2166" />
       <item itemvalue="Application.BOJ13460_failCode" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.BOJ15644" />
       <item itemvalue="Application.BOJ15684" />
+      <item itemvalue="Application.BOJ14891" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BOJ14891" />
         <item itemvalue="Application.BOJ15684" />
-        <item itemvalue="Application.BOJ15644" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.BOJ15644" />
         <item itemvalue="Application.BOJ13460_failCode" />
-        <item itemvalue="Application.BOJ2166" />
       </list>
     </recent_temporary>
   </component>
@@ -442,12 +451,12 @@
       <workItem from="1584716445952" duration="856000" />
       <workItem from="1584805756930" duration="1006000" />
       <workItem from="1585026602038" duration="66970000" />
-      <workItem from="1585531872394" duration="22788000" />
+      <workItem from="1585531872394" duration="35905000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="495036000" />
+    <option name="totallyTimeSpent" value="508153000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -459,7 +468,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-306" y="760" width="1936" height="1096" extended-state="6" />
+    <frame x="-327" y="760" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.5228571" side_tool="true" weight="0.12934947" />
@@ -471,14 +480,14 @@
       <window_info content_ui="combo" id="Project" order="6" sideWeight="0.47714287" visible="true" weight="0.12153518" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32785088" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.35796046" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.35796046" />
       <window_info anchor="bottom" x="0" y="160" width="1322" height="321" id="Debug" order="3" weight="0.44328824" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32790446" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.1987513" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.1987513" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.4811166" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3257024" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -653,7 +662,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>54</line>
+          <line>49</line>
           <properties />
           <option name="timeStamp" value="77" />
         </line-breakpoint>
@@ -761,45 +770,21 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/BOJ/BOJ15684.java</url>
-          <line>73</line>
+          <line>120</line>
           <properties />
-          <option name="timeStamp" value="120" />
+          <option name="timeStamp" value="133" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/BOJ/BOJ15684.java</url>
-          <line>81</line>
+          <line>183</line>
           <properties />
-          <option name="timeStamp" value="121" />
+          <option name="timeStamp" value="137" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/BOJ/BOJ15684.java</url>
-          <line>128</line>
+          <line>129</line>
           <properties />
-          <option name="timeStamp" value="127" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/BOJ/BOJ15684.java</url>
-          <line>121</line>
-          <properties />
-          <option name="timeStamp" value="128" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/BOJ/BOJ15684.java</url>
-          <line>118</line>
-          <properties />
-          <option name="timeStamp" value="129" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/BOJ/BOJ15684.java</url>
-          <line>212</line>
-          <properties />
-          <option name="timeStamp" value="130" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/BOJ/BOJ15684.java</url>
-          <line>224</line>
-          <properties />
-          <option name="timeStamp" value="131" />
+          <option name="timeStamp" value="138" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/BOJ/BOJ13460.java</url>
@@ -816,6 +801,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/BOJ/BOJ15684.java</url>
+          <line>143</line>
+          <properties class="BOJ.BOJ15684" method="putLadders">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="141" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -839,13 +832,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/SWEA/SWEA_GNS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/기출/BoostCampPS01.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -1104,6 +1090,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
           <caret line="102" selection-start-line="102" selection-end-line="102" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1188,17 +1177,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding>
-            <element signature="e#440#441#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BOJ/BOJ15644.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2109">
@@ -1209,10 +1187,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/BOJ/BOJ15684.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="147" column="72" lean-forward="true" selection-start-line="147" selection-start-column="72" selection-end-line="147" selection-end-column="72" />
+        <state relative-caret-position="375">
+          <caret line="102" column="21" lean-forward="true" selection-start-line="102" selection-start-column="21" selection-end-line="102" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BOJ/BOJ14891.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="587">
+          <caret line="104" column="19" selection-start-line="104" selection-start-column="19" selection-end-line="104" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

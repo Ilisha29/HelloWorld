@@ -4,11 +4,15 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.Stack;
 
 public class BOJ15684 {
     static ArrayList<Integer> x;
     static ArrayList<Integer> y;
+    static boolean[][] ladderMap;
+    static boolean[][] canPutLadderMap;
+    static boolean[][] tmpLadderMap;
+    static boolean[][] tmpCanPutLadderMap;
+    static int answer;
 
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
@@ -16,12 +20,12 @@ public class BOJ15684 {
         int col = Integer.parseInt(strings[0]) - 1;
         int N = Integer.parseInt(strings[1]);
         int row = Integer.parseInt(strings[2]);
-        boolean[][] ladderMap = new boolean[row][col];
+        ladderMap = new boolean[row][col];
         for (int i = 0; i < N; i++) {
             String[] strings1 = bufferedReader.readLine().split(" ");
             ladderMap[Integer.parseInt(strings1[0]) - 1][Integer.parseInt(strings1[1]) - 1] = true;
         }
-        int answer = -1;
+        answer = -1;
         //입력
 
         int originLadder = 0;
@@ -33,7 +37,7 @@ public class BOJ15684 {
             }
         }
         int i = 0;
-        boolean[][] canPutLadderMap = new boolean[row][col];
+        canPutLadderMap = new boolean[row][col];
         if (col == 1) {
             for (int j = 0; j < row; j++) {
                 if (ladderMap[j][0]) {
@@ -70,6 +74,15 @@ public class BOJ15684 {
             }
         }
 
+        tmpLadderMap = new boolean[row][col];
+        tmpCanPutLadderMap = new boolean[row][col];
+        for (int a = 0; a < row; a++) {
+            for (int m = 0; m < col; m++) {
+                tmpLadderMap[a][m] = ladderMap[a][m];
+                tmpCanPutLadderMap[a][m] = canPutLadderMap[a][m];
+            }
+        }
+
         while (i < 4) {
             if (i == 0) { //바로가능한지
                 if (originLadder % 2 == 0) {
@@ -84,17 +97,8 @@ public class BOJ15684 {
                     if ((originLadder + i) % 2 == 0) {
                         //사다리두기
                         for (int j = 0; j < x.size(); j++) {
-                            boolean[][] tmpLadderMap = new boolean[row][col];
-                            for (int l = 0; l < row; l++) {
-                                for (int m = 0; m < col; m++) {
-                                    tmpLadderMap[l][m] = ladderMap[l][m];
-                                }
-                            }
-                            tmpLadderMap[x.get(j)][y.get(j)] = true;
-                            if (isAnswer(tmpLadderMap)) {
-                                answer = 1;
-                                break;
-                            }
+                            int[] array = {j};
+                            putLadders(array, tmpLadderMap, tmpCanPutLadderMap);
                         }
                     }
                 }
@@ -105,33 +109,9 @@ public class BOJ15684 {
                         if ((originLadder + i) % 2 == 0) {
                             //사다리두기
                             for (int j = 0; j < x.size() - 1; j++) {
-                                for (int k = j; k < x.size(); k++) {
-                                    if (j != k) {
-                                        boolean[][] tmpLadderMap = new boolean[row][col];
-                                        boolean[][] tmpCanPutLadderMap = new boolean[row][col];
-                                        for (int a = 0; a < row; a++) {
-                                            for (int m = 0; m < col; m++) {
-                                                tmpLadderMap[a][m] = ladderMap[a][m];
-                                                tmpCanPutLadderMap[a][m] = canPutLadderMap[a][m];
-                                            }
-                                        }
-                                        int[] array = {j, k};
-                                        if (aa(array, tmpLadderMap, tmpCanPutLadderMap)) {
-                                            tmpLadderMap[x.get(j)][y.get(j)] = true;
-                                            tmpLadderMap[x.get(k)][y.get(k)] = true;
-                                            for (int l = 0; l < row; l++) {
-                                                for (int m = 0; m < col; m++) {
-                                                    System.out.print(tmpLadderMap[l][m] + " ");
-                                                }
-                                                System.out.println();
-                                            }
-                                            System.out.println("===================");
-                                            if (isAnswer(tmpLadderMap)) {
-                                                answer = 2;
-                                                break;
-                                            }
-                                        }
-                                    }
+                                for (int k = j + 1; k < x.size(); k++) {
+                                    int[] array = {j, k};
+                                    putLadders(array, tmpLadderMap, tmpCanPutLadderMap);
                                 }
                             }
                         }
@@ -144,28 +124,10 @@ public class BOJ15684 {
                         if ((originLadder + i) % 2 == 0) {
                             //사다리두기
                             for (int j = 0; j < x.size() - 2; j++) {
-                                for (int k = j; k < x.size() - 1; k++) {
-                                    for (int l = k; l < x.size(); l++) {
-                                        if (j != k && k != l && l != j) {
-                                            boolean[][] tmpLadderMap = new boolean[row][col];
-                                            boolean[][] tmpCanPutLadderMap = new boolean[row][col];
-                                            for (int a = 0; a < row; a++) {
-                                                for (int m = 0; m < col; m++) {
-                                                    tmpLadderMap[a][m] = ladderMap[a][m];
-                                                    tmpCanPutLadderMap[a][m] = canPutLadderMap[a][m];
-                                                }
-                                            }
-                                            int[] array = {j, k, l};
-                                            if (aa(array, tmpLadderMap, tmpCanPutLadderMap)) {
-                                                tmpLadderMap[x.get(j)][y.get(j)] = true;
-                                                tmpLadderMap[x.get(k)][y.get(k)] = true;
-                                                tmpLadderMap[x.get(l)][y.get(l)] = true;
-                                                if (isAnswer(tmpLadderMap)) {
-                                                    answer = 3;
-                                                    break;
-                                                }
-                                            }
-                                        }
+                                for (int k = j + 1; k < x.size() - 1; k++) {
+                                    for (int l = k + 1; l < x.size(); l++) {
+                                        int[] array = {j, k, l};
+                                        putLadders(array, tmpLadderMap, tmpCanPutLadderMap);
                                     }
                                 }
                             }
@@ -179,8 +141,7 @@ public class BOJ15684 {
         bufferedReader.close();
     }
 
-    private static boolean aa(int[] array, boolean[][] tmpLadderMap, boolean[][] tmpCanPutLadderMap) {
-        boolean a = true;
+    private static void putLadders(int[] array, boolean[][] tmpLadderMap, boolean[][] tmpCanPutLadderMap) {
         int token = array.length;
         for (int i = 0; i < array.length; i++) {
             int X = x.get(array[i]);
@@ -188,11 +149,11 @@ public class BOJ15684 {
             if (!tmpCanPutLadderMap[X][Y]) {
                 tmpLadderMap[X][Y] = true;
                 tmpCanPutLadderMap[X][Y] = true;
-                if (tmpCanPutLadderMap[0].length > 1) {
+                if (tmpCanPutLadderMap[0].length > 0) {
                     if (Y == 0) {
                         tmpCanPutLadderMap[X][1] = true;
                     } else if (Y == tmpCanPutLadderMap[0].length - 1) {
-                        tmpCanPutLadderMap[X][Y] = true;
+                        tmpCanPutLadderMap[X][Y - 1] = true;
                     } else {
                         tmpCanPutLadderMap[X][Y + 1] = true;
                         tmpCanPutLadderMap[X][Y - 1] = true;
@@ -202,52 +163,46 @@ public class BOJ15684 {
             }
         }
 
-        if (token != 0) {
-            a = false;
+        if (token == 0) {
+            if (isAnswer(tmpLadderMap)) {
+                //System.out.println("찾음");
+                answer = array.length;
+                return;
+            }
+        } else {
+            for (int a = 0; a < tmpLadderMap.length; a++) {
+                for (int m = 0; m < tmpLadderMap[0].length; m++) {
+                    tmpLadderMap[a][m] = ladderMap[a][m];
+                    tmpCanPutLadderMap[a][m] = canPutLadderMap[a][m];
+                }
+            }
         }
-        return a;
     }
 
     private static boolean isAnswer(boolean[][] tmpLadderMap) {
         boolean isAnswer = true;
-        for (int i = 0; i < tmpLadderMap[0].length; i++) {
-            int ladderNum = 0;
-            for (int j = 0; j < tmpLadderMap.length; j++) {
-                if (tmpLadderMap[j][i]) {
-                    ladderNum++;
-                }
-            }
-            if (ladderNum % 2 == 1) {
-                isAnswer = false;
-                break;
-            }
-        }
-        for (int i = 0; i < tmpLadderMap[0].length - 1; i++) {
-            Stack<Integer> stack = new Stack<>();
-            for (int j = 0; j < tmpLadderMap.length; j++) {
-                if (tmpLadderMap[j][i]) {
-                    if (stack.isEmpty()) {
-                        stack.push(i);
-                    } else {
-                        if (stack.peek() != i) {
-                            stack.push(i);
-                        } else {
-                            stack.pop();
-                        }
+        for (int i = 0; i <= tmpLadderMap[0].length; i++) {
+            int colIndex = i;
+            int rowIndex = 0;
+            while (rowIndex < tmpLadderMap.length) {
+                if (colIndex == 0) { //오른쪽만
+                    if (tmpLadderMap[rowIndex][colIndex]) {
+                        colIndex++;
                     }
-                } else if (tmpLadderMap[j][i + 1]) {
-                    if (stack.isEmpty()) {
-                        stack.push(i + 1);
-                    } else {
-                        if (stack.peek() != i + 1) {
-                            stack.push(i + 1);
-                        } else {
-                            stack.pop();
-                        }
+                } else if (colIndex == tmpLadderMap[0].length) {
+                    if (tmpLadderMap[rowIndex][colIndex - 1]) {
+                        colIndex--;
+                    }
+                } else {
+                    if (tmpLadderMap[rowIndex][colIndex]) {
+                        colIndex++;
+                    } else if (tmpLadderMap[rowIndex][colIndex - 1]) {
+                        colIndex--;
                     }
                 }
+                rowIndex++;
             }
-            if (!stack.isEmpty()) {
+            if (colIndex != i) {
                 isAnswer = false;
                 break;
             }

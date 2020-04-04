@@ -1,19 +1,14 @@
-import com.sun.org.apache.xpath.internal.operations.Variable;
-
 public class Main {
     public static void main(String[] args) {
-        int[][] array = {{1, 2, 3}, {4, 5, 6,}, {7, 8, 9,}};
-        a(array[1]);
-        for (int i = 0; i < 3; i++) {
-            for (int j = 0; j < 3; j++) {
-                System.out.print(array[i][j]+ " ");
+        for (int i = 0; i < 8; i++) {
+            for (int j = i+1; j <9 ; j++) {
+                for (int k = j+1 ; k < 10 ; k++) {
+                    System.out.println(i+" "+j+" "+k);
+                }
             }
-            System.out.println();
         }
     }
-    public static void a (int[] b){
-        b[2] = 9;
-    }
+
     /*public static void main(String[] args) {
         int[] array = {4,4,8,8};
         //array = E048(array);

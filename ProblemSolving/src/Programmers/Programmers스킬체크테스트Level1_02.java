@@ -16,6 +16,7 @@ public class Programmers스킬체크테스트Level1_02 {
         }
         while (arrayList.size() != 0) {
             int N = arrayList.get(0);
+
             answer++;
             arrayList.remove(0);
             for (int i = 0; i < arrayList.size(); i++) {

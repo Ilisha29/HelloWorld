@@ -1,10 +1,9 @@
 package Programmers;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Programmers스킬체크테스트Level1_02 {
+public class 스킬체크테스트Level1_02 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();

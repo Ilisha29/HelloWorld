@@ -1,7 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="" />
+    <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Programmers/완주하지_못한_선수.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/기출/BoostCampPS01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/기출/BoostCampPS02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/기출/EverydayProgramming01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/기출/KAKAO2020BLIND_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/기출/KAKAO2020BLIND_가사검색.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/기출/KAKAO2020BLIND_자물쇠와열쇠.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/기출/KAKAO인턴02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/기출/KAKAO인턴05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/기출/LINE/_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/기출/LINE/_02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/기출/LINE/_03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/기출/LINE/_04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/기출/LINE/_05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/기출/LINE/_06.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/기출/N2019_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/기출/N2019_02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/기출/NAVER1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/기출/NAVER2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/기출/NAVER3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/기출/NHN_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/기출/Prac_KAKA2020_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/기출/WINTERCODING01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/기출/카카오인턴01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/기출/카카오인턴04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/Programmers스킬체크테스트Level1_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programmers/스킬체크테스트Level1_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/Programmers스킬체크테스트Level1_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programmers/스킬체크테스트Level1_02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/Programmers주식가격.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programmers/주식가격.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/기출/BoostCampPS01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/기출/BoostCampPS02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/기출/EverydayProgramming01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/기출/KAKAO2020BLIND_01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/기출/KAKAO2020BLIND_가사검색.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/기출/KAKAO2020BLIND_자물쇠와열쇠.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/기출/KAKAO인턴02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/기출/KAKAO인턴05.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/기출/N2019_01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/기출/N2019_02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/기출/NAVER1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/기출/NAVER2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/기출/NAVER3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/기출/NHN_01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/기출/Prac_KAKA2020_01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/기출/WINTERCODING01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/기출/카카오인턴01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/기출/카카오인턴04.java" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,24 +123,24 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="2" />
-          <entry key="java" value="184" />
+          <entry key="java" value="185" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="184" />
+          <entry key="JAVA" value="185" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="35" />
-          <entry key="java" value="89421" />
+          <entry key="java" value="89791" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="89421" />
+          <entry key="JAVA" value="89791" />
           <entry key="PLAIN_TEXT" value="35" />
         </counts>
       </usages-collector>
@@ -109,94 +158,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/기출/LINE/_01.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1463">
-              <caret line="77" column="9" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="77" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/기출/LINE/_02.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/기출/LINE/_03.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="16" column="53" lean-forward="true" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/기출/LINE/_04.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="29" column="34" lean-forward="true" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/기출/LINE/_05.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Programmers/Programmers스킬체크테스트Level1_01.java">
+        <entry file="file://$PROJECT_DIR$/src/Programmers/스킬체크테스트Level1_01.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
-              <caret line="2" column="42" lean-forward="true" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+              <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Programmers/스킬체크테스트Level1_02.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="57" lean-forward="true" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Programmers/Programmers스킬체크테스트Level1_02.java">
+        <entry file="file://$PROJECT_DIR$/src/Programmers/완주하지_못한_선수.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/기출/LINE/_06.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="547">
+              <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -226,8 +212,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/a문제가_안풀린다면_읽어보자.java" />
-        <option value="$PROJECT_DIR$/src/BOJ1072_2.java" />
         <option value="$PROJECT_DIR$/src/BOJ1072.java" />
         <option value="$PROJECT_DIR$/src/BOJ14502.java" />
         <option value="$PROJECT_DIR$/src/BOJ14503.java" />
@@ -277,6 +261,8 @@
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/기출/LINE/_05.java" />
         <option value="$PROJECT_DIR$/src/Programmers/Programmers스킬체크테스트Level1_02.java" />
+        <option value="$PROJECT_DIR$/src/Programmers/스킬체크테스트Level1_02.java" />
+        <option value="$PROJECT_DIR$/src/Programmers/완주하지_못한_선수.java" />
       </list>
     </option>
   </component>
@@ -286,10 +272,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-19" />
-    <option name="width" value="1366" />
-    <option name="height" value="784" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-326" />
+    <option name="y" value="768" />
+    <option name="width" value="1211" />
+    <option name="height" value="1087" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -327,19 +314,6 @@
               <item name="ProblemSolving" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProblemSolving" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="기출" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProblemSolving" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProblemSolving" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="기출" type="462c0819:PsiDirectoryNode" />
-              <item name="LINE" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProblemSolving" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProblemSolving" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="연습할것" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -351,7 +325,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586076083690" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586240106635" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../spring-study-qna" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
@@ -367,26 +341,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Programmers스킬체크테스트Level1_02">
-    <configuration name="Programmers스킬체크테스트Level1_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Programmers.Programmers스킬체크테스트Level1_02" />
+  <component name="RunManager" selected="Application.완주하지_못한_선수">
+    <configuration name="스킬체크테스트Level1_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Programmers.스킬체크테스트Level1_02" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Programmers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="기출.LINE._01" />
-      <module name="ProblemSolving" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="기출.LINE.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -433,20 +394,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="완주하지_못한_선수" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Programmers.완주하지_못한_선수" />
+      <module name="ProblemSolving" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Programmers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application._01" />
       <item itemvalue="Application._04" />
       <item itemvalue="Application._03" />
       <item itemvalue="Application._05" />
       <item itemvalue="Application.Programmers스킬체크테스트Level1_02" />
+      <item itemvalue="Application.완주하지_못한_선수" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.완주하지_못한_선수" />
         <item itemvalue="Application.Programmers스킬체크테스트Level1_02" />
         <item itemvalue="Application._05" />
         <item itemvalue="Application._03" />
         <item itemvalue="Application._04" />
-        <item itemvalue="Application._01" />
       </list>
     </recent_temporary>
   </component>
@@ -528,12 +502,12 @@
       <workItem from="1584716445952" duration="856000" />
       <workItem from="1584805756930" duration="1006000" />
       <workItem from="1585026602038" duration="66970000" />
-      <workItem from="1585531872394" duration="50116000" />
+      <workItem from="1585531872394" duration="53494000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="522364000" />
+    <option name="totallyTimeSpent" value="525742000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -545,7 +519,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-19" y="0" width="1366" height="784" extended-state="1" />
+    <frame x="-327" y="760" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.5228571" side_tool="true" weight="0.12934947" />
@@ -554,17 +528,17 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.47714287" weight="0.35603112" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.47714287" visible="true" weight="0.1663113" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32785088" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.3081664" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.34547347" />
       <window_info anchor="bottom" x="0" y="160" width="1322" height="321" id="Debug" order="3" weight="0.44170773" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32790446" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.1987513" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.12486993" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.4811166" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3257024" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -918,22 +892,28 @@
           <option name="timeStamp" value="151" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Programmers/Programmers스킬체크테스트Level1_02.java</url>
+          <url>file://$PROJECT_DIR$/src/Programmers/스킬체크테스트Level1_02.java</url>
           <line>16</line>
           <properties />
           <option name="timeStamp" value="152" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Programmers/Programmers스킬체크테스트Level1_02.java</url>
-          <line>20</line>
+          <url>file://$PROJECT_DIR$/src/Programmers/스킬체크테스트Level1_02.java</url>
+          <line>21</line>
           <properties />
           <option name="timeStamp" value="153" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Programmers/Programmers스킬체크테스트Level1_02.java</url>
-          <line>26</line>
+          <url>file://$PROJECT_DIR$/src/Programmers/스킬체크테스트Level1_02.java</url>
+          <line>27</line>
           <properties />
           <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Programmers/스킬체크테스트Level1_02.java</url>
+          <line>7</line>
+          <properties />
+          <option name="timeStamp" value="155" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/BOJ/BOJ13460.java</url>
@@ -981,7 +961,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Ex.java" />
     <entry file="file://$PROJECT_DIR$/src/기출/N2019_02.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -989,7 +968,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Programmers/Programmers주식가격.java">
+    <entry file="file://$PROJECT_DIR$/src/Programmers/주식가격.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -1367,20 +1346,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Programmers/Programmers스킬체크테스트Level1_01.java">
+    <entry file="file://$PROJECT_DIR$/src/Programmers/스킬체크테스트Level1_01.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
-          <caret line="2" column="42" lean-forward="true" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Programmers/Programmers스킬체크테스트Level1_02.java">
+    <entry file="file://$PROJECT_DIR$/src/Programmers/스킬체크테스트Level1_02.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        <state relative-caret-position="171">
+          <caret line="9" column="57" lean-forward="true" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Programmers/완주하지_못한_선수.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
         </state>
       </provider>
     </entry>

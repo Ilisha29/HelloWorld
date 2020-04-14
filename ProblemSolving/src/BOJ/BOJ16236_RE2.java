@@ -1,10 +1,12 @@
+/*
 package BOJ;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-public class BOJ16236 {
+public class BOJ16236_RE2 {
     static int N;
     static int[][] map;
     static int answerSeconds;
@@ -41,27 +43,22 @@ public class BOJ16236 {
                 }
             }
         }
-        Collections.sort(fishList);
-
+        if (fishList.size() > 1) {
+            Collections.sort(fishList);
+        }
         while (true) {
-            boolean canEat = false;
             if (fishList.size() == 0) {
                 break;
             }
             LinkedList<Fish> smallerFishes = new LinkedList<>();
             for (Fish fish : fishList) {
-                if (fish.getSize() < sharkSize) {
+                if (fish.size < sharkSize) {
                     smallerFishes.add(fish);
                 }
             }
             if (smallerFishes.size() == 0) {
                 break;
             }
-            /*for (Fish fish : smallerFishes) {
-                if (!isCanEat(map, fish)) {
-                    smallerFishes.remove(fish);
-                }
-            }*/
             for(Iterator<Fish> iterator = smallerFishes.iterator(); iterator.hasNext();){
                 Fish fish = iterator.next();
                 if(!isCanEat(map,fish)){
@@ -74,19 +71,19 @@ public class BOJ16236 {
                 //제일가까운거 먹고 map 재설정;
                 int answerReach = Integer.MAX_VALUE;
                 for (Fish fish : smallerFishes) {
-                    answerReach = fish.getReach() < answerReach ? fish.getReach() : answerReach;
+                    answerReach = fish.reach < answerReach ? fish.reach : answerReach;
                 }
                 int willEatenFishX = N;
                 int willEatenFishY = N;
                 for (Fish fish : smallerFishes) {
-                    if (fish.getReach() == answerReach) {
-                        if (willEatenFishX > fish.getX()) {
-                            willEatenFishX = fish.getX();
-                            willEatenFishY = fish.getY();
-                        } else if (willEatenFishX == fish.getX()) {
-                            if (willEatenFishY > fish.getY()) {
-                                willEatenFishX = fish.getX();
-                                willEatenFishY = fish.getY();
+                    if (fish.reach == answerReach) {
+                        if (willEatenFishX > fish.x) {
+                            willEatenFishX = fish.x;
+                            willEatenFishY = fish.y;
+                        } else if (willEatenFishX == fish.x) {
+                            if (willEatenFishY > fish.y) {
+                                willEatenFishX = fish.x;
+                                willEatenFishY = fish.y;
                             } else {
                                 continue;
                             }
@@ -97,10 +94,10 @@ public class BOJ16236 {
                     }
                 }
                 for (Fish fish : fishList) {
-                    if (fish.getX() == willEatenFishX && fish.getY() == willEatenFishY) {
+                    if (fish.x == willEatenFishX && fish.y == willEatenFishY) {
                         map[sharkX][sharkY] = 0;
-                        sharkX = fish.getX();
-                        sharkY = fish.getY();
+                        sharkX = fish.x;
+                        sharkY = fish.y;
                         map[sharkX][sharkY] = 9;
                         fishList.remove(fish);
                         break;
@@ -118,7 +115,7 @@ public class BOJ16236 {
         bufferedReader.close();
     }
 
-    private static boolean isCanEat(int[][] tmpMap, Fish fish) {
+    static boolean isCanEat(int[][] tmpMap, Fish fish) {
         boolean[][] visitMap = new boolean[N][N];
         Queue<Integer> queueX = new LinkedList<>();
         Queue<Integer> queueY = new LinkedList<>();
@@ -131,8 +128,8 @@ public class BOJ16236 {
             int tmpSharkX = queueX.poll();
             int tmpSharkY = queueY.poll();
             int tmpReach = queueReach.poll();
-            if (tmpSharkX == fish.getX() && tmpSharkY == fish.getY()) {
-                fish.setReach(tmpReach);
+            if (tmpSharkX == fish.x && tmpSharkY == fish.y) {
+                fish.reach = tmpReach;
                 return true;
             }
             for (int i = 0; i < 4; i++) {
@@ -151,32 +148,12 @@ public class BOJ16236 {
 }
 
 class Fish implements Comparable<Fish> {
-    private int x;
-    private int y;
-    private int size;
-    private int reach;
+    int x;
+    int y;
+    int size;
+    int reach;
 
-    public int getX() {
-        return x;
-    }
-
-    public int getY() {
-        return y;
-    }
-
-    public int getSize() {
-        return size;
-    }
-
-    public int getReach() {
-        return reach;
-    }
-
-    public void setReach(int reach) {
-        this.reach = reach;
-    }
-
-    Fish(int x, int y, int size) {
+    public Fish(int x, int y, int size) {
         this.x = x;
         this.y = y;
         this.size = size;
@@ -194,3 +171,4 @@ class Fish implements Comparable<Fish> {
         }
     }
 }
+*/

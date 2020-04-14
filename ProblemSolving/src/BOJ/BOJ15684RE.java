@@ -25,18 +25,12 @@ public class BOJ15684RE {
             array[x][y] = 1;
         }
 
-//		for (int h = 1; h <= H; h++) {
-//			for (int g = 1; g <= N; g++) {
-//				System.out.print(array[h][g]);
-//			}
-//			System.out.println();
-//		}
         if (Check()) {
             System.out.println(0);
             System.exit(0);
         }
 
-        for (int i = 1; i <= H; i++	) {
+        for (int i = 1; i <= H; i++) {
             for (int j = 1; j <= N - 1; j++) {
                 if (array[i][j] == 1) {
                     j++;

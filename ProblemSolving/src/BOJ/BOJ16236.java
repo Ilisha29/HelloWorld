@@ -58,7 +58,7 @@ public class BOJ16236 {
                 break;
             }
             /*for (Fish fish : smallerFishes) {
-                if (!isCanEat(map, fish)) {
+                if (!isCanEat(startMap, fish)) {
                     smallerFishes.remove(fish);
                 }
             }*/
@@ -71,7 +71,7 @@ public class BOJ16236 {
             if (smallerFishes.size() == 0) {
                 break;
             } else {
-                //제일가까운거 먹고 map 재설정;
+                //제일가까운거 먹고 startMap 재설정;
                 int answerReach = Integer.MAX_VALUE;
                 for (Fish fish : smallerFishes) {
                     answerReach = fish.getReach() < answerReach ? fish.getReach() : answerReach;

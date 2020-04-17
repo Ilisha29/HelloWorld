@@ -15,7 +15,7 @@ public class BOJ1932 {
         /*
         for (int i = 0; i < N; i++) {
             for (int j = 0; j <= i; j++) {
-                System.out.print(map[i][j] + " ");
+                System.out.print(startMap[i][j] + " ");
             }
             System.out.println();
         }
@@ -40,7 +40,7 @@ public class BOJ1932 {
         /*
         for (int i = 0; i < N; i++) {
             for (int j = 0; j <= i; j++) {
-                System.out.print(map[i][j] + " ");
+                System.out.print(startMap[i][j] + " ");
             }
             System.out.println();
         }

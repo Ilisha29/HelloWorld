@@ -8,7 +8,7 @@ import java.util.*;
 
 public class BOJ16236_RE2 {
     static int N;
-    static int[][] map;
+    static int[][] startMap;
     static int answerSeconds;
     static ArrayList<Fish> fishList;
     static int sharkSize;
@@ -21,11 +21,11 @@ public class BOJ16236_RE2 {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         N = Integer.parseInt(bufferedReader.readLine());
-        map = new int[N][N];
+        startMap = new int[N][N];
         for (int i = 0; i < N; i++) {
             StringTokenizer stringTokenizer = new StringTokenizer(bufferedReader.readLine());
             for (int j = 0; j < N; j++) {
-                map[i][j] = Integer.parseInt(stringTokenizer.nextToken());
+                startMap[i][j] = Integer.parseInt(stringTokenizer.nextToken());
             }
         }
         answerSeconds = 0;
@@ -34,10 +34,10 @@ public class BOJ16236_RE2 {
         eatenFishNum = 0;
         for (int i = 0; i < N; i++) {
             for (int j = 0; j < N; j++) {
-                if (map[i][j] != 0 && map[i][j] != 9) {
-                    fishList.add(new Fish(i, j, map[i][j]));
+                if (startMap[i][j] != 0 && startMap[i][j] != 9) {
+                    fishList.add(new Fish(i, j, startMap[i][j]));
                 }
-                if (map[i][j] == 9) {
+                if (startMap[i][j] == 9) {
                     sharkX = i;
                     sharkY = j;
                 }
@@ -61,14 +61,14 @@ public class BOJ16236_RE2 {
             }
             for(Iterator<Fish> iterator = smallerFishes.iterator(); iterator.hasNext();){
                 Fish fish = iterator.next();
-                if(!isCanEat(map,fish)){
+                if(!isCanEat(startMap,fish)){
                     iterator.remove();
                 }
             }
             if (smallerFishes.size() == 0) {
                 break;
             } else {
-                //제일가까운거 먹고 map 재설정;
+                //제일가까운거 먹고 startMap 재설정;
                 int answerReach = Integer.MAX_VALUE;
                 for (Fish fish : smallerFishes) {
                     answerReach = fish.reach < answerReach ? fish.reach : answerReach;
@@ -95,10 +95,10 @@ public class BOJ16236_RE2 {
                 }
                 for (Fish fish : fishList) {
                     if (fish.x == willEatenFishX && fish.y == willEatenFishY) {
-                        map[sharkX][sharkY] = 0;
+                        startMap[sharkX][sharkY] = 0;
                         sharkX = fish.x;
                         sharkY = fish.y;
-                        map[sharkX][sharkY] = 9;
+                        startMap[sharkX][sharkY] = 9;
                         fishList.remove(fish);
                         break;
                     }

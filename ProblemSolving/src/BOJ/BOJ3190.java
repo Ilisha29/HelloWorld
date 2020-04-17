@@ -35,9 +35,9 @@ public class BOJ3190 {
             map[X][Y] = 1;
         }
         /*
-        for (int i = 0; i < map.length; i++) {
-            for (int j = 0; j < map.length; j++) {
-                System.out.print(map[i][j] + " ");
+        for (int i = 0; i < startMap.length; i++) {
+            for (int j = 0; j < startMap.length; j++) {
+                System.out.print(startMap[i][j] + " ");
             }
             System.out.println();
         }
@@ -123,15 +123,15 @@ public class BOJ3190 {
             directionMap[headX][headY] = direction;
             //확인
             /*System.out.println("===========time : " + time + " ===========");
-            for (int i = 0; i < map.length; i++) {
-                for (int j = 0; j < map.length; j++) {
-                    System.out.print(map[i][j] + " ");
+            for (int i = 0; i < startMap.length; i++) {
+                for (int j = 0; j < startMap.length; j++) {
+                    System.out.print(startMap[i][j] + " ");
                 }
                 System.out.println();
             }
             System.out.println("=========================");
-            for (int i = 0; i < map.length; i++) {
-                for (int j = 0; j < map.length; j++) {
+            for (int i = 0; i < startMap.length; i++) {
+                for (int j = 0; j < startMap.length; j++) {
                     System.out.print(directionMap[i][j] + " ");
                 }
                 System.out.println();

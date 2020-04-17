@@ -131,7 +131,7 @@ public class BOJ16236_failCode {
         for (int i = 0; i < 4; i++) {
             int X = sharkX + dx[i];
             int Y = sharkY + dy[i];
-            if (X >= 0 && X < map.length && Y >= 0 && Y < map.length && map[X][Y] <= babySharkSize && !check[X][Y]) {
+            if (X >= 0 && X < startMap.length && Y >= 0 && Y < startMap.length && startMap[X][Y] <= babySharkSize && !check[X][Y]) {
                 findLength(X, Y, tmpLength + 1, check);
                 */
     /*놓친부분2*//*

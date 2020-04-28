@@ -5,15 +5,15 @@ import java.util.Queue;
 
 // 22 : 50
 public class KAKAO2020_블록_이동하기 {
-    static int[][] board;
     static int N;
     static int answer;
     static Queue<Robot> robotQueue;
+    static Queue<boolean[][]> checkQueue;
     static int destination;
     static int[] mode1X1 = {-1, 0, 1, 0}; // 상우하좌 X
     static int[] mode1Y1 = {0, 1, 0, -1}; // 상우하좌 Y
 
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         int[][] tmpboard = {{0, 0, 0, 1, 1}, {0, 0, 0, 1, 0}, {0, 1, 0, 1, 1}, {1, 1, 0, 0, 1}, {0, 0, 0, 0, 0}};
         N = tmpboard.length;
         board = new int[N][N];
@@ -25,6 +25,27 @@ public class KAKAO2020_블록_이동하기 {
         answer = 0;
         robotQueue = new LinkedList<>();
         robotQueue.offer(new Robot());
+        checkQueue = new LinkedList<>();
+        boolean[][] check = new boolean[N][N];
+        check[0][0] = true;
+        check[0][1] = true;
+        checkQueue.offer(check);
+        destination = N - 1;
+        //여기까지 초기화*/
+    public static void main(String[] args) {
+        int[][] tmpboard = {{0, 0, 0, 1, 1}, {0, 0, 0, 1, 0}, {0, 1, 0, 1, 1}, {1, 1, 0, 0, 1}, {0, 0, 0, 0, 0}};
+        System.out.println(solution(tmpboard));
+    }
+    public static int solution(int[][] board) {
+        N = board.length;
+        answer = 0;
+        robotQueue = new LinkedList<>();
+        robotQueue.offer(new Robot());
+        checkQueue = new LinkedList<>();
+        boolean[][] check = new boolean[N][N];
+        check[0][0] = true;
+        check[0][1] = true;
+        checkQueue.offer(check);
         destination = N - 1;
         //여기까지 초기화
         while (!robotQueue.isEmpty()) {
@@ -33,6 +54,14 @@ public class KAKAO2020_블록_이동하기 {
                 answer = robot.moveNum;
                 break;
             }
+            boolean[][] checkMap = checkQueue.poll();
+            boolean[][] tmpCheck = new boolean[N][N];
+            for (int j = 0; j < N; j++) {
+                for (int k = 0; k < N; k++) {
+                    tmpCheck[j][k] = checkMap[j][k];
+                }
+            }
+
             //상우하좌
             for (int i = 0; i < 4; i++) {
                 int X1 = robot.x1 + mode1X1[i];
@@ -40,7 +69,17 @@ public class KAKAO2020_블록_이동하기 {
                 int X2 = robot.x2 + mode1X1[i];
                 int Y2 = robot.y2 + mode1Y1[i];
                 int MoveNum = robot.moveNum + 1;
-                if (innerBoundary(X1) && innerBoundary(Y1) && innerBoundary(X2) && innerBoundary(Y2) && board[X1][Y1] == 0 && board[X2][Y2] == 0) {
+
+                if (innerBoundary(X1) && innerBoundary(Y1) && innerBoundary(X2) && innerBoundary(Y2) && board[X1][Y1] == 0 && board[X2][Y2] == 0 && (!tmpCheck[X1][Y1] || !tmpCheck[X2][Y2])) {
+                    boolean[][] tmpCheck2 = new boolean[N][N];
+                    for (int j = 0; j < N; j++) {
+                        for (int k = 0; k < N; k++) {
+                            tmpCheck2[j][k] = tmpCheck[j][k];
+                        }
+                    }
+                    tmpCheck2[X1][Y1] = true;
+                    tmpCheck2[X2][Y2] = true;
+                    checkQueue.offer(tmpCheck2);
                     robotQueue.offer(new Robot(X1, Y1, X2, Y2, MoveNum));
                 }
             }
@@ -53,12 +92,45 @@ public class KAKAO2020_블록_이동하기 {
                 int Y2 = robot.y1 > robot.y2 ? robot.y1 : robot.y2; //우
                 int MoveNum = robot.moveNum + 1;
                 if (innerBoundary(X1 - 1) && innerBoundary(X2 - 1) && innerBoundary(Y1) && innerBoundary(Y2) && board[X1 - 1][Y1] == 0 && board[X2 - 1][Y2] == 0) {
-                    robotQueue.offer(new Robot(X1, Y1, X2 - 1, Y2 - 1, MoveNum));
-                    robotQueue.offer(new Robot(X1 - 1, Y1 + 1, X2, Y2, MoveNum));
+                    boolean[][] tmpCheck2 = new boolean[N][N];
+                    boolean[][] tmpCheck3 = new boolean[N][N];
+                    for (int j = 0; j < N; j++) {
+                        for (int k = 0; k < N; k++) {
+                            tmpCheck2[j][k] = tmpCheck[j][k];
+                            tmpCheck3[j][k] = tmpCheck[j][k];
+                        }
+                    }
+                    if (!tmpCheck2[X2 - 1][Y2 - 1]) {
+                        tmpCheck2[X2 - 1][Y2 - 1] = true;
+                        checkQueue.offer(tmpCheck2);
+                        robotQueue.offer(new Robot(X1, Y1, X2 - 1, Y2 - 1, MoveNum));
+                    }
+                    if (!tmpCheck3[X1 - 1][Y1 + 1]) {
+                        tmpCheck3[X2 - 1][Y2 - 1] = true;
+                        checkQueue.offer(tmpCheck3);
+                        robotQueue.offer(new Robot(X1 - 1, Y1 + 1, X2, Y2, MoveNum));
+                    }
                 }
                 if (innerBoundary(X1 + 1) && innerBoundary(X2 + 1) && innerBoundary(Y1) && innerBoundary(Y2) && board[X1 + 1][Y1] == 0 && board[X2 + 1][Y2] == 0) {
-                    robotQueue.offer(new Robot(X1, Y1, X2 + 1, Y2 - 1, MoveNum));
-                    robotQueue.offer(new Robot(X1 + 1, Y1 + 1, X2, Y2, MoveNum));
+                    boolean[][] tmpCheck2 = new boolean[N][N];
+                    boolean[][] tmpCheck3 = new boolean[N][N];
+                    for (int j = 0; j < N; j++) {
+                        for (int k = 0; k < N; k++) {
+                            tmpCheck2[j][k] = tmpCheck[j][k];
+                            tmpCheck3[j][k] = tmpCheck[j][k];
+                        }
+                    }
+                    if (!tmpCheck2[X2 + 1][Y2 - 1]) {
+                        tmpCheck2[X2 + 1][Y2 - 1] = true;
+                        checkQueue.offer(tmpCheck2);
+                        robotQueue.offer(new Robot(X1, Y1, X2 + 1, Y2 - 1, MoveNum));
+                    }
+                    if (!tmpCheck3[X1 + 1][Y1 + 1]) {
+                        tmpCheck3[X1 + 1][Y1 + 1] = true;
+                        checkQueue.offer(tmpCheck3);
+                        robotQueue.offer(new Robot(X1 + 1, Y1 + 1, X2, Y2, MoveNum));
+                    }
+
                 }
             }
             // l모양 회전
@@ -69,16 +141,48 @@ public class KAKAO2020_블록_이동하기 {
                 int X2 = robot.x1 > robot.x2 ? robot.x1 : robot.x2;
                 int MoveNum = robot.moveNum + 1;
                 if (innerBoundary(X1) && innerBoundary(X2) && innerBoundary(Y1 - 1) && innerBoundary(Y2 - 1) && board[X1][Y1 - 1] == 0 && board[X2][Y2 - 1] == 0) {
-                    robotQueue.offer(new Robot(X1, Y1, X2 - 1, Y2 - 1, MoveNum));
-                    robotQueue.offer(new Robot(X1 + 1, Y1 - 1, X2, Y2, MoveNum));
+                    boolean[][] tmpCheck2 = new boolean[N][N];
+                    boolean[][] tmpCheck3 = new boolean[N][N];
+                    for (int j = 0; j < N; j++) {
+                        for (int k = 0; k < N; k++) {
+                            tmpCheck2[j][k] = tmpCheck[j][k];
+                            tmpCheck3[j][k] = tmpCheck[j][k];
+                        }
+                    }
+                    if (!tmpCheck2[X2 - 1][Y2 - 1]) {
+                        tmpCheck2[X2 - 1][Y2 - 1] = true;
+                        checkQueue.offer(tmpCheck2);
+                        robotQueue.offer(new Robot(X1, Y1, X2 - 1, Y2 - 1, MoveNum));
+                    }
+                    if (!tmpCheck3[X1 + 1][Y1 - 1]) {
+                        tmpCheck3[X1 + 1][Y1 - 1] = true;
+                        checkQueue.offer(tmpCheck3);
+                        robotQueue.offer(new Robot(X1 + 1, Y1 - 1, X2, Y2, MoveNum));
+                    }
                 }
                 if (innerBoundary(X1) && innerBoundary(X2) && innerBoundary(Y1 + 1) && innerBoundary(Y2 + 1) && board[X1][Y1 + 1] == 0 && board[X2][Y2 + 1] == 0) {
-                    robotQueue.offer(new Robot(X1, Y1, X2 - 1, Y2 + 1, MoveNum));
-                    robotQueue.offer(new Robot(X1 + 1, Y1 + 1, X2, Y2, MoveNum));
+                    boolean[][] tmpCheck2 = new boolean[N][N];
+                    boolean[][] tmpCheck3 = new boolean[N][N];
+                    for (int j = 0; j < N; j++) {
+                        for (int k = 0; k < N; k++) {
+                            tmpCheck2[j][k] = tmpCheck[j][k];
+                            tmpCheck3[j][k] = tmpCheck[j][k];
+                        }
+                    }
+                    if (!tmpCheck2[X2 - 1][Y2 + 1]) {
+                        tmpCheck2[X2 - 1][Y2 + 1] = true;
+                        checkQueue.offer(tmpCheck2);
+                        robotQueue.offer(new Robot(X1, Y1, X2 - 1, Y2 + 1, MoveNum));
+                    }
+                    if (!tmpCheck3[X1 + 1][Y1 + 1]) {
+                        tmpCheck3[X1 + 1][Y1 + 1] = true;
+                        checkQueue.offer(tmpCheck3);
+                        robotQueue.offer(new Robot(X1 + 1, Y1 + 1, X2, Y2, MoveNum));
+                    }
                 }
             }
         }
-        System.out.println(answer);
+        return answer;
     }
 
     private static boolean innerBoundary(int x1) {

@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/KAKAO/KAKAO2019_오픈채팅방.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KAKAO/KAKAO2019인턴_크레인_인형뽑기.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/KAKAO/KAKAO2020_블록_이동하기.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/KAKAO/KAKAO2020_블록_이동하기.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/KAKAO/Robot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/KAKAO/Robot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KAKAO/KAKAO2020_블록_이동하기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KAKAO/KAKAO2020_블록_이동하기.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Study/오류.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Study/오류.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -83,24 +80,24 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="2" />
-          <entry key="java" value="210" />
+          <entry key="java" value="212" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="210" />
+          <entry key="JAVA" value="212" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="51" />
-          <entry key="java" value="110306" />
+          <entry key="java" value="111958" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="110306" />
+          <entry key="JAVA" value="111958" />
           <entry key="PLAIN_TEXT" value="51" />
         </counts>
       </usages-collector>
@@ -171,16 +168,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/KAKAO/KAKAO2019_오픈채팅방.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+            <state relative-caret-position="266">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1917#1918#0" expanded="true" />
-                <element signature="e#1954#1955#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/KAKAO/KAKAO2019인턴_크레인_인형뽑기.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="589">
+              <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/Stack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="83" selection-start-line="83" selection-end-line="83" />
             </state>
           </provider>
         </entry>
@@ -223,7 +236,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/BOJ/BOJ14500.java" />
         <option value="$PROJECT_DIR$/src/BOJ/BOJ5337.java" />
         <option value="$PROJECT_DIR$/src/BOJ/BOJ10926.java" />
         <option value="$PROJECT_DIR$/src/BOJ/BOJ17144.java" />
@@ -274,6 +286,7 @@
         <option value="$PROJECT_DIR$/src/KAKAO/KAKAO2020_문자열_압축.java" />
         <option value="$PROJECT_DIR$/src/KAKAO/KAKAO2020_블록_이동하기.java" />
         <option value="$PROJECT_DIR$/src/KAKAO/KAKAO2019_오픈채팅방.java" />
+        <option value="$PROJECT_DIR$/src/KAKAO/KAKAO2019인턴_크레인_인형뽑기.java" />
       </list>
     </option>
   </component>
@@ -324,7 +337,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588084506153" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588139542731" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../spring-petclinic" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -348,20 +361,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.KAKAO2019_오픈채팅방">
-    <configuration name="BOJ16235" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.BOJ16235" />
-      <module name="ProblemSolving" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BOJ.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.KAKAO2019인턴_크레인_인형뽑기">
     <configuration name="BOJ17143" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BOJ.BOJ17143" />
       <module name="ProblemSolving" />
@@ -377,6 +377,19 @@
     </configuration>
     <configuration name="KAKAO2019_오픈채팅방" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO2019_오픈채팅방" />
+      <module name="ProblemSolving" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="KAKAO.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KAKAO2019인턴_크레인_인형뽑기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO2019인턴_크레인_인형뽑기" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
@@ -428,19 +441,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BOJ16235" />
       <item itemvalue="Application.BOJ17143" />
       <item itemvalue="Application.KAKAO2020_자물쇠와_열쇠" />
       <item itemvalue="Application.KAKAO2020_블록_이동하기" />
       <item itemvalue="Application.KAKAO2019_오픈채팅방" />
+      <item itemvalue="Application.KAKAO2019인턴_크레인_인형뽑기" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KAKAO2019인턴_크레인_인형뽑기" />
         <item itemvalue="Application.KAKAO2019_오픈채팅방" />
         <item itemvalue="Application.KAKAO2020_블록_이동하기" />
         <item itemvalue="Application.KAKAO2020_자물쇠와_열쇠" />
         <item itemvalue="Application.BOJ17143" />
-        <item itemvalue="Application.BOJ16235" />
       </list>
     </recent_temporary>
   </component>
@@ -523,12 +536,12 @@
       <workItem from="1584805756930" duration="1006000" />
       <workItem from="1585026602038" duration="66970000" />
       <workItem from="1585531872394" duration="163525000" />
-      <workItem from="1587556130090" duration="15302000" />
+      <workItem from="1587556130090" duration="21295000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="651075000" />
+    <option name="totallyTimeSpent" value="657068000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -552,8 +565,8 @@
       <window_info content_ui="combo" id="Project" order="6" sideWeight="0.47714287" visible="true" weight="0.13059701" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32778355" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.22372529" />
-      <window_info anchor="bottom" x="0" y="160" width="1322" height="321" id="Debug" order="3" weight="0.50988555" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.41935483" />
+      <window_info anchor="bottom" x="0" y="160" width="1322" height="321" id="Debug" order="3" weight="0.40894902" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32790446" />
@@ -567,10 +580,10 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" weight="0.32967034" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.3287369" />
     </layout>
     <layout-to-restore>
       <window_info id="Structure" order="0" sideWeight="0.5228571" side_tool="true" weight="0.12934947" />
@@ -942,6 +955,12 @@
           <properties />
           <option name="timeStamp" value="173" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/KAKAO/KAKAO2019인턴_크레인_인형뽑기.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="177" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/BOJ/BOJ13460.java</url>
           <line>94</line>
@@ -993,23 +1012,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/BOJ/BOJ7576.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="90" column="13" selection-start-line="90" selection-start-column="13" selection-end-line="90" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BOJ/BOJ15683.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="159" column="11" selection-start-line="9" selection-end-line="159" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BOJ/BOJ17140.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3648">
@@ -1349,13 +1351,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/KAKAO/KAKAO2019_오픈채팅방.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+        <state relative-caret-position="266">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1917#1918#0" expanded="true" />
-            <element signature="e#1954#1955#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/KAKAO/KAKAO2019인턴_크레인_인형뽑기.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
         </state>
       </provider>
     </entry>

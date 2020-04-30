@@ -1,4 +1,4 @@
-package KAKAO;
+package KAKAO.KAKAO2020공채;
 
 import java.util.LinkedList;
 import java.util.Queue;

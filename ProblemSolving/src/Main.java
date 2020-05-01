@@ -1,6 +1,9 @@
 public class Main {
     public static void main(String[] args) {
 
+        String a = "sd";
+        a = a.substring(1, a.length() - 1);
+        System.out.println(a);
         /* for (int i = 0; i < 8; i++) {
             for (int j = i+1; j <9 ; j++) {
                 for (int k = j+1 ; k < 10 ; k++) {

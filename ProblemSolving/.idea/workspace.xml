@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/KAKAO/KAKAO2018공채/KAKAO2018공채_프렌즈4블록.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KAKAO/KAKAO2018공채/KAKAO2018공채_캐시.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_문제가_안풀린다면_읽어보자.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_문제가_안풀린다면_읽어보자.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KAKAO/KAKAO2018공채/KAKAO2018공채_프렌즈4블록.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KAKAO/KAKAO2018공채/KAKAO2018공채_프렌즈4블록.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Study/오류.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Study/오류.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -86,24 +86,24 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="2" />
-          <entry key="java" value="236" />
+          <entry key="java" value="237" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="236" />
+          <entry key="JAVA" value="237" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="64" />
-          <entry key="java" value="131029" />
+          <entry key="java" value="131879" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="131029" />
+          <entry key="JAVA" value="131879" />
           <entry key="PLAIN_TEXT" value="64" />
         </counts>
       </usages-collector>
@@ -111,98 +111,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="43" lean-forward="true" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/_문제가_안풀린다면_읽어보자.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/KAKAO/KAKAO2018공채/KAKAO2018공채_프렌즈4블록.java">
+        <entry file="file://$PROJECT_DIR$/src/KAKAO/KAKAO2018공채/KAKAO2018공채_캐시.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="20" column="62" lean-forward="true" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/KAKAO/KAKAO2019공채/KAKAO2019_블록게임.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/KAKAO/KAKAO2019공채/KAKAO2019_오픈채팅방.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="60" lean-forward="true" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/KAKAO/KAKAO2019공채/KAKAO2019공채_실패율.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/KAKAO/KAKAO2018공채/KAKAO2018공채_비밀지도.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
-              <caret line="51" column="8" lean-forward="true" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/KAKAO/KAKAO2018공채/KAKAO2018공채_추석_트래픽.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="610">
-              <caret line="123" column="35" lean-forward="true" selection-start-line="123" selection-start-column="35" selection-end-line="123" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/KAKAO/KAKAO2018공채/KAKAO2018공채_뉴스_클러스터링.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1653">
-              <caret line="87" column="31" lean-forward="true" selection-start-line="87" selection-start-column="31" selection-end-line="87" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="152">
+              <caret line="8" column="226" selection-start-line="8" selection-start-column="226" selection-end-line="8" selection-end-column="226" />
             </state>
           </provider>
         </entry>
@@ -233,7 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/BOJ/BOJ13460re.java" />
         <option value="$PROJECT_DIR$/src/BOJ/BOJ13460_failCode.java" />
         <option value="$PROJECT_DIR$/src/BOJ/BOJ15644.java" />
         <option value="$PROJECT_DIR$/src/BOJ/BOJ14891.java" />
@@ -284,6 +196,7 @@
         <option value="$PROJECT_DIR$/src/KAKAO/KAKAO2018공채/KAKAO2018공채_뉴스_클러스터링.java" />
         <option value="$PROJECT_DIR$/src/_문제가_안풀린다면_읽어보자.java" />
         <option value="$PROJECT_DIR$/src/KAKAO/KAKAO2018공채/KAKAO2018공채_프렌즈4블록.java" />
+        <option value="$PROJECT_DIR$/src/KAKAO/KAKAO2018공채/KAKAO2018공채_캐시.java" />
       </list>
     </option>
   </component>
@@ -340,7 +253,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588407922626" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588418037399" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../spring-petclinic" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -364,9 +277,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.KAKAO2018공채_프렌즈4블록">
-    <configuration name="KAKAO2018공채_비밀지도" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO2018공채.KAKAO2018공채_비밀지도" />
+  <component name="RunManager" selected="Application.KAKAO2018공채_캐시">
+    <configuration name="KAKAO2018공채_캐시" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO2018공채.KAKAO2018공채_캐시" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
@@ -439,18 +352,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.KAKAO2018공채_비밀지도" />
       <item itemvalue="Application.KAKAO2018공채_추석_트래픽" />
       <item itemvalue="Application.KAKAO2018공채_뉴스_클러스터링" />
       <item itemvalue="Application.KAKAO2018공채_프렌즈4블록" />
+      <item itemvalue="Application.KAKAO2018공채_캐시" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KAKAO2018공채_캐시" />
         <item itemvalue="Application.KAKAO2018공채_프렌즈4블록" />
         <item itemvalue="Application.KAKAO2018공채_뉴스_클러스터링" />
         <item itemvalue="Application.KAKAO2018공채_추석_트래픽" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.KAKAO2018공채_비밀지도" />
       </list>
     </recent_temporary>
   </component>
@@ -533,12 +446,12 @@
       <workItem from="1584805756930" duration="1006000" />
       <workItem from="1585026602038" duration="66970000" />
       <workItem from="1585531872394" duration="163525000" />
-      <workItem from="1587556130090" duration="106913000" />
+      <workItem from="1587556130090" duration="110313000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="742686000" />
+    <option name="totallyTimeSpent" value="746086000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -559,7 +472,7 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.47714287" visible="true" weight="0.25053304" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.47714287" visible="true" weight="0.16684435" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32778355" />
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.43080124" />
@@ -1143,13 +1056,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/BOJ/BOJ1152.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="2" column="30" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BOJ/BOJ15644.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2109">
@@ -1440,27 +1346,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/KAKAO/KAKAO2019공채/KAKAO2019공채_실패율.java">
+    <entry file="file://$PROJECT_DIR$/src/KAKAO/KAKAO2018공채/KAKAO2018공채_프렌즈4블록.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        <state relative-caret-position="171">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/KAKAO/KAKAO2019공채/KAKAO2019_블록게임.java">
+    <entry file="file://$PROJECT_DIR$/src/KAKAO/KAKAO2019공채/KAKAO2019공채_실패율.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/KAKAO/KAKAO2019공채/KAKAO2019_오픈채팅방.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="60" lean-forward="true" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+        <state relative-caret-position="266">
+          <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1494,13 +1393,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="43" lean-forward="true" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/_문제가_안풀린다면_읽어보자.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -1508,13 +1400,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/KAKAO/KAKAO2018공채/KAKAO2018공채_프렌즈4블록.java">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="20" column="62" lean-forward="true" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
+        <state relative-caret-position="76">
+          <caret line="4" column="43" lean-forward="true" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/KAKAO/KAKAO2019공채/KAKAO2019_블록게임.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/KAKAO/KAKAO2019공채/KAKAO2019_오픈채팅방.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="60" lean-forward="true" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/KAKAO/KAKAO2018공채/KAKAO2018공채_캐시.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="226" selection-start-line="8" selection-start-column="226" selection-end-line="8" selection-end-column="226" />
         </state>
       </provider>
     </entry>

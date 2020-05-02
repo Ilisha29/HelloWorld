@@ -6,7 +6,6 @@ import java.util.Queue;
 // 16 : 49
 public class KAKAO2018공채_프렌즈4블록 {
     public static void main(String[] args) {
-
         int m = 4; //높이
         int n = 5; //폭
         String[] board = {"CCBDE", "AAADE", "AAABF", "CCBBF"};

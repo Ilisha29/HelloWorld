@@ -3,7 +3,7 @@ package 연습할것;
 public class Permutation {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5, 6, 7};
-        perm(arr, 0, 7, 7);
+        perm(arr, 0, 7, 2);
     }
 
     public static void perm(int[] arr, int depth, int n, int k) {

@@ -13,7 +13,7 @@ public class KAKAO2019인턴_징검다리_건너기 {
     stones 배열 각 원소들의 값은 1 이상 200,000,000 이하인 자연수입니다.
     */
     private static int solution(int[] stones, int k) {
-        int answer = 0;
+        /*int answer = 0;
         int[] newStones = new int[stones.length + 2];
         for (int i = 0; i < stones.length; i++) {
             newStones[i + 1] = stones[i];
@@ -40,6 +40,24 @@ public class KAKAO2019인턴_징검다리_건너기 {
                 }
             }
             answer++;
+        }*/
+        int answer = Integer.MAX_VALUE;
+
+        for (int i = 0; i <= stones.length - k; i++) {
+            int temp = i;
+            int stone = stones[i];
+            for (int j = i; j < i + k; j++) {
+                if (stones[j] > stone) {
+                    stone = stones[j];
+                    temp = j;
+                }
+            }
+            if (answer > stone) {
+                answer = stone;
+            }
+            i = temp;
+
         }
+        return answer;
     }
 }

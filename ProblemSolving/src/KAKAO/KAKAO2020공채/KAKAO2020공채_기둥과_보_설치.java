@@ -6,7 +6,7 @@ public class KAKAO2020공채_기둥과_보_설치 {
         int n = 5;
         int[][] frames = {{1, 0, 0, 1}, {1, 1, 1, 1}, {2, 1, 0, 1}, {2, 2, 1, 1}, {5, 0, 0, 1}, {5, 1, 0, 1}, {4, 2, 1, 1}, {3, 2, 1, 1}};
         int[][] frames1 = {{0, 0, 0, 1}, {2, 0, 0, 1}, {4, 0, 0, 1}, {0, 1, 1, 1}, {1, 1, 1, 1}, {2, 1, 1, 1}, {3, 1, 1, 1}, {2, 0, 0, 0}, {1, 1, 1, 0}, {2, 2, 0, 1}};
-        int[][] answer = solution(n, frames1);
+        int[][] answer = solution(n, frames);
         for (int i = 0; i < answer.length; i++) {
             for (int j = 0; j < answer[i].length; j++) {
                 System.out.print(answer[i][j] + " ");
@@ -58,29 +58,30 @@ public class KAKAO2020공채_기둥과_보_설치 {
             if (type == 0) { ///기둥
                 //1. 기둥은 바닥 위에 있거나 보의 한쪽 끝 부분 위에 있거나, 또는 다른 기둥 위에 있어야 합니다.
                 if (installOrDelete == 0) { // 삭제
-                    if ((y + 1 < map.length && map[x][y + 1].isColInstalled)) { // 다른 기둥에 대한 영향
-                        continue;
-                    }
-                    if (map[x][y].isRowInstalled) {
-                        if (x - 1 >= 0 && map[x - 1][y].isRowInstalled && x + 1 < map.length && map[x + 1][y].isRowInstalled) {
-                            map[x][y].colRemove();
-                            structureNum--;
-                        }
-                        if (x + 1 < map.length && y - 1 >= 0 && map[x + 1][y - 1].isColInstalled) {
-                            map[x][y].colRemove();
-                            structureNum--;
-                        }
+                    map[x][y].colRemove();
+                    if (isAllConstructOk(map)) {
+                        structureNum--;
                     } else {
-                        if (x - 1 >= 0 && !map[x - 1][y].isRowInstalled) { // 왼쪽으로 보가 없다면 삭제 가능
-                            map[x][y].colRemove();
-                            structureNum--;
-                        } else if (x - 1 >= 0 && map[x - 1][y].isRowInstalled) { // 왼쪽으로 보가있다면
-                            if (x - 1 >= 0 && y - 1 >= 0 && map[x - 1][y - 1].isColInstalled) { //기둥위에있다면
-                                map[x][y].colRemove();
-                                structureNum--;
-                            }
+                        map[x][y].colInstall();
+                    }
+                    /*if (y + 1 < map.length && map[x][y + 1].isColInstalled) {
+                        if ((x - 1 >= 0 && y + 1 < map.length && !map[x - 1][y + 1].isRowInstalled) && !map[x][y + 1].isRowInstalled) {
+                            continue;
                         }
                     }
+
+                    if (x - 1 >= 0 && y + 1 < map.length && map[x - 1][y + 1].isRowInstalled) {
+                        if (!map[x - 1][y].isColInstalled && !((x - 2 >= 0 && y + 1 < map.length && map[x - 2][y + 1].isRowInstalled) && (map[x][y + 1].isRowInstalled))) {
+                            continue;
+                        }
+                    }
+
+                    if (y + 1 < map.length && map[x][y + 1].isRowInstalled) {
+                        if (!(x + 1 < map.length && map[x + 1][y].isColInstalled) && !((x - 1 >= 0 && y + 1 < map.length && map[x - 1][y + 1].isRowInstalled) && (x + 1 < map.length && y + 1 < map.length && map[x + 1][y + 1].isRowInstalled))) {
+                            continue;
+                        }
+                    }*/
+
                 } else { // 설치
                     if (y == 0) {
                         map[x][y].colInstall();
@@ -88,7 +89,7 @@ public class KAKAO2020공채_기둥과_보_설치 {
                     } else if (y - 1 >= 0 && map[x][y - 1].isColInstalled) {
                         map[x][y].colInstall();
                         structureNum++;
-                    } else if ((x - 1 >= 0 && map[x - 1][y].isRowInstalled) || map[x][y].isRowInstalled) {
+                    } else if (map[x][y].isRowInstalled || (x - 1 >= 0 && map[x - 1][y].isRowInstalled)) {
                         map[x][y].colInstall();
                         structureNum++;
                     }
@@ -96,13 +97,20 @@ public class KAKAO2020공채_기둥과_보_설치 {
             } else { // 보
                 //2. 보는 한쪽 끝 부분이 기둥 위에 있거나, 또는 양쪽 끝 부분이 다른 보와 동시에 연결되어 있어야 합니다.
                 if (installOrDelete == 0) { // 삭제
-                    if (x - 1 >= 0 && map[x - 1][y].isRowInstalled) {
+                    map[x][y].rowRemove();
+                    if (isAllConstructOk(map)) {
+                        structureNum--;
+
+                    } else {
+                        map[x][y].rowInstall();
+                    }
+                    /*if (x - 1 >= 0 && map[x - 1][y].isRowInstalled) {
                         if (y - 1 >= 0 && !map[x][y - 1].isColInstalled && x - 1 >= 0 && y - 1 >= 0 && !map[x - 1][y - 1].isColInstalled) {
                             continue;
                         }
                     }
                     if (x + 1 < map.length && map[x + 1][y].isRowInstalled) {
-                        if (y - 1 >= 0 && x + 1 < map.length && !map[y - 1][x + 1].isColInstalled && x + 2 < map.length && y - 1 >= 0 && !map[x + 2][y - 1].isColInstalled) {
+                        if (y - 1 >= 0 && x + 1 < map.length && !map[x + 1][y - 1].isColInstalled && x + 2 < map.length && y - 1 >= 0 && !map[x + 2][y - 1].isColInstalled) {
                             continue;
                         }
                     }
@@ -115,11 +123,7 @@ public class KAKAO2020공채_기둥과_보_설치 {
                         if (x + 1 < map.length && !map[x + 1][y].isRowInstalled && y - 1 >= 0 && !map[x + 1][y - 1].isColInstalled) {
                             continue;
                         }
-                    }
-
-                    map[x][y].rowRemove();
-                    structureNum--;
-
+                    }*/
                 } else { // 설치
                     if (y - 1 >= 0 && map[x][y - 1].isColInstalled) {
                         map[x][y].rowInstall();
@@ -127,27 +131,13 @@ public class KAKAO2020공채_기둥과_보_설치 {
                     } else if (x + 1 < map.length && y - 1 >= 0 && map[x + 1][y - 1].isColInstalled) {
                         map[x][y].rowInstall();
                         structureNum++;
-                    } else if (x - 1 >= 0 && map[x - 1][y].isRowInstalled && x + 1 < map.length && map[x + 1][y].isRowInstalled) {
+                    } else if ((x - 1 >= 0 && map[x - 1][y].isRowInstalled) && (x + 1 < map.length && map[x + 1][y].isRowInstalled)) {
                         map[x][y].rowInstall();
                         structureNum++;
                     }
                 }
             }
         }
-
-        /*for (int i = 0; i < map.length; i++) {
-            for (int j = 0; j < map.length; j++) {
-                System.out.print(map[i][j].isColInstalled + " ");
-            }
-            System.out.println();
-        }
-        System.out.println();
-        for (int i = 0; i < map.length; i++) {
-            for (int j = 0; j < map.length; j++) {
-                System.out.print(map[i][j].isRowInstalled + " ");
-            }
-            System.out.println();
-        }*/
 
         int[][] answer = new int[structureNum][3];
         int index = 0;
@@ -169,11 +159,36 @@ public class KAKAO2020공채_기둥과_보_설치 {
         }
         return answer;
     }
+
+    private static boolean isAllConstructOk(Contructure[][] contructures) {
+        for (int i = 0; i < contructures.length; i++) {
+            for (int j = 0; j < contructures.length; j++) {
+                if (contructures[i][j].isColInstalled) {
+                    if (j != 0 && !(contructures[i][j - 1].isColInstalled) && !contructures[i][j].isRowInstalled && !(i - 1 >= 0 && contructures[i - 1][j].isRowInstalled)) {
+                        return false;
+                    }
+                }
+
+                if (contructures[i][j].isRowInstalled) {
+                    if (!(j - 1 >= 0 && contructures[i][j - 1].isColInstalled) && !(i + 1 < contructures.length && j - 1 >= 0 && contructures[i + 1][j - 1].isColInstalled) && !(i + 1 < contructures.length && contructures[i + 1][j].isRowInstalled && i - 1 >= 0 && contructures[i - 1][j].isRowInstalled)) {
+                        return false;
+                    }
+                }
+            }
+        }
+        return true;
+    }
+
 }
 
 class Contructure {
     public boolean isColInstalled;
     public boolean isRowInstalled;
+
+    public Contructure() {
+        this.isRowInstalled = false;
+        this.isColInstalled = false;
+    }
 
     public void colInstall() {
         this.isColInstalled = true;

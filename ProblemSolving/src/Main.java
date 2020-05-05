@@ -1,13 +1,18 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
 
-        String a = "sd";
-        a = a.substring(1, a.length() - 1);
-        System.out.println(a);
-
-        String b = "0.2";
-        System.out.println(Double.parseDouble(b));
-
+        /*String a = "0002";
+        System.out.println(Integer.parseInt(a));
+        String[] as = {"abc", "ab", "abcd", "a"};
+        Arrays.sort(as);
+        for (int i = 0; i < as.length; i++) {
+            System.out.println(as[i]);
+        }*/
+        String b = "ab";
+        String c = "abc";
+        System.out.println(b.compareTo(c));  //양수
 
         /* for (int i = 0; i < 8; i++) {
             for (int j = i+1; j <9 ; j++) {

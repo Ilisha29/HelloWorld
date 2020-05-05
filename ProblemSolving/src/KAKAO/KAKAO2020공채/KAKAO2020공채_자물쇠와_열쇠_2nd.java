@@ -44,8 +44,6 @@ public class KAKAO2020공채_자물쇠와_열쇠_2nd {
                 }
             }
         }
-
-
         for (int i = 0; i < newLcck.length; i++) {
             for (int j = 0; j < newLcck.length; j++) {
                 System.out.print(newLcck[i][j]);
@@ -63,7 +61,6 @@ public class KAKAO2020공채_자물쇠와_열쇠_2nd {
                 tmp[i][j] = key[key.length - 1 - j][i];
             }
         }
-
         for (int i = 0; i < key.length; i++) {
             for (int j = 0; j < key.length; j++) {
                 key[i][j] = tmp[i][j];

@@ -7,12 +7,12 @@ public class KAKAO2018공채_자동완성 {
     public static void main(String[] args) {
         String[][] strings = {{"go", "gone", "guild"}, {"abc", "def", "ghi", "jklm"}, {"word", "war", "warrior", "world"}};
         for (int i = 0; i < strings.length; i++) {
-            System.out.println(solution(strings[i]));
+            //System.out.println(solution(strings[i]));
         }
     }
 
     //모든 단어는 알파벳 소문자로 구성되며 단어의 수 N과 단어들의 길이의 총합 L의 범위는 다음과 같다.
-    public static int solution(String[] words) {
+    /*public static int solution(String[] words) {
         int answer = 0;
         Trie trie = new Trie();
         for (String string : words) {
@@ -29,7 +29,7 @@ public class KAKAO2018공채_자동완성 {
                 }
             }
         }
-        /*for (int i = 0; i < words.length; i++) {
+        *//*for (int i = 0; i < words.length; i++) {
             String findWord = "";
             String[] strings = words[i].split("");
 
@@ -60,9 +60,9 @@ public class KAKAO2018공채_자동완성 {
                 }
             }
             if (!isFindAnswer) answer += words[i].length();
-        }*/
+        }*//*
         return answer;
-    }
+    }*/
 }
 
 class Trie {

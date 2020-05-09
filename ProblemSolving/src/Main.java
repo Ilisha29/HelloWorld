@@ -2,7 +2,13 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
+        String s = "100-200*300-500+20";
+        String[] strings = s.split("[^0-9]");
+        for (int i = 0; i < strings.length; i++) {
+            System.out.println(strings[i]);
+        }
 
+    }
         /*String a = "0002";
         System.out.println(Integer.parseInt(a));
         String[] as = {"abc", "ab", "abcd", "a"};
@@ -10,10 +16,10 @@ public class Main {
         for (int i = 0; i < as.length; i++) {
             System.out.println(as[i]);
         }*/
-        String b = "ab";
+        /*String b = "ab";
         String c = "abc";
         System.out.println(b.compareTo(c));  //양수
-
+        */
         /* for (int i = 0; i < 8; i++) {
             for (int j = i+1; j <9 ; j++) {
                 for (int k = j+1 ; k < 10 ; k++) {
@@ -21,7 +27,7 @@ public class Main {
                 }
             }
         }*/
-    }
+
 
     /*public static void main(String[] args) {
         int[] array = {4,4,8,8};

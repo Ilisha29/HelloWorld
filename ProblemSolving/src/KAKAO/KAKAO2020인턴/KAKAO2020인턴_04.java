@@ -1,6 +1,5 @@
 package KAKAO.KAKAO2020인턴;
 
-
 import java.util.LinkedList;
 import java.util.Queue;
 

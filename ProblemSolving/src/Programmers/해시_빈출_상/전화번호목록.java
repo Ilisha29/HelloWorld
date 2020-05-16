@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
 
+// 14 : 00
 public class 전화번호목록 {
     public static void main(String[] args) {
         String[][] strings = {{"119", "97674223", "1195524421"}, {"123", "456", "789"}, {"12", "123", "1235", "567", "88"}};

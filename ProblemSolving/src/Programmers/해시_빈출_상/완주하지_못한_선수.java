@@ -1,4 +1,4 @@
-package Programmers;
+package Programmers.해시_빈출_상;
 
 import java.util.HashMap;
 

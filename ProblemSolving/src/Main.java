@@ -2,11 +2,10 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        String s = "100-200*300-500+20";
-        String[] strings = s.split("[^0-9]");
-        for (int i = 0; i < strings.length; i++) {
-            System.out.println(strings[i]);
-        }
+
+        int a = 11;
+        System.out.println(Integer.bitCount(a));
+        System.out.println(Integer.toBinaryString(a));
 
     }
         /*String a = "0002";

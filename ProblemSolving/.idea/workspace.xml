@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Programmers/해시_빈출_상/위장.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Programmers/해시_빈출_상/베스트앨범.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Programmers/완주하지_못한_선수.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programmers/해시_빈출_상/완주하지_못한_선수.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Programmers/전화번호_목록.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Programmers/해시_빈출_상/전화번호목록.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programmers/해시_빈출_상/전화번호목록.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -89,24 +86,24 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="2" />
-          <entry key="java" value="276" />
+          <entry key="java" value="277" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="276" />
+          <entry key="JAVA" value="277" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="64" />
-          <entry key="java" value="160540" />
+          <entry key="java" value="162027" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="160540" />
+          <entry key="JAVA" value="162027" />
           <entry key="PLAIN_TEXT" value="64" />
         </counts>
       </usages-collector>
@@ -148,15 +145,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/KAKAO/KAKAO2020인턴/KAKAO2020인턴_03.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/KAKAO/KAKAO2020인턴/KAKAO2020인턴_04.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
@@ -180,11 +168,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Programmers/해시_빈출_상/위장.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+            <state relative-caret-position="266">
+              <caret line="14" column="50" lean-forward="true" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Programmers/해시_빈출_상/베스트앨범.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="454">
+              <caret line="97" column="1" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="97" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -210,8 +210,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Programmers/해시_빈출_상/완주하지_못한_선수.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="323">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -242,7 +242,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/연습할것/IteratorEx.java" />
         <option value="$PROJECT_DIR$/src/BOJ/BOJ16235.java" />
         <option value="$PROJECT_DIR$/src/BOJ/BOJ17143.java" />
         <option value="$PROJECT_DIR$/src/KAKAO/KAKAO2020_자물쇠와_열쇠.java" />
@@ -293,6 +292,7 @@
         <option value="$PROJECT_DIR$/src/KAKAO/KAKAO2020인턴/KAKAO2020인턴_04.java" />
         <option value="$PROJECT_DIR$/src/Programmers/해시_빈출_상/전화번호목록.java" />
         <option value="$PROJECT_DIR$/src/Programmers/해시_빈출_상/위장.java" />
+        <option value="$PROJECT_DIR$/src/Programmers/해시_빈출_상/베스트앨범.java" />
       </list>
     </option>
   </component>
@@ -356,7 +356,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589625528981" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589685425814" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../spring-petclinic" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -380,7 +380,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.위장">
+  <component name="RunManager" selected="Application.베스트앨범">
     <configuration name="전화번호목록" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Programmers.해시_빈출_상.전화번호목록" />
       <module name="ProblemSolving" />
@@ -396,6 +396,19 @@
     </configuration>
     <configuration name="위장" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Programmers.해시_빈출_상.위장" />
+      <module name="ProblemSolving" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Programmers.해시_빈출_상.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="베스트앨범" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Programmers.해시_빈출_상.베스트앨범" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
@@ -446,27 +459,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="ProblemSolving" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.KAKAO2020인턴_02" />
       <item itemvalue="Application.KAKAO2020인턴_04" />
       <item itemvalue="Application.전화번호목록" />
       <item itemvalue="Application.위장" />
+      <item itemvalue="Application.베스트앨범" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.베스트앨범" />
         <item itemvalue="Application.위장" />
         <item itemvalue="Application.전화번호목록" />
         <item itemvalue="Application.KAKAO2020인턴_04" />
         <item itemvalue="Application.KAKAO2020인턴_02" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -549,12 +555,12 @@
       <workItem from="1584805756930" duration="1006000" />
       <workItem from="1585026602038" duration="66970000" />
       <workItem from="1585531872394" duration="163525000" />
-      <workItem from="1587556130090" duration="227808000" />
+      <workItem from="1587556130090" duration="232651000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="863581000" />
+    <option name="totallyTimeSpent" value="868424000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -575,10 +581,10 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.47714287" visible="true" weight="0.22334754" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.47714287" visible="true" weight="0.22334754" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32778355" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.35691988" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.35691988" />
       <window_info anchor="bottom" x="0" y="160" width="1322" height="321" id="Debug" order="3" weight="0.4651405" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1209,16 +1215,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/KAKAO/KAKAO2020공채/KAKAO2020_문자열_압축.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/KAKAO/KAKAO2020공채/KAKAO2020_블록_이동하기.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1620,13 +1616,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Programmers/해시_빈출_상/완주하지_못한_선수.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/연습할것/Permutation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1643,8 +1632,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Programmers/해시_빈출_상/위장.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        <state relative-caret-position="266">
+          <caret line="14" column="50" lean-forward="true" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Programmers/해시_빈출_상/완주하지_못한_선수.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Programmers/해시_빈출_상/베스트앨범.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="97" column="1" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="97" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

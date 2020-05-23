@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.Vector;
 
 public class Main {
     public static void main(String[] args) {
@@ -6,7 +7,8 @@ public class Main {
         int a = 11;
         System.out.println(Integer.bitCount(a));
         System.out.println(Integer.toBinaryString(a));
-
+        Vector<Integer> integers = new Vector<>();
+        integers.add(3);
     }
         /*String a = "0002";
         System.out.println(Integer.parseInt(a));

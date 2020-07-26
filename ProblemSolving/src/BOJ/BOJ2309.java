@@ -12,23 +12,25 @@ public class BOJ2309 {
         for (int i = 0; i < 9; i++) {
             arr[i] = Integer.parseInt(bufferedReader.readLine());
         }
-        Arrays.sort(arr);
-        for (int i = 0; i < Math.pow(2, 9); i++) {
-            int sum = 0;
-            if (Integer.bitCount(i) == 7) {
-                String[] strings = Integer.toBinaryString(i).split("");
-                for (int j = 0; j < strings.length; j++) {
-                    if (strings[j].equals("1")) {
-                        sum += arr[j];
-                    }
-                }
-                if (sum == 100) {
-                    for (int j = 0; j < strings.length; j++) {
-                        if (strings[j].equals("1")) {
-                            System.out.println(arr[j]);
-                        }
-                    }
+        int sum = 0;
+        for (int i = 0; i < 9; i++) {
+            sum += arr[i];
+        }
+        boolean isfind = false;
+        for (int i = 0; i < 9; i++) {
+            for (int j = 0; j < 9; j++) {
+                if (isfind)
                     break;
+                if (i == j)
+                    continue;
+                if (sum - arr[i] - arr[j] == 100) {
+                    arr[i] = 101;
+                    arr[j] = 101;
+                    Arrays.sort(arr);
+                    for (int k = 0; k < 7; k++) {
+                        System.out.println(arr[k]);
+                    }
+                    isfind = true;
                 }
             }
         }

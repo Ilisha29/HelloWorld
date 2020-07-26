@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BOJ/BOJ4659.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BOJ/BOJ2775.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BOJ/BOJ2309.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/BOJ2309.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/BOJ2503.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/BOJ2503.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -91,24 +92,24 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="2" />
-          <entry key="java" value="324" />
+          <entry key="java" value="326" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="324" />
+          <entry key="JAVA" value="326" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="64" />
-          <entry key="java" value="168576" />
+          <entry key="java" value="169235" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="168576" />
+          <entry key="JAVA" value="169235" />
           <entry key="PLAIN_TEXT" value="64" />
         </counts>
       </usages-collector>
@@ -116,44 +117,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BOJ/BOJ2503.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="48" column="14" lean-forward="true" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/BOJ/BOJ4659.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="57" column="40" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ex.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            <state relative-caret-position="560">
+              <caret line="76" column="20" lean-forward="true" selection-end-line="88" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -187,7 +155,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/KAKAO/KAKAO2019공채/KAKAO2019공채_셔틀버스.java" />
         <option value="$PROJECT_DIR$/src/KAKAO/KAKAO2018공채/KAKAO2019_블록게임.java" />
         <option value="$PROJECT_DIR$/src/KAKAO/KAKAO2019공채/KAKAO2019_블록게임.java" />
         <option value="$PROJECT_DIR$/src/KAKAO/KAKAO2018공채/KAKAO2018공채_셔틀버스.java" />
@@ -234,10 +201,11 @@
         <option value="$PROJECT_DIR$/src/BOJ/BOJ2941.java" />
         <option value="$PROJECT_DIR$/src/BOJ/BOJ4344.java" />
         <option value="$PROJECT_DIR$/src/BOJ/BOJ2751.java" />
-        <option value="$PROJECT_DIR$/src/BOJ/BOJ2309.java" />
-        <option value="$PROJECT_DIR$/src/BOJ/BOJ2503.java" />
         <option value="$PROJECT_DIR$/src/ex.java" />
         <option value="$PROJECT_DIR$/src/BOJ/BOJ4659.java" />
+        <option value="$PROJECT_DIR$/src/BOJ/BOJ2309.java" />
+        <option value="$PROJECT_DIR$/src/BOJ/BOJ2775.java" />
+        <option value="$PROJECT_DIR$/src/BOJ/BOJ2503.java" />
       </list>
     </option>
   </component>
@@ -288,7 +256,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595759726904" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595767161686" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../spring-petclinic" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -312,7 +280,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BOJ4659">
+  <component name="RunManager" selected="Application.BOJ2503">
     <configuration name="BOJ2309" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BOJ.BOJ2309" />
       <module name="ProblemSolving" />
@@ -339,8 +307,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ2751" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.BOJ2751" />
+    <configuration name="BOJ2775" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.BOJ2775" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
@@ -386,19 +354,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BOJ2751" />
       <item itemvalue="Application.BOJ2309" />
       <item itemvalue="Application.BOJ2503" />
       <item itemvalue="Application.ex" />
       <item itemvalue="Application.BOJ4659" />
+      <item itemvalue="Application.BOJ2775" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BOJ2503" />
+        <item itemvalue="Application.BOJ2775" />
         <item itemvalue="Application.BOJ4659" />
         <item itemvalue="Application.ex" />
-        <item itemvalue="Application.BOJ2503" />
         <item itemvalue="Application.BOJ2309" />
-        <item itemvalue="Application.BOJ2751" />
       </list>
     </recent_temporary>
   </component>
@@ -488,12 +456,12 @@
       <workItem from="1590314120726" duration="701000" />
       <workItem from="1595163287367" duration="16218000" />
       <workItem from="1595495477680" duration="7000" />
-      <workItem from="1595747780465" duration="8066000" />
+      <workItem from="1595747780465" duration="11291000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="902747000" />
+    <option name="totallyTimeSpent" value="905972000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -506,6 +474,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-326" y="760" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.5228571" side_tool="true" weight="0.12934947" />
       <window_info id="Image Layers" order="1" />
@@ -1147,13 +1116,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/KAKAO/KAKAO2020공채/KAKAO2020공채_기둥과_보_설치.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/KAKAO/KAKAO2020인턴/KAKAO2020인턴_02.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-993">
@@ -1372,16 +1334,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BOJ/BOJ2309.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/꿀팁들.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -1479,20 +1431,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BOJ/BOJ2503.java">
+    <entry file="file://$PROJECT_DIR$/src/BOJ/BOJ4659.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="48" column="14" lean-forward="true" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
+        <state relative-caret-position="924">
+          <caret line="42" column="27" lean-forward="true" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ex.java">
+    <entry file="file://$PROJECT_DIR$/src/BOJ/BOJ2309.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        <state relative-caret-position="304">
+          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BOJ/BOJ2775.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="26" column="32" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1506,10 +1471,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BOJ/BOJ4659.java">
+    <entry file="file://$PROJECT_DIR$/src/ex.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="57" column="40" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
+        <state relative-caret-position="152">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BOJ/BOJ2503.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="76" column="20" lean-forward="true" selection-end-line="88" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

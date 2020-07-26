@@ -21,13 +21,13 @@ public class BOJ2503 {
             }
         }
         int rep = Integer.parseInt(bufferedReader.readLine());
-        StringTokenizer stringTokenizer;
         for (int i = 0; i < rep; i++) {
-            stringTokenizer = new StringTokenizer(bufferedReader.readLine());
+            StringTokenizer stringTokenizer = new StringTokenizer(bufferedReader.readLine());
             int num = Integer.parseInt(stringTokenizer.nextToken());
             int strike = Integer.parseInt(stringTokenizer.nextToken());
             int ball = Integer.parseInt(stringTokenizer.nextToken());
-            for (int j = 0; j < integerQueue.size(); j++) {
+            int queueSize = integerQueue.size();
+            for (int j = 0; j < queueSize; j++) {
                 int tmp = integerQueue.poll();
                 if (check(num, strike, ball, tmp)) {
                     integerQueue.offer(tmp);
@@ -80,7 +80,6 @@ public class BOJ2503 {
                 }
             }
         }
-        System.out.println("tmp : " + tmp + " tmpStrike : " + tmp+"tmp : " + tmp+"tmp : " + tmp);
         if (tmpBall == ball && tmpStrike == strike) {
             return true;
         }

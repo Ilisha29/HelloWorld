@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/BOJ/BOJ4706.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +76,7 @@
       <recent name="BOJ" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BOJ3135">
+  <component name="RunManager" selected="Application.BOJ4706">
     <configuration name="BOJ1158" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BOJ.BOJ1158" />
       <module name="ProblemSolving" />
@@ -91,19 +92,6 @@
     </configuration>
     <configuration name="BOJ2503" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BOJ.BOJ2503" />
-      <module name="ProblemSolving" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BOJ.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BOJ2775" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.BOJ2775" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
@@ -141,20 +129,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BOJ4706" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.BOJ4706" />
+      <module name="ProblemSolving" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BOJ.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.BOJ2503" />
-      <item itemvalue="Application.BOJ2775" />
       <item itemvalue="Application.BOJ2869" />
       <item itemvalue="Application.BOJ1158" />
       <item itemvalue="Application.BOJ3135" />
+      <item itemvalue="Application.BOJ4706" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BOJ4706" />
         <item itemvalue="Application.BOJ3135" />
         <item itemvalue="Application.BOJ1158" />
         <item itemvalue="Application.BOJ2869" />
         <item itemvalue="Application.BOJ2503" />
-        <item itemvalue="Application.BOJ2775" />
       </list>
     </recent_temporary>
   </component>
@@ -265,22 +266,22 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="297" key="GridCell.Tab.0.bottom" timestamp="1595916410379">
+    <state width="1877" height="297" key="GridCell.Tab.0.bottom" timestamp="1596026662329">
       <screen x="-318" y="768" width="1920" height="1080" />
     </state>
-    <state width="1877" height="297" key="GridCell.Tab.0.bottom/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1595916410379" />
-    <state width="1877" height="297" key="GridCell.Tab.0.center" timestamp="1595916410378">
+    <state width="1877" height="297" key="GridCell.Tab.0.bottom/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1596026662329" />
+    <state width="1877" height="297" key="GridCell.Tab.0.center" timestamp="1596026662328">
       <screen x="-318" y="768" width="1920" height="1080" />
     </state>
-    <state width="1877" height="297" key="GridCell.Tab.0.center/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1595916410378" />
-    <state width="1877" height="297" key="GridCell.Tab.0.left" timestamp="1595916410378">
+    <state width="1877" height="297" key="GridCell.Tab.0.center/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1596026662328" />
+    <state width="1877" height="297" key="GridCell.Tab.0.left" timestamp="1596026662328">
       <screen x="-318" y="768" width="1920" height="1080" />
     </state>
-    <state width="1877" height="297" key="GridCell.Tab.0.left/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1595916410378" />
-    <state width="1877" height="297" key="GridCell.Tab.0.right" timestamp="1595916410378">
+    <state width="1877" height="297" key="GridCell.Tab.0.left/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1596026662328" />
+    <state width="1877" height="297" key="GridCell.Tab.0.right" timestamp="1596026662329">
       <screen x="-318" y="768" width="1920" height="1080" />
     </state>
-    <state width="1877" height="297" key="GridCell.Tab.0.right/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1595916410378" />
+    <state width="1877" height="297" key="GridCell.Tab.0.right/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1596026662329" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

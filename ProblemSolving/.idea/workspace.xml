@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BOJ/BOJ1158.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BOJ/BOJ2110.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,12 +52,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-326" />
-    <option name="y" value="760" />
-    <option name="width" value="1936" />
-    <option name="height" value="1096" />
-  </component>
   <component name="ProjectId" id="1fE79ISg0yHX3Zc6f1CNGcW3lU6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -72,6 +64,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595828568371" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../spring-petclinic" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -82,7 +75,7 @@
       <recent name="BOJ" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BOJ1158">
+  <component name="RunManager" selected="Application.BOJ3135">
     <configuration name="BOJ1158" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BOJ.BOJ1158" />
       <module name="ProblemSolving" />
@@ -135,8 +128,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ4659" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.BOJ4659" />
+    <configuration name="BOJ3135" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.BOJ3135" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
@@ -150,18 +143,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.BOJ2503" />
-      <item itemvalue="Application.BOJ4659" />
       <item itemvalue="Application.BOJ2775" />
       <item itemvalue="Application.BOJ2869" />
       <item itemvalue="Application.BOJ1158" />
+      <item itemvalue="Application.BOJ3135" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BOJ3135" />
         <item itemvalue="Application.BOJ1158" />
         <item itemvalue="Application.BOJ2869" />
         <item itemvalue="Application.BOJ2503" />
         <item itemvalue="Application.BOJ2775" />
-        <item itemvalue="Application.BOJ4659" />
       </list>
     </recent_temporary>
   </component>
@@ -272,22 +265,22 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="297" key="GridCell.Tab.0.bottom" timestamp="1595771645554">
+    <state width="1877" height="297" key="GridCell.Tab.0.bottom" timestamp="1595916410379">
       <screen x="-318" y="768" width="1920" height="1080" />
     </state>
-    <state width="1877" height="297" key="GridCell.Tab.0.bottom/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1595771645554" />
-    <state width="1877" height="297" key="GridCell.Tab.0.center" timestamp="1595771645553">
+    <state width="1877" height="297" key="GridCell.Tab.0.bottom/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1595916410379" />
+    <state width="1877" height="297" key="GridCell.Tab.0.center" timestamp="1595916410378">
       <screen x="-318" y="768" width="1920" height="1080" />
     </state>
-    <state width="1877" height="297" key="GridCell.Tab.0.center/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1595771645553" />
-    <state width="1877" height="297" key="GridCell.Tab.0.left" timestamp="1595771645552">
+    <state width="1877" height="297" key="GridCell.Tab.0.center/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1595916410378" />
+    <state width="1877" height="297" key="GridCell.Tab.0.left" timestamp="1595916410378">
       <screen x="-318" y="768" width="1920" height="1080" />
     </state>
-    <state width="1877" height="297" key="GridCell.Tab.0.left/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1595771645552" />
-    <state width="1877" height="297" key="GridCell.Tab.0.right" timestamp="1595771645554">
+    <state width="1877" height="297" key="GridCell.Tab.0.left/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1595916410378" />
+    <state width="1877" height="297" key="GridCell.Tab.0.right" timestamp="1595916410378">
       <screen x="-318" y="768" width="1920" height="1080" />
     </state>
-    <state width="1877" height="297" key="GridCell.Tab.0.right/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1595771645554" />
+    <state width="1877" height="297" key="GridCell.Tab.0.right/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1595916410378" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

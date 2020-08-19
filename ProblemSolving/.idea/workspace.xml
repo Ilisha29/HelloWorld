@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BOJ/BOJ11047.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BOJ/BOJ11399.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BOJ/BOJ1712.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BOJ/BOJ1931.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/KAKAO/KAKAO2020인턴/Car2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/KAKAO/KAKAO2020인턴/Car2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/KAKAO/KAKAO2020인턴/경주로건설.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/KAKAO/KAKAO2020인턴/경주로건설.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/Toss/Card.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/Toss/Hello_World.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/Toss/ps01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/Toss/ps02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/Toss/ps03.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/Toss/ps04.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/Toss/ps05.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/Toss/ps06.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/Toss/ps07.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/Toss/write01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KAKAO/KAKAO2020인턴/경주로건설.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KAKAO/KAKAO2020인턴/경주로건설.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/BOJ/BOJ1946.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/BOJ/BOJ1946.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/BOJ1946.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/BOJ1946.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,22 +46,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="8" />
+          <entry key="java" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="8" />
+          <entry key="JAVA" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3974" />
+          <entry key="java" value="5858" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3974" />
+          <entry key="JAVA" value="5858" />
         </counts>
       </usages-collector>
     </session>
@@ -126,11 +113,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BOJ/BOJ11047.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
+            <state relative-caret-position="433">
               <caret line="29" column="1" lean-forward="true" selection-start-line="2" selection-end-line="29" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BOJ/BOJ1946.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="404">
+              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BOJ/BOJ1931.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -178,6 +189,8 @@
         <option value="$PROJECT_DIR$/src/BOJ/BOJ1712.java" />
         <option value="$PROJECT_DIR$/src/BOJ/BOJ11399.java" />
         <option value="$PROJECT_DIR$/src/BOJ/BOJ11047.java" />
+        <option value="$PROJECT_DIR$/src/BOJ/BOJ1946.java" />
+        <option value="$PROJECT_DIR$/src/BOJ/BOJ1931.java" />
       </list>
     </option>
   </component>
@@ -261,7 +274,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597734811537" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597842465830" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../spring-petclinic" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
@@ -286,20 +299,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BOJ11047">
-    <configuration name="경주로건설" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO2020인턴.경주로건설" />
-      <module name="ProblemSolving" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="KAKAO.KAKAO2020인턴.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.BOJ1931">
     <configuration name="BOJ11047" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BOJ.BOJ11047" />
       <module name="ProblemSolving" />
@@ -339,12 +339,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KAKAO2019_무지의먹방라이브" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO2019공채.KAKAO2019_무지의먹방라이브" />
+    <configuration name="BOJ1931" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.BOJ1931" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="KAKAO.KAKAO2019공채.*" />
+          <option name="PATTERN" value="BOJ.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BOJ1946" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.BOJ1946" />
+      <module name="ProblemSolving" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BOJ.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -353,19 +366,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.경주로건설" />
-      <item itemvalue="Application.KAKAO2019_무지의먹방라이브" />
       <item itemvalue="Application.BOJ1712" />
       <item itemvalue="Application.BOJ11399" />
       <item itemvalue="Application.BOJ11047" />
+      <item itemvalue="Application.BOJ1946" />
+      <item itemvalue="Application.BOJ1931" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BOJ1931" />
+        <item itemvalue="Application.BOJ1946" />
         <item itemvalue="Application.BOJ11047" />
         <item itemvalue="Application.BOJ11399" />
         <item itemvalue="Application.BOJ1712" />
-        <item itemvalue="Application.KAKAO2019_무지의먹방라이브" />
-        <item itemvalue="Application.경주로건설" />
       </list>
     </recent_temporary>
   </component>
@@ -460,12 +473,12 @@
       <workItem from="1595823353151" duration="3394000" />
       <workItem from="1595834332563" duration="84000" />
       <workItem from="1595915425573" duration="8000" />
-      <workItem from="1596629487390" duration="17922000" />
+      <workItem from="1596629487390" duration="25732000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17922000" />
+    <option name="totallyTimeSpent" value="25732000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -494,7 +507,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2112383" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18730488" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39958376" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1200,8 +1213,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BOJ/BOJ11047.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
+        <state relative-caret-position="433">
           <caret line="29" column="1" lean-forward="true" selection-start-line="2" selection-end-line="29" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BOJ/BOJ1946.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BOJ/BOJ1931.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

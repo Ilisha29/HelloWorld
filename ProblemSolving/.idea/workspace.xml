@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BOJ/BOJ1931.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/BOJ/BOJ1946.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/BOJ/BOJ1946.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ/BOJ1946.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/BOJ1946.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/BOJ1931.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/BOJ1931.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,22 +44,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="10" />
+          <entry key="java" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="10" />
+          <entry key="JAVA" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5858" />
+          <entry key="java" value="6344" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5858" />
+          <entry key="JAVA" value="6344" />
         </counts>
       </usages-collector>
     </session>
@@ -137,11 +135,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BOJ/BOJ1931.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+            <state relative-caret-position="286">
+              <caret line="37" selection-start-line="37" selection-end-line="37" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BOJ/BOj1339.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="29" column="1" lean-forward="true" selection-start-line="2" selection-end-line="29" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -191,6 +201,7 @@
         <option value="$PROJECT_DIR$/src/BOJ/BOJ11047.java" />
         <option value="$PROJECT_DIR$/src/BOJ/BOJ1946.java" />
         <option value="$PROJECT_DIR$/src/BOJ/BOJ1931.java" />
+        <option value="$PROJECT_DIR$/src/BOJ/BOj1339.java" />
       </list>
     </option>
   </component>
@@ -201,8 +212,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-71" />
-    <option name="y" value="1002" />
+    <option name="x" value="-56" />
+    <option name="y" value="1097" />
     <option name="width" value="1366" />
     <option name="height" value="728" />
   </component>
@@ -274,7 +285,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597842465830" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597907054389" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../spring-petclinic" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
@@ -299,7 +310,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BOJ1931">
+  <component name="RunManager" selected="Application.BOj1339">
     <configuration name="BOJ11047" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BOJ.BOJ11047" />
       <module name="ProblemSolving" />
@@ -315,19 +326,6 @@
     </configuration>
     <configuration name="BOJ11399" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BOJ.BOJ11399" />
-      <module name="ProblemSolving" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BOJ.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BOJ1712" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.BOJ1712" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
@@ -365,20 +363,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BOj1339" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.BOj1339" />
+      <module name="ProblemSolving" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BOJ.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.BOJ1712" />
       <item itemvalue="Application.BOJ11399" />
       <item itemvalue="Application.BOJ11047" />
       <item itemvalue="Application.BOJ1946" />
       <item itemvalue="Application.BOJ1931" />
+      <item itemvalue="Application.BOj1339" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BOj1339" />
         <item itemvalue="Application.BOJ1931" />
         <item itemvalue="Application.BOJ1946" />
         <item itemvalue="Application.BOJ11047" />
         <item itemvalue="Application.BOJ11399" />
-        <item itemvalue="Application.BOJ1712" />
       </list>
     </recent_temporary>
   </component>
@@ -473,12 +484,12 @@
       <workItem from="1595823353151" duration="3394000" />
       <workItem from="1595834332563" duration="84000" />
       <workItem from="1595915425573" duration="8000" />
-      <workItem from="1596629487390" duration="25732000" />
+      <workItem from="1596629487390" duration="29510000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25732000" />
+    <option name="totallyTimeSpent" value="29510000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -507,7 +518,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18730488" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32778355" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39958376" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1233,8 +1244,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BOJ/BOJ1931.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        <state relative-caret-position="286">
+          <caret line="37" selection-start-line="37" selection-end-line="37" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BOJ/BOj1339.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="29" column="1" lean-forward="true" selection-start-line="2" selection-end-line="29" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -2,55 +2,50 @@ package KAKAO.KAKAO2019공채;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class KAKAO2019_무지의먹방라이브 {
     public static void main(String[] args) {
-        int[] food_times = {4, 4, 1, 5, 3, 4, 5, 7, 8, 3, 1, 2};
+        int[] food_times = {3, 1, 2};
         long k = 5;
         System.out.println(solution(food_times, k));
     }
 
     public static int solution(int[] food_times, long k) {
-        int answer = 0;
-        ArrayList<Food> arrayList = new ArrayList<>();
+        int answer = -1;
+        ArrayList<Food> foodArrayList = new ArrayList<Food>();
+        Queue<Food> foods = new LinkedList<>();
+        ArrayList<Integer> integers = new ArrayList<>();
         for (int i = 0; i < food_times.length; i++) {
-            answer += food_times[i];
-            arrayList.add(new Food(food_times[i], i));
+            foodArrayList.add(new Food(i + 1, food_times[i]));
         }
-        if (answer <= k) {
-            return -1;
-        } else {
-            answer = 0;
-        }
-        Collections.sort(arrayList);
-        ArrayList<Integer> indexArraylist = new ArrayList<>();
-        int length = arrayList.size();
-        for (int i = 0; i < arrayList.size(); i++) {
-            if (k == 0) {
-                return findAnswer(i + 1, indexArraylist);
-            }
-            if ((length - i) * arrayList.get(i).time < k) {
+        Collections.sort(foodArrayList);
 
+        long beforesize = 0;
+        long list_size = foodArrayList.size();
+        long sum = 0;
+        int index = 0;
+        for (int i = 0; i < foodArrayList.size(); i++) {
+            long gap = (long) foodArrayList.get(i).time - beforesize;
+            if (gap *list_size + sum > k){
+                index = i;
+                break;
             }
+            sum += gap * list_size;
+            beforesize = foodArrayList.get(i).time;
         }
         return answer;
-    }
-
-    private static int findAnswer(int i, ArrayList<Integer> arrayList) {
-        while (arrayList.contains(i)) {
-            i++;
-        }
-        return i;
     }
 }
 
 class Food implements Comparable<Food> {
+    int num;
     int time;
-    int index;
 
-    Food(int time, int index) {
+    Food(int num, int time) {
+        this.num = num;
         this.time = time;
-        this.index = index;
     }
 
     @Override
@@ -59,7 +54,8 @@ class Food implements Comparable<Food> {
             return 1;
         } else if (this.time < o.time) {
             return -1;
-        } else
+        } else {
             return 0;
+        }
     }
 }

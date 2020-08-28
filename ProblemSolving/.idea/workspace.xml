@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="" />
+    <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/BOJ/BOJ18310.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,22 +47,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="21" />
+          <entry key="java" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="21" />
+          <entry key="JAVA" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="14094" />
+          <entry key="java" value="14574" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="14094" />
+          <entry key="JAVA" value="14574" />
         </counts>
       </usages-collector>
     </session>
@@ -161,14 +164,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BOJ/BOJ10825.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" lean-forward="true" selection-end-line="61" selection-end-column="1" />
+            <state relative-caret-position="125">
+              <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+              <folding>
+                <element signature="e#369#377#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BOJ/BOJ18310.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#369#377#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -219,6 +233,7 @@
         <option value="$PROJECT_DIR$/src/BOJ/BOJ18405.java" />
         <option value="$PROJECT_DIR$/src/BOJ/BOJ18428.java" />
         <option value="$PROJECT_DIR$/src/BOJ/BOJ10825.java" />
+        <option value="$PROJECT_DIR$/src/BOJ/BOJ18310.java" />
       </list>
     </option>
   </component>
@@ -228,7 +243,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1" />
     <option name="y" value="967" />
     <option name="width" value="1366" />
@@ -281,7 +296,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598615860139" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598635026971" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../spring-petclinic" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
@@ -309,13 +324,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BOJ10825">
-    <configuration name="문자열재정렬" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="코테대비책.구현.문자열재정렬" />
+  <component name="RunManager" selected="Application.BOJ18310">
+    <configuration name="BOJ10825" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.BOJ10825" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="코테대비책.구현.*" />
+          <option name="PATTERN" value="BOJ.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -323,8 +338,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ10825" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.BOJ10825" />
+    <configuration name="BOJ18310" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.BOJ18310" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
@@ -376,19 +391,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.문자열재정렬" />
       <item itemvalue="Application.BOJ18352" />
       <item itemvalue="Application.BOJ18405" />
       <item itemvalue="Application.BOJ18428" />
       <item itemvalue="Application.BOJ10825" />
+      <item itemvalue="Application.BOJ18310" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BOJ18310" />
         <item itemvalue="Application.BOJ10825" />
         <item itemvalue="Application.BOJ18428" />
         <item itemvalue="Application.BOJ18405" />
         <item itemvalue="Application.BOJ18352" />
-        <item itemvalue="Application.문자열재정렬" />
       </list>
     </recent_temporary>
   </component>
@@ -485,12 +500,12 @@
       <workItem from="1595915425573" duration="8000" />
       <workItem from="1596629487390" duration="36084000" />
       <workItem from="1598173122379" duration="262000" />
-      <workItem from="1598255699134" duration="43771000" />
+      <workItem from="1598255699134" duration="47545000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80117000" />
+    <option name="totallyTimeSpent" value="83891000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -502,7 +517,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-326" y="760" width="1936" height="1096" extended-state="7" />
+    <frame x="-326" y="760" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17430703" />
@@ -1321,11 +1336,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BOJ/BOJ10825.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" lean-forward="true" selection-end-line="61" selection-end-column="1" />
+        <state relative-caret-position="125">
+          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding>
+            <element signature="e#369#377#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BOJ/BOJ18310.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#369#377#0" expanded="true" />
           </folding>
         </state>
       </provider>

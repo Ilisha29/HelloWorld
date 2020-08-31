@@ -1,4 +1,4 @@
-package 연습할것;
+package SeobNote;
 
 public class Permutation {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package 연습할것;
+package SeobNote;
 
 import java.util.ArrayList;
 import java.util.Iterator;

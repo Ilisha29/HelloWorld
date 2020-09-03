@@ -1,4 +1,4 @@
-package 코테대비책;
+package 코테대비책.구현;
 
 public class 시각 {
     public static void main(String[] args) {

@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KAKAO/KAKAO공채연습/_2020/기둥과보설치.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KAKAO/KAKAO공채연습/_2020/기둥과보설치.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/코테대비책/시각.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/코테대비책/시각.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/코테대비책/구현/시각.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/코테대비책/이분탐색/정렬된배열에서특정수의개수구하기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/코테대비책/이분탐색/정렬된배열에서특정수의개수구하기.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,22 +52,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="31" />
+          <entry key="java" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="31" />
+          <entry key="JAVA" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="21761" />
+          <entry key="java" value="22269" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="21761" />
+          <entry key="JAVA" value="22269" />
         </counts>
       </usages-collector>
     </session>
@@ -102,11 +104,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/코테대비책/이분탐색/부품찾기.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+            <state relative-caret-position="330">
+              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/코테대비책/이분탐색/정렬된배열에서특정수의개수구하기.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="463">
+              <caret line="57" column="45" lean-forward="true" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SeobNote/BinarySearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/코테대비책/구현/시각.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -163,6 +192,9 @@
         <option value="$PROJECT_DIR$/src/KAKAO/KAKAO공채연습/_2020/자물쇠와열쇠.java" />
         <option value="$PROJECT_DIR$/src/KAKAO/KAKAO공채연습/_2020/기둥과보설치.java" />
         <option value="$PROJECT_DIR$/src/코테대비책/이분탐색/부품찾기.java" />
+        <option value="$PROJECT_DIR$/src/SeobNote/BinarySearch.java" />
+        <option value="$PROJECT_DIR$/src/코테대비책/구현/시각.java" />
+        <option value="$PROJECT_DIR$/src/코테대비책/이분탐색/정렬된배열에서특정수의개수구하기.java" />
       </list>
     </option>
   </component>
@@ -209,7 +241,20 @@
               <item name="ProblemSolving" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProblemSolving" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="SeobNote" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProblemSolving" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProblemSolving" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="코테대비책" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProblemSolving" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProblemSolving" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="코테대비책" type="462c0819:PsiDirectoryNode" />
+              <item name="이분탐색" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -225,7 +270,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599127509091" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599129847159" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../spring-petclinic" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
@@ -253,7 +298,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.부품찾기">
+  <component name="RunManager" selected="Application.정렬된배열에서특정수의개수구하기">
     <configuration name="문자열압축" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO공채연습._2020.문자열압축" />
       <module name="ProblemSolving" />
@@ -293,12 +338,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ1715" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.BOJ1715" />
+    <configuration name="정렬된배열에서특정수의개수구하기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="코테대비책.이분탐색.정렬된배열에서특정수의개수구하기" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BOJ.*" />
+          <option name="PATTERN" value="코테대비책.이분탐색.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -306,8 +351,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ18310" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.BOJ18310" />
+    <configuration name="BOJ1715" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.BOJ1715" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
@@ -346,19 +391,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BOJ18310" />
       <item itemvalue="Application.BOJ1715" />
       <item itemvalue="Application.문자열압축" />
       <item itemvalue="Application.기둥과보설치" />
       <item itemvalue="Application.부품찾기" />
+      <item itemvalue="Application.정렬된배열에서특정수의개수구하기" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.정렬된배열에서특정수의개수구하기" />
         <item itemvalue="Application.부품찾기" />
         <item itemvalue="Application.기둥과보설치" />
         <item itemvalue="Application.문자열압축" />
         <item itemvalue="Application.BOJ1715" />
-        <item itemvalue="Application.BOJ18310" />
       </list>
     </recent_temporary>
   </component>
@@ -458,12 +503,12 @@
       <workItem from="1598255699134" duration="52188000" />
       <workItem from="1598684043496" duration="998000" />
       <workItem from="1599026371167" duration="14271000" />
-      <workItem from="1599106895518" duration="11645000" />
+      <workItem from="1599106895518" duration="13959000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115448000" />
+    <option name="totallyTimeSpent" value="117762000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -476,7 +521,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-326" y="760" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17910448" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -487,15 +531,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.31009364" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.31009364" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42039543" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3433923" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.31009364" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49946696" weight="0.3433923" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010661" side_tool="true" weight="0.31009364" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3298647" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1262,13 +1306,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/코테대비책/시각.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/코테대비책/구현/게임개발.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="798">
@@ -1389,8 +1426,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/코테대비책/이분탐색/부품찾기.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        <state relative-caret-position="330">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/코테대비책/구현/시각.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SeobNote/BinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/코테대비책/이분탐색/정렬된배열에서특정수의개수구하기.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="57" column="45" lean-forward="true" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
         </state>
       </provider>
     </entry>

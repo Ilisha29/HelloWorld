@@ -4,6 +4,7 @@
     <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/BOJ/BOJ18353.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/BOJ/BOJ18353.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/KAKAO/KAKAO공채연습/ex.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/KAKAO/KAKAO공채연습/ex.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/SeobNote/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/SeobNote/BinarySearch.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/SeobNote/Combination.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/SeobNote/Combination.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/SeobNote/Permutation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/SeobNote/Permutation.class" afterDir="false" />
@@ -363,7 +364,7 @@
       <workItem from="1599184394360" duration="30626000" />
       <workItem from="1599381196541" duration="629000" />
       <workItem from="1599532576597" duration="8771000" />
-      <workItem from="1599545486971" duration="3430000" />
+      <workItem from="1599545486971" duration="4024000" />
     </task>
     <servers />
   </component>
@@ -379,22 +380,22 @@
       <screen x="-318" y="768" width="1920" height="1080" />
     </state>
     <state x="447" y="1013" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599538786460" />
-    <state width="1877" height="247" key="GridCell.Tab.0.bottom" timestamp="1599548652299">
+    <state width="1877" height="247" key="GridCell.Tab.0.bottom" timestamp="1599549336311">
       <screen x="-318" y="768" width="1920" height="1080" />
     </state>
-    <state width="1877" height="247" key="GridCell.Tab.0.bottom/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599548652299" />
-    <state width="1877" height="247" key="GridCell.Tab.0.center" timestamp="1599548652299">
+    <state width="1877" height="247" key="GridCell.Tab.0.bottom/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599549336311" />
+    <state width="1877" height="247" key="GridCell.Tab.0.center" timestamp="1599549336310">
       <screen x="-318" y="768" width="1920" height="1080" />
     </state>
-    <state width="1877" height="247" key="GridCell.Tab.0.center/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599548652299" />
-    <state width="1877" height="247" key="GridCell.Tab.0.left" timestamp="1599548652298">
+    <state width="1877" height="247" key="GridCell.Tab.0.center/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599549336310" />
+    <state width="1877" height="247" key="GridCell.Tab.0.left" timestamp="1599549336310">
       <screen x="-318" y="768" width="1920" height="1080" />
     </state>
-    <state width="1877" height="247" key="GridCell.Tab.0.left/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599548652298" />
-    <state width="1877" height="247" key="GridCell.Tab.0.right" timestamp="1599548652299">
+    <state width="1877" height="247" key="GridCell.Tab.0.left/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599549336310" />
+    <state width="1877" height="247" key="GridCell.Tab.0.right" timestamp="1599549336311">
       <screen x="-318" y="768" width="1920" height="1080" />
     </state>
-    <state width="1877" height="247" key="GridCell.Tab.0.right/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599548652299" />
+    <state width="1877" height="247" key="GridCell.Tab.0.right/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599549336311" />
     <state x="222" y="1042" key="IDE.errors.dialog" timestamp="1599545440901">
       <screen x="-318" y="768" width="1920" height="1080" />
     </state>

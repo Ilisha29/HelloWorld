@@ -2,7 +2,7 @@ package SeobNote;
 
 import java.util.Scanner;
 
-public class binarySearch {
+public class BinarySearch {
     // 이진 탐색 소스코드 구현(반복문)
     public static int binarySearch(int[] arr, int target, int start, int end) {
         while (start <= end) {

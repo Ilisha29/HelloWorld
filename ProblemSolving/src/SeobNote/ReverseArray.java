@@ -1,6 +1,6 @@
 package SeobNote;
 
-public class reverse_array {
+public class ReverseArray {
     public static void main(String[] args) {
         int[] array = {9, 8, 2, 1, 4, 3, 6, 6};
         reverse_array(array);

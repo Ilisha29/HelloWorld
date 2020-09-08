@@ -1,6 +1,6 @@
 package SeobNote;
 
-public class permutation {
+public class Permutation {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5, 6, 7};
         perm(arr, 0, 7, 1);

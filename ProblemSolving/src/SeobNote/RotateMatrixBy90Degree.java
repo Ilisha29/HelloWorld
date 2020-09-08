@@ -1,6 +1,6 @@
 package SeobNote;
 
-public class rotate_a_matrix_by_90_degree {
+public class RotateMatrixBy90Degree {
     public static void main(String[] args) {
         int[][] matrix = {{1, 2}, {3, 4}};
         rotate_a_matrix_by_90_degree(matrix);

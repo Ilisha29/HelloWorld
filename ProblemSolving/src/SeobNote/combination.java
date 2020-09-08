@@ -1,6 +1,6 @@
 package SeobNote;
 
-public class Combination {
+public class combination {
     public static void main(String[] args) {
         int n = 4;
         int[] arr = {1, 2, 3, 4};

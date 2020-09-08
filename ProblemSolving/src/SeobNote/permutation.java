@@ -1,11 +1,12 @@
 package SeobNote;
 
-public class Permutation {
+public class permutation {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5, 6, 7};
-        perm(arr, 0, 7, 2);
+        perm(arr, 0, 7, 1);
     }
 
+    //매개변수로 arrayList를 넣어서 nPr에 맞는 배열만 넣어서 순열문제 해결하기
     public static void perm(int[] arr, int depth, int n, int k) {
         if (depth == k) { // 한번 depth 가 k로 도달하면 사이클이 돌았음. 출력함.
             print(arr, k);

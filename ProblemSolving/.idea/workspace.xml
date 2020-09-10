@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/SeobNote/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/SeobNote/BinarySearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/SeobNote/Combination.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/SeobNote/Combination.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/SeobNote/Permutation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/SeobNote/Permutation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/SeobNote/reverse_array.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/SeobNote/rotate_a_matrix_by_90_degree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/SeobNote/stringReverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/SeobNote/stringReverse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KAKAO/KAKAO공채연습/_2019/후보키.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KAKAO/KAKAO공채연습/_2019/후보키.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +69,7 @@
       <recent name="KAKAO.KAKAO2019공채" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.보석쇼핑">
+  <component name="RunManager" selected="Application.징검다리건너기">
     <configuration name="블록이동하기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO공채연습._2020.블록이동하기" />
       <module name="ProblemSolving" />
@@ -88,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="블록게임" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO공채연습._2019.블록게임" />
+    <configuration name="징검다리건너기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO공채연습._2019인턴.징검다리건너기" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="KAKAO.KAKAO공채연습._2019.*" />
+          <option name="PATTERN" value="KAKAO.KAKAO공채연습._2019인턴.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayDeepCopyEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SeobNote.ArrayDeepCopyEx" />
+    <configuration name="후보키" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO공채연습._2019.후보키" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SeobNote.*" />
+          <option name="PATTERN" value="KAKAO.KAKAO공채연습._2019.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -232,19 +227,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ArrayDeepCopyEx" />
-      <item itemvalue="Application.블록게임" />
       <item itemvalue="Application.매칭점수" />
       <item itemvalue="Application.블록이동하기" />
       <item itemvalue="Application.보석쇼핑" />
+      <item itemvalue="Application.후보키" />
+      <item itemvalue="Application.징검다리건너기" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.징검다리건너기" />
+        <item itemvalue="Application.후보키" />
         <item itemvalue="Application.보석쇼핑" />
         <item itemvalue="Application.블록이동하기" />
         <item itemvalue="Application.매칭점수" />
-        <item itemvalue="Application.블록게임" />
-        <item itemvalue="Application.ArrayDeepCopyEx" />
       </list>
     </recent_temporary>
   </component>
@@ -349,7 +344,7 @@
       <workItem from="1599184394360" duration="30626000" />
       <workItem from="1599381196541" duration="629000" />
       <workItem from="1599532576597" duration="8771000" />
-      <workItem from="1599545486971" duration="49133000" />
+      <workItem from="1599545486971" duration="66358000" />
     </task>
     <servers />
   </component>
@@ -365,22 +360,26 @@
       <screen x="-318" y="768" width="1920" height="1080" />
     </state>
     <state x="447" y="1013" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599538786460" />
-    <state width="1877" height="345" key="GridCell.Tab.0.bottom" timestamp="1599705521099">
+    <state x="424" y="1201" width="435" height="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1599710522724">
       <screen x="-318" y="768" width="1920" height="1080" />
     </state>
-    <state width="1877" height="345" key="GridCell.Tab.0.bottom/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599705521099" />
-    <state width="1877" height="345" key="GridCell.Tab.0.center" timestamp="1599705521098">
+    <state x="424" y="1201" width="435" height="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599710522724" />
+    <state width="1877" height="244" key="GridCell.Tab.0.bottom" timestamp="1599752067734">
       <screen x="-318" y="768" width="1920" height="1080" />
     </state>
-    <state width="1877" height="345" key="GridCell.Tab.0.center/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599705521098" />
-    <state width="1877" height="345" key="GridCell.Tab.0.left" timestamp="1599705521098">
+    <state width="1877" height="244" key="GridCell.Tab.0.bottom/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599752067734" />
+    <state width="1877" height="244" key="GridCell.Tab.0.center" timestamp="1599752067733">
       <screen x="-318" y="768" width="1920" height="1080" />
     </state>
-    <state width="1877" height="345" key="GridCell.Tab.0.left/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599705521098" />
-    <state width="1877" height="345" key="GridCell.Tab.0.right" timestamp="1599705521099">
+    <state width="1877" height="244" key="GridCell.Tab.0.center/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599752067733" />
+    <state width="1877" height="244" key="GridCell.Tab.0.left" timestamp="1599752067731">
       <screen x="-318" y="768" width="1920" height="1080" />
     </state>
-    <state width="1877" height="345" key="GridCell.Tab.0.right/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599705521099" />
+    <state width="1877" height="244" key="GridCell.Tab.0.left/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599752067731" />
+    <state width="1877" height="244" key="GridCell.Tab.0.right" timestamp="1599752067733">
+      <screen x="-318" y="768" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="244" key="GridCell.Tab.0.right/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599752067733" />
     <state x="222" y="1042" key="IDE.errors.dialog" timestamp="1599545440901">
       <screen x="-318" y="768" width="1920" height="1080" />
     </state>
@@ -965,6 +964,22 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="287" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/KAKAO/KAKAO공채연습/_2019/후보키.java</url>
+          <line>35</line>
+          <properties class="KAKAO.KAKAO공채연습._2019.후보키">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="296" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/KAKAO/KAKAO공채연습/_2019인턴/징검다리건너기.java</url>
+          <line>9</line>
+          <properties class="KAKAO.KAKAO공채연습._2019인턴.징검다리건너기" method="solution">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="297" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

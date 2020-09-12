@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SeobNote/ComparableEx.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KAKAO/KAKAO공채연습/_2019/후보키.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KAKAO/KAKAO공채연습/_2019/후보키.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/KAKAO/KAKAO공채연습/_2019인턴/징검다리건너기.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/KAKAO/KAKAO공채연습/_2019인턴/징검다리건너기.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/KAKAO/KAKAO공채연습/_2020/기둥과보설치.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/KAKAO/KAKAO공채연습/_2020/기둥과보설치.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/ex.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/ex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KAKAO/KAKAO공채연습/_2020/기둥과보설치.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KAKAO/KAKAO공채연습/_2020/기둥과보설치.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,13 +71,29 @@
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="BOJ" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Owner\Desktop\seobseob\SeobGit\HelloWorld\ProblemSolving" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="KAKAO.KAKAO2019공채" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.징검다리건너기">
-    <configuration name="블록이동하기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO공채연습._2020.블록이동하기" />
+  <component name="RunManager" selected="Application.ex">
+    <configuration name="기둥과보설치" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO공채연습._2020.기둥과보설치" />
+      <module name="ProblemSolving" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="KAKAO.KAKAO공채연습._2020.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="자물쇠와열쇠" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO공채연습._2020.자물쇠와열쇠" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
@@ -96,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="매칭점수" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO공채연습._2019.매칭점수" />
+    <configuration name="가사검색" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO공채연습._2020.가사검색" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="KAKAO.KAKAO공채연습._2019.*" />
+          <option name="PATTERN" value="KAKAO.KAKAO공채연습._2020.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,21 +131,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="보석쇼핑" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO공채연습._2020인턴.보석쇼핑" />
-      <module name="ProblemSolving" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="KAKAO.KAKAO공채연습._2020인턴.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="후보키" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO공채연습._2019.후보키" />
+    <configuration name="무지의먹방라이브" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO공채연습._2019.무지의먹방라이브" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
@@ -200,46 +209,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="자물쇠와열쇠" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO공채연습._2020.자물쇠와열쇠" />
+    <configuration name="ex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex" />
       <module name="ProblemSolving" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="KAKAO.KAKAO공채연습._2020.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.매칭점수" />
-      <item itemvalue="Application.블록이동하기" />
-      <item itemvalue="Application.보석쇼핑" />
-      <item itemvalue="Application.후보키" />
-      <item itemvalue="Application.징검다리건너기" />
+      <item itemvalue="Application.ex" />
+      <item itemvalue="Application.기둥과보설치" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.징검다리건너기" />
-        <item itemvalue="Application.후보키" />
-        <item itemvalue="Application.보석쇼핑" />
-        <item itemvalue="Application.블록이동하기" />
-        <item itemvalue="Application.매칭점수" />
+        <item itemvalue="Application.ex" />
+        <item itemvalue="Application.기둥과보설치" />
       </list>
     </recent_temporary>
   </component>
@@ -344,7 +339,8 @@
       <workItem from="1599184394360" duration="30626000" />
       <workItem from="1599381196541" duration="629000" />
       <workItem from="1599532576597" duration="8771000" />
-      <workItem from="1599545486971" duration="66358000" />
+      <workItem from="1599545486971" duration="90138000" />
+      <workItem from="1599884829840" duration="352000" />
     </task>
     <servers />
   </component>
@@ -356,30 +352,30 @@
       <screen x="-318" y="768" width="1920" height="1080" />
     </state>
     <state x="96" y="963" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599544679123" />
-    <state x="447" y="1013" key="#com.intellij.ide.util.MemberChooser" timestamp="1599538786460">
+    <state x="447" y="1013" key="#com.intellij.ide.util.MemberChooser" timestamp="1599828626287">
       <screen x="-318" y="768" width="1920" height="1080" />
     </state>
-    <state x="447" y="1013" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599538786460" />
+    <state x="447" y="1013" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599828626287" />
     <state x="424" y="1201" width="435" height="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1599710522724">
       <screen x="-318" y="768" width="1920" height="1080" />
     </state>
     <state x="424" y="1201" width="435" height="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599710522724" />
-    <state width="1877" height="244" key="GridCell.Tab.0.bottom" timestamp="1599752067734">
+    <state width="1877" height="345" key="GridCell.Tab.0.bottom" timestamp="1599885214503">
       <screen x="-318" y="768" width="1920" height="1080" />
     </state>
-    <state width="1877" height="244" key="GridCell.Tab.0.bottom/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599752067734" />
-    <state width="1877" height="244" key="GridCell.Tab.0.center" timestamp="1599752067733">
+    <state width="1877" height="345" key="GridCell.Tab.0.bottom/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599885214503" />
+    <state width="1877" height="345" key="GridCell.Tab.0.center" timestamp="1599885214502">
       <screen x="-318" y="768" width="1920" height="1080" />
     </state>
-    <state width="1877" height="244" key="GridCell.Tab.0.center/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599752067733" />
-    <state width="1877" height="244" key="GridCell.Tab.0.left" timestamp="1599752067731">
+    <state width="1877" height="345" key="GridCell.Tab.0.center/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599885214502" />
+    <state width="1877" height="345" key="GridCell.Tab.0.left" timestamp="1599885214501">
       <screen x="-318" y="768" width="1920" height="1080" />
     </state>
-    <state width="1877" height="244" key="GridCell.Tab.0.left/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599752067731" />
-    <state width="1877" height="244" key="GridCell.Tab.0.right" timestamp="1599752067733">
+    <state width="1877" height="345" key="GridCell.Tab.0.left/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599885214501" />
+    <state width="1877" height="345" key="GridCell.Tab.0.right" timestamp="1599885214502">
       <screen x="-318" y="768" width="1920" height="1080" />
     </state>
-    <state width="1877" height="244" key="GridCell.Tab.0.right/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599752067733" />
+    <state width="1877" height="345" key="GridCell.Tab.0.right/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599885214502" />
     <state x="222" y="1042" key="IDE.errors.dialog" timestamp="1599545440901">
       <screen x="-318" y="768" width="1920" height="1080" />
     </state>
@@ -871,7 +867,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/KAKAO/KAKAO공채연습/_2020/기둥과보설치.java</url>
-          <line>19</line>
+          <line>22</line>
           <option name="timeStamp" value="281" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

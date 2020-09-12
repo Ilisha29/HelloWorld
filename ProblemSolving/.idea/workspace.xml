@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SeobNote/ComparableEx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/KAKAO/KAKAO공채연습/_2019인턴/징검다리건너기.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/KAKAO/KAKAO공채연습/_2019인턴/징검다리건너기.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/KAKAO/KAKAO공채연습/_2020/기둥과보설치.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/KAKAO/KAKAO공채연습/_2020/기둥과보설치.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/ex.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/ex.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KAKAO/KAKAO공채연습/_2020/기둥과보설치.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KAKAO/KAKAO공채연습/_2020/기둥과보설치.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -340,7 +333,7 @@
       <workItem from="1599381196541" duration="629000" />
       <workItem from="1599532576597" duration="8771000" />
       <workItem from="1599545486971" duration="90138000" />
-      <workItem from="1599884829840" duration="352000" />
+      <workItem from="1599884829840" duration="592000" />
     </task>
     <servers />
   </component>

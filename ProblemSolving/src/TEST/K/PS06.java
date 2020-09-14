@@ -1,6 +1,6 @@
-package TEST;
+package TEST.K;
 
-public class PS07 {
+public class PS06 {
     public static void main(String[] args) {
 
     }

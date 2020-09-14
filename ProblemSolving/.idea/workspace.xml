@@ -2,7 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/TEST/K/PS01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TEST/K/PS02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TEST/K/PS03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TEST/K/PS04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TEST/K/PS05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TEST/K/PS07.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/KAKAO/KAKAO공채연습/ex.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/KAKAO/KAKAO공채연습/ex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/SeobNote/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KAKAO/KAKAO공채연습/ex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KAKAO/KAKAO공채연습/ex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TEST/PS01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TEST/PS02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TEST/PS03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TEST/PS04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TEST/PS05.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TEST/PS06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TEST/K/PS06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TEST/PS07.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,15 +82,16 @@
       <recent name="BOJ" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Owner\Desktop\seobseob\SeobGit\HelloWorld\ProblemSolving\src\TEST\K" />
       <recent name="C:\Users\Owner\Desktop\seobseob\SeobGit\HelloWorld\ProblemSolving" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="KAKAO.KAKAO2019공채" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ex">
-    <configuration name="기둥과보설치" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO공채연습._2020.기둥과보설치" />
+  <component name="RunManager" selected="Application.P6">
+    <configuration name="자물쇠와열쇠" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO공채연습._2020.자물쇠와열쇠" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
@@ -85,12 +103,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="자물쇠와열쇠" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO공채연습._2020.자물쇠와열쇠" />
+    <configuration name="P1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TEST.L.P1" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="KAKAO.KAKAO공채연습._2020.*" />
+          <option name="PATTERN" value="TEST.L.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TEST.L.P2" />
+      <module name="ProblemSolving" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TEST.L.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TEST.L.P3" />
+      <module name="ProblemSolving" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TEST.L.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TEST.L.P4" />
+      <module name="ProblemSolving" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TEST.L.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TEST.L.P6" />
+      <module name="ProblemSolving" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TEST.L.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,32 +272,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex" />
-      <module name="ProblemSolving" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.ex" />
-      <item itemvalue="Application.기둥과보설치" />
+      <item itemvalue="Application.자물쇠와열쇠" />
+      <item itemvalue="Application.P2" />
+      <item itemvalue="Application.P3" />
+      <item itemvalue="Application.P1" />
+      <item itemvalue="Application.P4" />
+      <item itemvalue="Application.P6" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ex" />
-        <item itemvalue="Application.기둥과보설치" />
+        <item itemvalue="Application.P6" />
+        <item itemvalue="Application.P4" />
+        <item itemvalue="Application.P1" />
+        <item itemvalue="Application.P3" />
+        <item itemvalue="Application.P2" />
       </list>
     </recent_temporary>
   </component>
@@ -333,7 +392,8 @@
       <workItem from="1599381196541" duration="629000" />
       <workItem from="1599532576597" duration="8771000" />
       <workItem from="1599545486971" duration="90138000" />
-      <workItem from="1599884829840" duration="592000" />
+      <workItem from="1599884829840" duration="35564000" />
+      <workItem from="1600003833760" duration="737000" />
     </task>
     <servers />
   </component>
@@ -345,30 +405,30 @@
       <screen x="-318" y="768" width="1920" height="1080" />
     </state>
     <state x="96" y="963" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599544679123" />
-    <state x="447" y="1013" key="#com.intellij.ide.util.MemberChooser" timestamp="1599828626287">
+    <state x="447" y="1013" key="#com.intellij.ide.util.MemberChooser" timestamp="1599904619826">
       <screen x="-318" y="768" width="1920" height="1080" />
     </state>
-    <state x="447" y="1013" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599828626287" />
+    <state x="447" y="1013" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599904619826" />
     <state x="424" y="1201" width="435" height="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1599710522724">
       <screen x="-318" y="768" width="1920" height="1080" />
     </state>
     <state x="424" y="1201" width="435" height="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599710522724" />
-    <state width="1877" height="345" key="GridCell.Tab.0.bottom" timestamp="1599885214503">
+    <state width="1877" height="345" key="GridCell.Tab.0.bottom" timestamp="1599996080951">
       <screen x="-318" y="768" width="1920" height="1080" />
     </state>
-    <state width="1877" height="345" key="GridCell.Tab.0.bottom/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599885214503" />
-    <state width="1877" height="345" key="GridCell.Tab.0.center" timestamp="1599885214502">
+    <state width="1877" height="345" key="GridCell.Tab.0.bottom/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599996080951" />
+    <state width="1877" height="345" key="GridCell.Tab.0.center" timestamp="1599996080949">
       <screen x="-318" y="768" width="1920" height="1080" />
     </state>
-    <state width="1877" height="345" key="GridCell.Tab.0.center/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599885214502" />
-    <state width="1877" height="345" key="GridCell.Tab.0.left" timestamp="1599885214501">
+    <state width="1877" height="345" key="GridCell.Tab.0.center/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599996080949" />
+    <state width="1877" height="345" key="GridCell.Tab.0.left" timestamp="1599996080949">
       <screen x="-318" y="768" width="1920" height="1080" />
     </state>
-    <state width="1877" height="345" key="GridCell.Tab.0.left/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599885214501" />
-    <state width="1877" height="345" key="GridCell.Tab.0.right" timestamp="1599885214502">
+    <state width="1877" height="345" key="GridCell.Tab.0.left/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599996080949" />
+    <state width="1877" height="345" key="GridCell.Tab.0.right" timestamp="1599996080950">
       <screen x="-318" y="768" width="1920" height="1080" />
     </state>
-    <state width="1877" height="345" key="GridCell.Tab.0.right/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599885214502" />
+    <state width="1877" height="345" key="GridCell.Tab.0.right/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599996080950" />
     <state x="222" y="1042" key="IDE.errors.dialog" timestamp="1599545440901">
       <screen x="-318" y="768" width="1920" height="1080" />
     </state>
@@ -381,10 +441,10 @@
       <screen x="-318" y="768" width="1920" height="1080" />
     </state>
     <state x="110" y="1037" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1596105914277" />
-    <state x="0" y="0" width="1382" height="815" key="dock-window-1" timestamp="1599548955221">
+    <state x="0" y="0" width="1382" height="815" key="dock-window-1" timestamp="1600073976521">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="0" y="0" width="1382" height="815" key="dock-window-1/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599548955221" />
+    <state x="0" y="0" width="1382" height="815" key="dock-window-1/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1600073976521" />
     <state x="305" y="1003" width="672" height="678" key="search.everywhere.popup" timestamp="1599621230668">
       <screen x="-318" y="768" width="1920" height="1080" />
     </state>
@@ -897,6 +957,46 @@
           <url>file://$PROJECT_DIR$/src/KAKAO/KAKAO공채연습/_2020인턴/보석쇼핑.java</url>
           <line>43</line>
           <option name="timeStamp" value="295" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TEST/K/PS01.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="298" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TEST/K/PS02.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="301" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TEST/K/PS03.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="302" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TEST/K/PS03.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="303" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TEST/K/PS03.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="304" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TEST/L/P2.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="305" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TEST/L/P3.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="306" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TEST/L/P4.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="307" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/BOJ/BOJ13460.java</url>

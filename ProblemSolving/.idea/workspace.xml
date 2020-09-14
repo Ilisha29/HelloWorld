@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TEST/K/PS01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TEST/K/PS02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TEST/K/PS03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TEST/K/PS04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TEST/K/PS05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TEST/K/PS07.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/KAKAO/KAKAO공채연습/ex.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/KAKAO/KAKAO공채연습/ex.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/SeobNote/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KAKAO/KAKAO공채연습/ex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KAKAO/KAKAO공채연습/ex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TEST/PS01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TEST/PS02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TEST/PS03.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TEST/PS04.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TEST/PS05.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TEST/PS06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TEST/K/PS06.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TEST/PS07.java" beforeDir="false" />
-    </list>
+    <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -393,7 +374,7 @@
       <workItem from="1599532576597" duration="8771000" />
       <workItem from="1599545486971" duration="90138000" />
       <workItem from="1599884829840" duration="35564000" />
-      <workItem from="1600003833760" duration="737000" />
+      <workItem from="1600003833760" duration="1071000" />
     </task>
     <servers />
   </component>

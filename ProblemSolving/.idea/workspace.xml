@@ -2,29 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BOJ/BOJ7287.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CS/BinaryTreeTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Programmers/완전탐색/카펫.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/TEST/K/Career.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/TEST/K/Comb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/TEST/K/Field.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/TEST/K/Food.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/TEST/K/Language.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/TEST/K/PS01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/TEST/K/PS02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/TEST/K/PS03.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/TEST/K/PS04.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/TEST/K/PS06.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/TEST/K/PS07.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/TEST/K/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/TEST/K/Tree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/TEST/L/Applicant.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/TEST/L/Company.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/TEST/L/P1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/TEST/L/P2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/TEST/L/P3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/TEST/L/P4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/TEST/L/P6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/_문제가_안풀린다면_읽어보자.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/ex.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/ex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +38,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -94,22 +77,9 @@
       <recent name="C:\Users\Owner\Desktop\seobseob\SeobGit\HelloWorld\ProblemSolving" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.소수찾기">
-    <configuration name="소수찾기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Programmers.완전탐색.소수찾기" />
-      <module name="ProblemSolving" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Programmers.완전탐색.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BOJ2573" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.BOJ2573" />
+  <component name="RunManager" selected="Application.BOJ11404">
+    <configuration name="BOJ11404" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.BOJ11404" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
@@ -121,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="코테대비책.Ex" />
+    <configuration name="E1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tmp.E1" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="코테대비책.*" />
+          <option name="PATTERN" value="Tmp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +104,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CS.IsPalindrome" />
+    <configuration name="E2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tmp.E2" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CS.*" />
+          <option name="PATTERN" value="Tmp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tmp.E3" />
+      <module name="ProblemSolving" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tmp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="N3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tmp.N3" />
+      <module name="ProblemSolving" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tmp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="카펫" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Programmers.완전탐색.카펫" />
+      <module name="ProblemSolving" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Programmers.완전탐색.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -238,46 +247,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="prac" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="코테대비책.prac" />
-      <module name="ProblemSolving" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="코테대비책.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.IsPalindrome" />
-      <item itemvalue="Application.Ex" />
-      <item itemvalue="Application.prac" />
-      <item itemvalue="Application.BOJ2573" />
-      <item itemvalue="Application.소수찾기" />
+      <item itemvalue="Application.N3" />
+      <item itemvalue="Application.E1" />
+      <item itemvalue="Application.E2" />
+      <item itemvalue="Application.E3" />
+      <item itemvalue="Application.BOJ11404" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.소수찾기" />
-        <item itemvalue="Application.BOJ2573" />
-        <item itemvalue="Application.prac" />
-        <item itemvalue="Application.Ex" />
-        <item itemvalue="Application.IsPalindrome" />
+        <item itemvalue="Application.BOJ11404" />
+        <item itemvalue="Application.E3" />
+        <item itemvalue="Application.E2" />
+        <item itemvalue="Application.E1" />
+        <item itemvalue="Application.N3" />
       </list>
     </recent_temporary>
   </component>
@@ -388,7 +382,10 @@
       <workItem from="1600090570685" duration="311000" />
       <workItem from="1600410690602" duration="598000" />
       <workItem from="1600489898666" duration="2305000" />
-      <workItem from="1600612862547" duration="24267000" />
+      <workItem from="1600612862547" duration="32369000" />
+      <workItem from="1601024444856" duration="869000" />
+      <workItem from="1601096556808" duration="4307000" />
+      <workItem from="1601166668482" duration="22896000" />
     </task>
     <servers />
   </component>
@@ -400,10 +397,10 @@
       <screen x="-318" y="768" width="1920" height="1080" />
     </state>
     <state x="96" y="963" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599544679123" />
-    <state x="625" y="1108" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600669890170">
+    <state x="625" y="1108" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600773042075">
       <screen x="0" y="768" width="1920" height="1080" />
     </state>
-    <state x="625" y="1108" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/0.768.1920.1080@0.768.1920.1080" timestamp="1600669890170" />
+    <state x="625" y="1108" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/0.768.1920.1080@0.768.1920.1080" timestamp="1600773042075" />
     <state x="447" y="1013" key="#com.intellij.ide.util.MemberChooser" timestamp="1599904619826">
       <screen x="-318" y="768" width="1920" height="1080" />
     </state>
@@ -413,34 +410,38 @@
     </state>
     <state x="424" y="1201" width="435" height="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599710522724" />
     <state x="528" y="292" width="435" height="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728/0.768.1920.1080@0.0.1366.728" timestamp="1600694013863" />
-    <state width="936" height="218" key="GridCell.Tab.0.bottom" timestamp="1600755200462">
-      <screen x="0" y="768" width="1920" height="1080" />
+    <state width="1877" height="298" key="GridCell.Tab.0.bottom" timestamp="1601570954019">
+      <screen x="-310" y="768" width="1920" height="1080" />
     </state>
+    <state width="1877" height="298" key="GridCell.Tab.0.bottom/0.0.1366.728/-310.768.1920.1080@-310.768.1920.1080" timestamp="1601570954019" />
     <state width="1877" height="345" key="GridCell.Tab.0.bottom/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599996080951" />
     <state width="1323" height="225" key="GridCell.Tab.0.bottom/0.0.1366.728/0.768.1920.1080@0.0.1366.728" timestamp="1600491990284" />
-    <state width="936" height="218" key="GridCell.Tab.0.bottom/0.0.1366.728/0.768.1920.1080@0.768.1920.1080" timestamp="1600755200462" />
-    <state width="1323" height="225" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600561341727" />
-    <state width="936" height="218" key="GridCell.Tab.0.center" timestamp="1600755200462">
-      <screen x="0" y="768" width="1920" height="1080" />
+    <state width="1877" height="345" key="GridCell.Tab.0.bottom/0.0.1366.728/0.768.1920.1080@0.768.1920.1080" timestamp="1600785532277" />
+    <state width="1877" height="218" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601093621980" />
+    <state width="1877" height="298" key="GridCell.Tab.0.center" timestamp="1601570954019">
+      <screen x="-310" y="768" width="1920" height="1080" />
     </state>
+    <state width="1877" height="298" key="GridCell.Tab.0.center/0.0.1366.728/-310.768.1920.1080@-310.768.1920.1080" timestamp="1601570954019" />
     <state width="1877" height="345" key="GridCell.Tab.0.center/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599996080949" />
     <state width="1323" height="225" key="GridCell.Tab.0.center/0.0.1366.728/0.768.1920.1080@0.0.1366.728" timestamp="1600491990283" />
-    <state width="936" height="218" key="GridCell.Tab.0.center/0.0.1366.728/0.768.1920.1080@0.768.1920.1080" timestamp="1600755200462" />
-    <state width="1323" height="225" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600561341726" />
-    <state width="936" height="218" key="GridCell.Tab.0.left" timestamp="1600755200462">
-      <screen x="0" y="768" width="1920" height="1080" />
+    <state width="1877" height="345" key="GridCell.Tab.0.center/0.0.1366.728/0.768.1920.1080@0.768.1920.1080" timestamp="1600785532277" />
+    <state width="1877" height="218" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601093621980" />
+    <state width="1877" height="298" key="GridCell.Tab.0.left" timestamp="1601570954017">
+      <screen x="-310" y="768" width="1920" height="1080" />
     </state>
+    <state width="1877" height="298" key="GridCell.Tab.0.left/0.0.1366.728/-310.768.1920.1080@-310.768.1920.1080" timestamp="1601570954017" />
     <state width="1877" height="345" key="GridCell.Tab.0.left/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599996080949" />
     <state width="1323" height="225" key="GridCell.Tab.0.left/0.0.1366.728/0.768.1920.1080@0.0.1366.728" timestamp="1600491990282" />
-    <state width="936" height="218" key="GridCell.Tab.0.left/0.0.1366.728/0.768.1920.1080@0.768.1920.1080" timestamp="1600755200462" />
-    <state width="1323" height="225" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600561341726" />
-    <state width="936" height="218" key="GridCell.Tab.0.right" timestamp="1600755200462">
-      <screen x="0" y="768" width="1920" height="1080" />
+    <state width="1877" height="345" key="GridCell.Tab.0.left/0.0.1366.728/0.768.1920.1080@0.768.1920.1080" timestamp="1600785532276" />
+    <state width="1877" height="218" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601093621979" />
+    <state width="1877" height="298" key="GridCell.Tab.0.right" timestamp="1601570954019">
+      <screen x="-310" y="768" width="1920" height="1080" />
     </state>
+    <state width="1877" height="298" key="GridCell.Tab.0.right/0.0.1366.728/-310.768.1920.1080@-310.768.1920.1080" timestamp="1601570954019" />
     <state width="1877" height="345" key="GridCell.Tab.0.right/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599996080950" />
     <state width="1323" height="225" key="GridCell.Tab.0.right/0.0.1366.728/0.768.1920.1080@0.0.1366.728" timestamp="1600491990283" />
-    <state width="936" height="218" key="GridCell.Tab.0.right/0.0.1366.728/0.768.1920.1080@0.768.1920.1080" timestamp="1600755200462" />
-    <state width="1323" height="225" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600561341727" />
+    <state width="1877" height="345" key="GridCell.Tab.0.right/0.0.1366.728/0.768.1920.1080@0.768.1920.1080" timestamp="1600785532277" />
+    <state width="1877" height="218" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601093621980" />
     <state x="384" y="185" key="IDE.errors.dialog" timestamp="1600694096711">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -458,14 +459,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="0" y="0" width="1382" height="815" key="dock-window-1/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1600073976521" />
-    <state x="78" y="1004" key="new project wizard" timestamp="1600090899702">
-      <screen x="-318" y="768" width="1920" height="1080" />
+    <state x="72" y="24" key="new project wizard" timestamp="1601096654256">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="78" y="1004" key="new project wizard/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1600090899702" />
-    <state x="305" y="1003" width="672" height="678" key="search.everywhere.popup" timestamp="1599621230668">
-      <screen x="-318" y="768" width="1920" height="1080" />
+    <state x="396" y="1004" key="new project wizard/0.0.1366.728/0.768.1920.1080@0.768.1920.1080" timestamp="1600774327208" />
+    <state x="72" y="24" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1601096654256" />
+    <state x="313" y="1003" width="672" height="678" key="search.everywhere.popup" timestamp="1601174421892">
+      <screen x="-310" y="768" width="1920" height="1080" />
     </state>
+    <state x="313" y="1003" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-310.768.1920.1080@-310.768.1920.1080" timestamp="1601174421892" />
     <state x="305" y="1003" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599621230668" />
+    <state x="623" y="1003" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/0.768.1920.1080@0.768.1920.1080" timestamp="1600761556625" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1096,6 +1101,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="297" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Tmp/N3.java</url>
+          <line>14</line>
+          <properties class="Tmp.N3" method="solution">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="318" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,10 +1,7 @@
 package BOJ.Dijkstra;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.PriorityQueue;
-import java.util.StringTokenizer;
+import java.util.*;
 
 public class BOJ1753 {
 
@@ -31,6 +28,8 @@ public class BOJ1753 {
         //인접 행렬 : 752904
         //인접 리스트 :
         //long preUseMemory = Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory();
+        Queue<Integer> queue = new LinkedList<>();
+
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer stringTokenizer = new StringTokenizer(bufferedReader.readLine());
         int V = Integer.parseInt(stringTokenizer.nextToken());

@@ -6,7 +6,6 @@ import java.util.Set;
     public static void main(String[] args) {
         byte[] bytes = new byte[10];
         bytes[0] = 127;
-
         System.out.println(bytes[0]);
     }
 }

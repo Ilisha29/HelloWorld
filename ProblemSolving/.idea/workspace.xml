@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,11 +50,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603035913230" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../spring-petclinic" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -74,7 +74,7 @@
       <recent name="C:\Users\Owner\Desktop\seobseob\SeobGit\HelloWorld\ProblemSolving" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BOJ1003">
+  <component name="RunManager" selected="Application.LC1689_minPartitions">
     <configuration name="가사검색" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO공채연습._2020.가사검색" />
       <module name="ProblemSolving" />
@@ -101,22 +101,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="LC1689_minPartitions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.Greedy.LC1689_minPartitions" />
       <module name="ProblemSolving" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.Greedy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TTTT.P03" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="ProblemSolving" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TTTT.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -206,33 +206,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.P03" />
       <item itemvalue="Application.가사검색" />
       <item itemvalue="Application.ex" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.BOJ1003" />
+      <item itemvalue="Application.LC1689_minPartitions" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LC1689_minPartitions" />
         <item itemvalue="Application.BOJ1003" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.ex" />
         <item itemvalue="Application.가사검색" />
-        <item itemvalue="Application.P03" />
       </list>
     </recent_temporary>
   </component>
@@ -357,105 +355,12 @@
       <workItem from="1605073024466" duration="549000" />
       <workItem from="1605189878940" duration="9915000" />
       <workItem from="1607499562347" duration="3992000" />
+      <workItem from="1613529312479" duration="1015000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="96" y="963" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599544679123">
-      <screen x="-318" y="768" width="1920" height="1080" />
-    </state>
-    <state x="96" y="963" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599544679123" />
-    <state x="445" y="229" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602743664650">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="445" y="229" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/-310.768.1920.1080@0.0.1366.728" timestamp="1602743664650" />
-    <state x="625" y="1108" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/0.768.1920.1080@0.768.1920.1080" timestamp="1600773042075" />
-    <state x="503" y="1013" key="#com.intellij.ide.util.MemberChooser" timestamp="1605430469464">
-      <screen x="-262" y="768" width="1920" height="1080" />
-    </state>
-    <state x="503" y="1013" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-262.768.1920.1080@-262.768.1920.1080" timestamp="1605430469464" />
-    <state x="455" y="1013" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-310.768.1920.1080@-310.768.1920.1080" timestamp="1602310266491" />
-    <state x="447" y="1013" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599904619826" />
-    <state x="544" y="139" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1602055895866" />
-    <state x="528" y="292" width="435" height="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1600694013863">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="424" y="1201" width="435" height="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599710522724" />
-    <state x="528" y="292" width="435" height="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728/0.768.1920.1080@0.0.1366.728" timestamp="1600694013863" />
-    <state x="473" y="105" key="FileChooserDialogImpl" timestamp="1603257217688">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="473" y="105" key="FileChooserDialogImpl/0.0.1366.728/-262.768.1920.1080@0.0.1366.728" timestamp="1603257217688" />
-    <state width="1323" height="302" key="GridCell.Tab.0.bottom" timestamp="1605944230000">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1877" height="302" key="GridCell.Tab.0.bottom/0.0.1366.728/-262.768.1920.1080@-262.768.1920.1080" timestamp="1605262556865" />
-    <state width="1877" height="184" key="GridCell.Tab.0.bottom/0.0.1366.728/-310.768.1920.1080@-310.768.1920.1080" timestamp="1602311288863" />
-    <state width="1323" height="184" key="GridCell.Tab.0.bottom/0.0.1366.728/-310.768.1920.1080@0.0.1366.728" timestamp="1602744134784" />
-    <state width="1877" height="345" key="GridCell.Tab.0.bottom/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599996080951" />
-    <state width="1323" height="225" key="GridCell.Tab.0.bottom/0.0.1366.728/0.768.1920.1080@0.0.1366.728" timestamp="1600491990284" />
-    <state width="1877" height="345" key="GridCell.Tab.0.bottom/0.0.1366.728/0.768.1920.1080@0.768.1920.1080" timestamp="1600785532277" />
-    <state width="1323" height="302" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605944230000" />
-    <state width="1323" height="302" key="GridCell.Tab.0.center" timestamp="1605944230000">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1877" height="302" key="GridCell.Tab.0.center/0.0.1366.728/-262.768.1920.1080@-262.768.1920.1080" timestamp="1605262556864" />
-    <state width="1877" height="184" key="GridCell.Tab.0.center/0.0.1366.728/-310.768.1920.1080@-310.768.1920.1080" timestamp="1602311288863" />
-    <state width="1323" height="184" key="GridCell.Tab.0.center/0.0.1366.728/-310.768.1920.1080@0.0.1366.728" timestamp="1602744134784" />
-    <state width="1877" height="345" key="GridCell.Tab.0.center/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599996080949" />
-    <state width="1323" height="225" key="GridCell.Tab.0.center/0.0.1366.728/0.768.1920.1080@0.0.1366.728" timestamp="1600491990283" />
-    <state width="1877" height="345" key="GridCell.Tab.0.center/0.0.1366.728/0.768.1920.1080@0.768.1920.1080" timestamp="1600785532277" />
-    <state width="1323" height="302" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1605944230000" />
-    <state width="1323" height="302" key="GridCell.Tab.0.left" timestamp="1605944230000">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1877" height="302" key="GridCell.Tab.0.left/0.0.1366.728/-262.768.1920.1080@-262.768.1920.1080" timestamp="1605262556863" />
-    <state width="1877" height="184" key="GridCell.Tab.0.left/0.0.1366.728/-310.768.1920.1080@-310.768.1920.1080" timestamp="1602311288863" />
-    <state width="1323" height="184" key="GridCell.Tab.0.left/0.0.1366.728/-310.768.1920.1080@0.0.1366.728" timestamp="1602744134784" />
-    <state width="1877" height="345" key="GridCell.Tab.0.left/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599996080949" />
-    <state width="1323" height="225" key="GridCell.Tab.0.left/0.0.1366.728/0.768.1920.1080@0.0.1366.728" timestamp="1600491990282" />
-    <state width="1877" height="345" key="GridCell.Tab.0.left/0.0.1366.728/0.768.1920.1080@0.768.1920.1080" timestamp="1600785532276" />
-    <state width="1323" height="302" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1605944230000" />
-    <state width="1323" height="302" key="GridCell.Tab.0.right" timestamp="1605944230000">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1877" height="302" key="GridCell.Tab.0.right/0.0.1366.728/-262.768.1920.1080@-262.768.1920.1080" timestamp="1605262556864" />
-    <state width="1877" height="184" key="GridCell.Tab.0.right/0.0.1366.728/-310.768.1920.1080@-310.768.1920.1080" timestamp="1602311288863" />
-    <state width="1323" height="184" key="GridCell.Tab.0.right/0.0.1366.728/-310.768.1920.1080@0.0.1366.728" timestamp="1602744134784" />
-    <state width="1877" height="345" key="GridCell.Tab.0.right/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599996080950" />
-    <state width="1323" height="225" key="GridCell.Tab.0.right/0.0.1366.728/0.768.1920.1080@0.0.1366.728" timestamp="1600491990283" />
-    <state width="1877" height="345" key="GridCell.Tab.0.right/0.0.1366.728/0.768.1920.1080@0.768.1920.1080" timestamp="1600785532277" />
-    <state width="1323" height="302" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1605944230000" />
-    <state x="384" y="185" key="IDE.errors.dialog" timestamp="1600694096711">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="222" y="1042" key="IDE.errors.dialog/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599545440901" />
-    <state x="384" y="185" key="IDE.errors.dialog/0.0.1366.728/0.768.1920.1080@0.0.1366.728" timestamp="1600694096711" />
-    <state x="313" y="0" key="SettingsEditor" timestamp="1605880901521">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="122" y="882" key="SettingsEditor/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599381875541" />
-    <state x="313" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1605880901521" />
-    <state x="0" y="0" width="1382" height="815" key="dock-window-1" timestamp="1600073976521">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="0" y="0" width="1382" height="815" key="dock-window-1/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1600073976521" />
-    <state x="72" y="0" key="new project wizard" timestamp="1603257239883">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="72" y="0" key="new project wizard/0.0.1366.728/-262.768.1920.1080@0.0.1366.728" timestamp="1603257239883" />
-    <state x="78" y="1004" key="new project wizard/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1600090899702" />
-    <state x="396" y="1004" key="new project wizard/0.0.1366.728/0.768.1920.1080@0.768.1920.1080" timestamp="1600774327208" />
-    <state x="72" y="24" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1601096654256" />
-    <state x="313" y="1003" width="672" height="678" key="search.everywhere.popup" timestamp="1601174421892">
-      <screen x="-310" y="768" width="1920" height="1080" />
-    </state>
-    <state x="313" y="1003" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-310.768.1920.1080@-310.768.1920.1080" timestamp="1601174421892" />
-    <state x="305" y="1003" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-318.768.1920.1080@-318.768.1920.1080" timestamp="1599621230668" />
-    <state x="623" y="1003" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/0.768.1920.1080@0.768.1920.1080" timestamp="1600761556625" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

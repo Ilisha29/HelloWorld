@@ -75,6 +75,19 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.BOJ1541">
+    <configuration name="무지의먹방라이브" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO공채연습._2019.무지의먹방라이브" />
+      <module name="ProblemSolving" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="KAKAO.KAKAO공채연습._2019.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BOJ1003" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BOJ.DP.BOJ1003" />
       <module name="ProblemSolving" />
@@ -111,19 +124,6 @@
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="ProblemSolving" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="무지의먹방라이브" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO공채연습._2019.무지의먹방라이브" />
-      <module name="ProblemSolving" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="KAKAO.KAKAO공채연습._2019.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -200,18 +200,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.무지의먹방라이브" />
       <item itemvalue="Application.ex" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.BOJ1003" />
@@ -349,7 +352,8 @@
       <workItem from="1605073024466" duration="549000" />
       <workItem from="1605189878940" duration="9915000" />
       <workItem from="1607499562347" duration="3992000" />
-      <workItem from="1613529312479" duration="5101000" />
+      <workItem from="1613529312479" duration="5416000" />
+      <workItem from="1613621609280" duration="1556000" />
     </task>
     <servers />
   </component>
@@ -936,12 +940,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/BOJ/Greedy/BOJ1541.java</url>
-          <line>24</line>
+          <line>27</line>
           <option name="timeStamp" value="325" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/BOJ/Greedy/BOJ1541.java</url>
-          <line>38</line>
+          <line>41</line>
           <option name="timeStamp" value="326" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">

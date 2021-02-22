@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/ProblemSolving/BOJ/Greedy/BOJ11000_$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ProblemSolving/BOJ/Greedy/BOJ11000_.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ProblemSolving/BOJ/Greedy/BOJ2812.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BOJ/Greedy/BOJ2812_.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/BOJ/Greedy/BOJ1541.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/BOJ/Greedy/BOJ1541.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +74,7 @@
       <recent name="BOJ" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BOJ2812_">
+  <component name="RunManager" selected="Application.BOJ2212">
     <configuration name="BOJ1003" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BOJ.DP.BOJ1003" />
       <module name="ProblemSolving" />
@@ -96,6 +91,19 @@
     <configuration name="BOJ1541" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BOJ.Greedy.BOJ1541" />
       <module name="ProblemSolving" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BOJ2212" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.Greedy.BOJ2212" />
+      <module name="ProblemSolving" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BOJ.Greedy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -119,26 +127,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="LeetCode.Greedy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="ProblemSolving" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="기둥과보설치" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO공채연습._2020.기둥과보설치" />
-      <module name="ProblemSolving" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="KAKAO.KAKAO공채연습._2020.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,31 +186,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.BOJ1003" />
       <item itemvalue="Application.LC1689_minPartitions" />
       <item itemvalue="Application.BOJ1541" />
       <item itemvalue="Application.BOJ2812_" />
+      <item itemvalue="Application.BOJ2212" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BOJ2212" />
         <item itemvalue="Application.BOJ2812_" />
         <item itemvalue="Application.BOJ1541" />
         <item itemvalue="Application.LC1689_minPartitions" />
         <item itemvalue="Application.BOJ1003" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -349,7 +339,8 @@
       <workItem from="1607499562347" duration="3992000" />
       <workItem from="1613529312479" duration="5416000" />
       <workItem from="1613621609280" duration="2615000" />
-      <workItem from="1613711731916" duration="5646000" />
+      <workItem from="1613711731916" duration="5832000" />
+      <workItem from="1613956043428" duration="5132000" />
     </task>
     <servers />
   </component>

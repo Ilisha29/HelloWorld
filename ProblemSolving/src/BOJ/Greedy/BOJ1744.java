@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.Deque;
 import java.util.LinkedList;
 
-public class BOJ2212 {
+public class BOJ1744 {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(bufferedReader.readLine());

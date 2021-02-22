@@ -74,7 +74,7 @@
       <recent name="BOJ" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BOJ2212">
+  <component name="RunManager" selected="Application.BOJ1744">
     <configuration name="BOJ1003" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BOJ.DP.BOJ1003" />
       <module name="ProblemSolving" />
@@ -95,8 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ2212" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.Greedy.BOJ2212" />
+    <configuration name="BOJ1744" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.Greedy.BOJ1744" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
@@ -204,11 +204,11 @@
       <item itemvalue="Application.LC1689_minPartitions" />
       <item itemvalue="Application.BOJ1541" />
       <item itemvalue="Application.BOJ2812_" />
-      <item itemvalue="Application.BOJ2212" />
+      <item itemvalue="Application.BOJ1744" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BOJ2212" />
+        <item itemvalue="Application.BOJ1744" />
         <item itemvalue="Application.BOJ2812_" />
         <item itemvalue="Application.BOJ1541" />
         <item itemvalue="Application.LC1689_minPartitions" />
@@ -340,7 +340,7 @@
       <workItem from="1613529312479" duration="5416000" />
       <workItem from="1613621609280" duration="2615000" />
       <workItem from="1613711731916" duration="5832000" />
-      <workItem from="1613956043428" duration="5132000" />
+      <workItem from="1613956043428" duration="5450000" />
     </task>
     <servers />
   </component>

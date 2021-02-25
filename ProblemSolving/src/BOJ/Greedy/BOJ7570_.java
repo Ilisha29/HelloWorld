@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 public class BOJ7570_ {
-    //가장 긴 증가 수열
+    //1씩 증가하는 가장 긴 증가 수열
     public static void main(String[] args)  throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(bufferedReader.readLine());

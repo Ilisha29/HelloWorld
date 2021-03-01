@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ/Greedy/BOJ7570_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/Greedy/BOJ7570_.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +74,7 @@
       <recent name="BOJ" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BOJ1092">
+  <component name="RunManager" selected="Application.BOJ4796">
     <configuration name="BOJ1092" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BOJ.Greedy.BOJ1092" />
       <module name="ProblemSolving" />
@@ -85,13 +84,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BOJ1541" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.Greedy.BOJ1541" />
-      <module name="ProblemSolving" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -122,8 +114,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ7570_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.Greedy.BOJ7570_" />
+    <configuration name="BOJ4796" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.Greedy.BOJ4796" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
@@ -135,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="고정점찾기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="코테대비책.이분탐색.고정점찾기" />
+    <configuration name="BOJ7570_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.Greedy.BOJ7570_" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="코테대비책.이분탐색.*" />
+          <option name="PATTERN" value="BOJ.Greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,33 +153,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BOJ1541" />
       <item itemvalue="Application.BOJ2812_" />
       <item itemvalue="Application.BOJ1744" />
       <item itemvalue="Application.BOJ7570_" />
       <item itemvalue="Application.BOJ1092" />
+      <item itemvalue="Application.BOJ4796" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BOJ4796" />
         <item itemvalue="Application.BOJ1092" />
         <item itemvalue="Application.BOJ7570_" />
         <item itemvalue="Application.BOJ1744" />
         <item itemvalue="Application.BOJ2812_" />
-        <item itemvalue="Application.BOJ1541" />
       </list>
     </recent_temporary>
   </component>
@@ -317,7 +307,8 @@
       <workItem from="1613711731916" duration="5832000" />
       <workItem from="1613956043428" duration="5492000" />
       <workItem from="1614049077950" duration="2607000" />
-      <workItem from="1614212866140" duration="8214000" />
+      <workItem from="1614212866140" duration="8726000" />
+      <workItem from="1614565471199" duration="3230000" />
     </task>
     <servers />
   </component>

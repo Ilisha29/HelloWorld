@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="" />
+    <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_err_pid7236.log" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,22 +75,9 @@
       <recent name="BOJ" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BOJ13904">
+  <component name="RunManager" selected="Application.BOJ8980">
     <configuration name="BOJ1080" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BOJ.Greedy.BOJ1080" />
-      <module name="ProblemSolving" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BOJ.Greedy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BOJ1092" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.Greedy.BOJ1092" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
@@ -138,6 +128,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BOJ8980" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.Greedy.BOJ8980" />
+      <module name="ProblemSolving" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BOJ.Greedy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -152,19 +155,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BOJ1092" />
       <item itemvalue="Application.BOJ4796" />
       <item itemvalue="Application.BOJ1080" />
       <item itemvalue="Application.BOJ2212" />
       <item itemvalue="Application.BOJ13904" />
+      <item itemvalue="Application.BOJ8980" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BOJ8980" />
         <item itemvalue="Application.BOJ13904" />
         <item itemvalue="Application.BOJ2212" />
         <item itemvalue="Application.BOJ1080" />
         <item itemvalue="Application.BOJ4796" />
-        <item itemvalue="Application.BOJ1092" />
       </list>
     </recent_temporary>
   </component>
@@ -298,7 +301,7 @@
       <workItem from="1614565471199" duration="3641000" />
       <workItem from="1614595740116" duration="6778000" />
       <workItem from="1614677130044" duration="4288000" />
-      <workItem from="1614817713061" duration="4475000" />
+      <workItem from="1614817713061" duration="14110000" />
     </task>
     <servers />
   </component>

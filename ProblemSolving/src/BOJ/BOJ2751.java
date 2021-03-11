@@ -5,19 +5,23 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.PriorityQueue;
 
+//출력이 많다면 StringBuilder 를 쓰자
 public class BOJ2751 {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-        ArrayList<Integer> arrayList = new ArrayList<>();
+        PriorityQueue<Integer> priorityQueue =new PriorityQueue<>();
         int rep = Integer.parseInt(bufferedReader.readLine());
         for (int i = 0; i < rep; i++) {
-            arrayList.add(Integer.parseInt(bufferedReader.readLine()));
+           priorityQueue.add(Integer.parseInt(bufferedReader.readLine()));
         }
-        Collections.sort(arrayList);
-        for (int i = 0; i < arrayList.size(); i++) {
-            System.out.println(arrayList.get(i));
+        StringBuilder stringBuilder = new StringBuilder();
+        while(!priorityQueue.isEmpty()){
+            stringBuilder.append(priorityQueue.poll());
+            stringBuilder.append("\n");
         }
+        System.out.print(stringBuilder);
         bufferedReader.close();
     }
 }

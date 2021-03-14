@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/BOJ/BinarySearch/BOJ1072.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ/BOJ2751.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/BOJ2751.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/BOJ1072.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,29 +76,10 @@
       <recent name="BOJ" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BOJ2751">
-    <configuration name="BOJ12904" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.Greedy.BOJ12904" />
+  <component name="RunManager" selected="Application.BOJ1072_fail">
+    <configuration name="BOJ1072" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.BinarySearch.BOJ1072" />
       <module name="ProblemSolving" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BOJ.Greedy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BOJ1461" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.Greedy.BOJ1461" />
-      <module name="ProblemSolving" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BOJ.Greedy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -133,7 +115,20 @@
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BOJ.*" />
+          <option name="PATTERN" value="BOJ.BinarySearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BOJ5052" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.Sorting.BOJ5052" />
+      <module name="ProblemSolving" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BOJ.Sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,19 +150,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BOJ1461" />
-      <item itemvalue="Application.BOJ12904" />
       <item itemvalue="Application.BOJ2573" />
       <item itemvalue="Application.BOJ2636" />
       <item itemvalue="Application.BOJ2751" />
+      <item itemvalue="Application.BOJ5052" />
+      <item itemvalue="Application.BOJ1072_fail" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BOJ1072_fail" />
+        <item itemvalue="Application.BOJ5052" />
         <item itemvalue="Application.BOJ2751" />
         <item itemvalue="Application.BOJ2636" />
         <item itemvalue="Application.BOJ2573" />
-        <item itemvalue="Application.BOJ12904" />
-        <item itemvalue="Application.BOJ1461" />
       </list>
     </recent_temporary>
   </component>
@@ -301,7 +296,7 @@
       <workItem from="1614565471199" duration="3641000" />
       <workItem from="1614595740116" duration="6778000" />
       <workItem from="1614677130044" duration="4288000" />
-      <workItem from="1614817713061" duration="55374000" />
+      <workItem from="1614817713061" duration="67721000" />
     </task>
     <servers />
   </component>
@@ -923,6 +918,11 @@
           <line>36</line>
           <option name="timeStamp" value="340" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BOJ/BinarySearch/BOJ1072.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="341" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/BOJ/BOJ13460.java</url>
           <line>94</line>
@@ -1005,13 +1005,6 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="check[0]" />
-        <watch expression="ladderMap[0]" language="JAVA" />
-        <watch expression="combArrayList.get(13)" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ProblemSolving$.ic" NAME="보석쇼핑 Coverage Results" MODIFIED="1599704695103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

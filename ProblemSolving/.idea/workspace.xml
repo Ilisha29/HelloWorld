@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BOJ/BinarySearch/BOJ1072.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ/BOJ1072.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/BOJ2805.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/BinarySearch/BOJ2805.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,23 +75,10 @@
       <recent name="BOJ" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BOJ1072_fail">
+  <component name="RunManager" selected="Application.BOJ2805">
     <configuration name="BOJ1072" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BOJ.BinarySearch.BOJ1072" />
       <module name="ProblemSolving" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BOJ2573" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.Implement_BF.BOJ2573" />
-      <module name="ProblemSolving" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BOJ.Implement_BF.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -112,6 +98,19 @@
     </configuration>
     <configuration name="BOJ2751" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BOJ.BOJ2751" />
+      <module name="ProblemSolving" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BOJ.BinarySearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BOJ2805" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.BinarySearch.BOJ2805" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
@@ -150,19 +149,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BOJ2573" />
       <item itemvalue="Application.BOJ2636" />
       <item itemvalue="Application.BOJ2751" />
       <item itemvalue="Application.BOJ5052" />
       <item itemvalue="Application.BOJ1072_fail" />
+      <item itemvalue="Application.BOJ2805" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BOJ2805" />
         <item itemvalue="Application.BOJ1072_fail" />
         <item itemvalue="Application.BOJ5052" />
         <item itemvalue="Application.BOJ2751" />
         <item itemvalue="Application.BOJ2636" />
-        <item itemvalue="Application.BOJ2573" />
       </list>
     </recent_temporary>
   </component>
@@ -296,7 +295,7 @@
       <workItem from="1614565471199" duration="3641000" />
       <workItem from="1614595740116" duration="6778000" />
       <workItem from="1614677130044" duration="4288000" />
-      <workItem from="1614817713061" duration="67721000" />
+      <workItem from="1614817713061" duration="72464000" />
     </task>
     <servers />
   </component>
@@ -922,6 +921,11 @@
           <url>file://$PROJECT_DIR$/src/BOJ/BinarySearch/BOJ1072.java</url>
           <line>29</line>
           <option name="timeStamp" value="341" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BOJ/BinarySearch/BOJ2805.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="342" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/BOJ/BOJ13460.java</url>

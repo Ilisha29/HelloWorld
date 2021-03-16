@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/BOJ/Sorting/BOJ2170.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +61,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
@@ -74,7 +76,7 @@
       <recent name="BOJ" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BOJ11660">
+  <component name="RunManager" selected="Application.BOJ2170">
     <configuration name="BOJ1072" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BOJ.BinarySearch.BOJ1072" />
       <module name="ProblemSolving" />
@@ -95,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ2751" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.BOJ2751" />
+    <configuration name="BOJ2170" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.Sorting.BOJ2170" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BOJ.BinarySearch.*" />
+          <option name="PATTERN" value="BOJ.Sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,19 +150,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BOJ2751" />
       <item itemvalue="Application.BOJ5052" />
       <item itemvalue="Application.BOJ1072_fail" />
       <item itemvalue="Application.BOJ2805" />
       <item itemvalue="Application.BOJ11660" />
+      <item itemvalue="Application.BOJ2170" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BOJ2170" />
         <item itemvalue="Application.BOJ11660" />
         <item itemvalue="Application.BOJ2805" />
         <item itemvalue="Application.BOJ1072_fail" />
         <item itemvalue="Application.BOJ5052" />
-        <item itemvalue="Application.BOJ2751" />
       </list>
     </recent_temporary>
   </component>
@@ -294,7 +296,7 @@
       <workItem from="1614565471199" duration="3641000" />
       <workItem from="1614595740116" duration="6778000" />
       <workItem from="1614677130044" duration="4288000" />
-      <workItem from="1614817713061" duration="75333000" />
+      <workItem from="1614817713061" duration="77896000" />
     </task>
     <servers />
   </component>
@@ -928,8 +930,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/BOJ/DP/BOJ11660.java</url>
-          <line>25</line>
+          <line>26</line>
           <option name="timeStamp" value="343" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BOJ/Sorting/BOJ2170.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="344" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/BOJ/BOJ13460.java</url>

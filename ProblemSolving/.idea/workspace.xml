@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BOJ/Dijkstra/BOJ1916_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BOJ/Sorting/BOJ1181.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +44,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1fE79ISg0yHX3Zc6f1CNGcW3lU6" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -76,13 +78,13 @@
       <recent name="BOJ" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BOJ4485">
-    <configuration name="BOJ11660" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.DP.BOJ11660" />
+  <component name="RunManager" selected="Application.BOJ2225">
+    <configuration name="BOJ1181" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.Sorting.BOJ1181" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BOJ.DP.*" />
+          <option name="PATTERN" value="BOJ.Sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ2170" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.Sorting.BOJ2170" />
+    <configuration name="BOJ2174" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.Implement_BF.BOJ2174" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BOJ.Sorting.*" />
+          <option name="PATTERN" value="BOJ.Implement_BF.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ2174" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.Implement_BF.BOJ2174" />
+    <configuration name="BOJ2225" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.DP.BOJ2225" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BOJ.Implement_BF.*" />
+          <option name="PATTERN" value="BOJ.DP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,19 +158,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BOJ11660" />
-      <item itemvalue="Application.BOJ2170" />
       <item itemvalue="Application.BOJ2174" />
       <item itemvalue="Application.BOJ1916_2" />
       <item itemvalue="Application.BOJ4485" />
+      <item itemvalue="Application.BOJ1181" />
+      <item itemvalue="Application.BOJ2225" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BOJ2225" />
+        <item itemvalue="Application.BOJ1181" />
         <item itemvalue="Application.BOJ4485" />
         <item itemvalue="Application.BOJ1916_2" />
         <item itemvalue="Application.BOJ2174" />
-        <item itemvalue="Application.BOJ2170" />
-        <item itemvalue="Application.BOJ11660" />
       </list>
     </recent_temporary>
   </component>
@@ -302,7 +304,7 @@
       <workItem from="1614565471199" duration="3641000" />
       <workItem from="1614595740116" duration="6778000" />
       <workItem from="1614677130044" duration="4288000" />
-      <workItem from="1614817713061" duration="89053000" />
+      <workItem from="1614817713061" duration="95058000" />
     </task>
     <servers />
   </component>
@@ -948,11 +950,6 @@
           <url>file://$PROJECT_DIR$/src/BOJ/Dijkstra/BOJ1916_2.java</url>
           <line>44</line>
           <option name="timeStamp" value="345" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/BOJ/Dijkstra/BOJ4485.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="346" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/BOJ/BOJ13460.java</url>

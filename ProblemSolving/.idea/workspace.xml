@@ -77,26 +77,13 @@
       <recent name="BOJ" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BOJ2470">
+  <component name="RunManager" selected="Application.BOJ2437">
     <configuration name="BOJ1181" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BOJ.Sorting.BOJ1181" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="BOJ.Sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BOJ1916_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.Dijkstra.BOJ1916_2" />
-      <module name="ProblemSolving" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BOJ.Dijkstra.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,8 +104,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ2470" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.BinarySearch.BOJ2470" />
+    <configuration name="BOJ2437" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.Greedy.BOJ2437" />
+      <module name="ProblemSolving" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BOJ.Greedy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BOJ2470_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.BinarySearch.BOJ2470_" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
@@ -130,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ4485" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.Dijkstra.BOJ4485" />
+    <configuration name="tmp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.Greedy.tmp" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BOJ.Dijkstra.*" />
+          <option name="PATTERN" value="BOJ.Greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,19 +157,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BOJ1916_2" />
-      <item itemvalue="Application.BOJ4485" />
       <item itemvalue="Application.BOJ1181" />
       <item itemvalue="Application.BOJ2225" />
-      <item itemvalue="Application.BOJ2470" />
+      <item itemvalue="Application.BOJ2470_" />
+      <item itemvalue="Application.BOJ2437" />
+      <item itemvalue="Application.tmp" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BOJ2470" />
+        <item itemvalue="Application.BOJ2437" />
+        <item itemvalue="Application.tmp" />
+        <item itemvalue="Application.BOJ2470_" />
         <item itemvalue="Application.BOJ2225" />
         <item itemvalue="Application.BOJ1181" />
-        <item itemvalue="Application.BOJ4485" />
-        <item itemvalue="Application.BOJ1916_2" />
       </list>
     </recent_temporary>
   </component>
@@ -303,7 +303,7 @@
       <workItem from="1614565471199" duration="3641000" />
       <workItem from="1614595740116" duration="6778000" />
       <workItem from="1614677130044" duration="4288000" />
-      <workItem from="1614817713061" duration="100652000" />
+      <workItem from="1614817713061" duration="104463000" />
     </task>
     <servers />
   </component>

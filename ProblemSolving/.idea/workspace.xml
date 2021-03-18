@@ -77,13 +77,13 @@
       <recent name="BOJ" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BOJ2437">
-    <configuration name="BOJ1181" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.Sorting.BOJ1181" />
+  <component name="RunManager" selected="Application.BOJ16120">
+    <configuration name="BOJ16120" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.Greedy.BOJ16120" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BOJ.Sorting.*" />
+          <option name="PATTERN" value="BOJ.Greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,8 +104,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ2437" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.Greedy.BOJ2437" />
+    <configuration name="BOJ2437_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.Greedy.BOJ2437_" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
@@ -143,33 +143,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BOJ1181" />
       <item itemvalue="Application.BOJ2225" />
       <item itemvalue="Application.BOJ2470_" />
-      <item itemvalue="Application.BOJ2437" />
       <item itemvalue="Application.tmp" />
+      <item itemvalue="Application.BOJ2437_" />
+      <item itemvalue="Application.BOJ16120" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BOJ2437" />
+        <item itemvalue="Application.BOJ16120" />
+        <item itemvalue="Application.BOJ2437_" />
         <item itemvalue="Application.tmp" />
         <item itemvalue="Application.BOJ2470_" />
         <item itemvalue="Application.BOJ2225" />
-        <item itemvalue="Application.BOJ1181" />
       </list>
     </recent_temporary>
   </component>
@@ -303,7 +301,8 @@
       <workItem from="1614565471199" duration="3641000" />
       <workItem from="1614595740116" duration="6778000" />
       <workItem from="1614677130044" duration="4288000" />
-      <workItem from="1614817713061" duration="104463000" />
+      <workItem from="1614817713061" duration="109167000" />
+      <workItem from="1616039783917" duration="1837000" />
     </task>
     <servers />
   </component>
@@ -949,6 +948,11 @@
           <url>file://$PROJECT_DIR$/src/BOJ/Dijkstra/BOJ1916_2.java</url>
           <line>44</line>
           <option name="timeStamp" value="345" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BOJ/Greedy/BOJ2437_.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="349" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/BOJ/BOJ13460.java</url>

@@ -77,7 +77,7 @@
       <recent name="BOJ" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BOJ2230">
+  <component name="RunManager" selected="Application.BOJ2638">
     <configuration name="BOJ16120_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BOJ.Greedy.BOJ16120_" />
       <module name="ProblemSolving" />
@@ -117,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ2470_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.BinarySearch.BOJ2470_" />
+    <configuration name="BOJ2638" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.Implement_BF.BOJ2638" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BOJ.BinarySearch.*" />
+          <option name="PATTERN" value="BOJ.Implement_BF.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,19 +155,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BOJ2470_" />
       <item itemvalue="Application.tmp" />
       <item itemvalue="Application.BOJ2437_" />
       <item itemvalue="Application.BOJ16120_" />
       <item itemvalue="Application.BOJ2230" />
+      <item itemvalue="Application.BOJ2638" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BOJ2638" />
         <item itemvalue="Application.BOJ2230" />
         <item itemvalue="Application.BOJ16120_" />
         <item itemvalue="Application.BOJ2437_" />
         <item itemvalue="Application.tmp" />
-        <item itemvalue="Application.BOJ2470_" />
       </list>
     </recent_temporary>
   </component>
@@ -302,7 +302,7 @@
       <workItem from="1614595740116" duration="6778000" />
       <workItem from="1614677130044" duration="4288000" />
       <workItem from="1614817713061" duration="109167000" />
-      <workItem from="1616039783917" duration="6243000" />
+      <workItem from="1616039783917" duration="11832000" />
     </task>
     <servers />
   </component>

@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProblemSolving.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProblemSolving.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,13 +79,13 @@
       <recent name="BOJ" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BOJ2638">
-    <configuration name="BOJ16120_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.Greedy.BOJ16120_" />
+  <component name="RunManager" selected="Application.보석쇼핑2">
+    <configuration name="보석쇼핑2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO2020인턴.보석쇼핑2" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BOJ.Greedy.*" />
+          <option name="PATTERN" value="KAKAO.KAKAO2020인턴.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ2230" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.Sorting.BOJ2230" />
+    <configuration name="L01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TMP.L01" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BOJ.Sorting.*" />
+          <option name="PATTERN" value="TMP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ2437_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.Greedy.BOJ2437_" />
+    <configuration name="L02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TMP.L02" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BOJ.Greedy.*" />
+          <option name="PATTERN" value="TMP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ2638" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.Implement_BF.BOJ2638" />
+    <configuration name="L2_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TMP.L2_01" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BOJ.Implement_BF.*" />
+          <option name="PATTERN" value="TMP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tmp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.Greedy.tmp" />
+    <configuration name="L2_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TMP.L2_02" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BOJ.Greedy.*" />
+          <option name="PATTERN" value="TMP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,19 +157,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.tmp" />
-      <item itemvalue="Application.BOJ2437_" />
-      <item itemvalue="Application.BOJ16120_" />
-      <item itemvalue="Application.BOJ2230" />
-      <item itemvalue="Application.BOJ2638" />
+      <item itemvalue="Application.L01" />
+      <item itemvalue="Application.L02" />
+      <item itemvalue="Application.L2_01" />
+      <item itemvalue="Application.L2_02" />
+      <item itemvalue="Application.보석쇼핑2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BOJ2638" />
-        <item itemvalue="Application.BOJ2230" />
-        <item itemvalue="Application.BOJ16120_" />
-        <item itemvalue="Application.BOJ2437_" />
-        <item itemvalue="Application.tmp" />
+        <item itemvalue="Application.보석쇼핑2" />
+        <item itemvalue="Application.L2_02" />
+        <item itemvalue="Application.L2_01" />
+        <item itemvalue="Application.L02" />
+        <item itemvalue="Application.L01" />
       </list>
     </recent_temporary>
   </component>
@@ -302,7 +304,7 @@
       <workItem from="1614595740116" duration="6778000" />
       <workItem from="1614677130044" duration="4288000" />
       <workItem from="1614817713061" duration="109167000" />
-      <workItem from="1616039783917" duration="11832000" />
+      <workItem from="1616039783917" duration="45225000" />
     </task>
     <servers />
   </component>
@@ -953,6 +955,31 @@
           <url>file://$PROJECT_DIR$/src/BOJ/Greedy/BOJ2437_.java</url>
           <line>14</line>
           <option name="timeStamp" value="349" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BOJ/DataStructure/BOJ2346.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="351" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TMP/L2_01.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="356" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TMP/L2_01.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="357" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TMP/L2_02.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="360" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/KAKAO/KAKAO2020인턴/보석쇼핑2.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="363" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/BOJ/BOJ13460.java</url>

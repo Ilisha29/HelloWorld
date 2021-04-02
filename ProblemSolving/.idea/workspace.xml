@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ/Implement_BF/BOJ2174.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/DFS_BFS/BOJ2174.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ/Implement_BF/BOJ2573.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/DFS_BFS/BOJ2573.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ/Implement_BF/BOJ2636.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/DFS_BFS/BOJ2636.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ/Implement_BF/BOJ2638.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/DFS_BFS/BOJ2638.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KAKAO/KAKAO2020인턴/경주로건설.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KAKAO/KAKAO2020인턴/경주로건설.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +80,7 @@
       <recent name="BOJ" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BOJ3197">
+  <component name="RunManager" selected="Application.BOJ1911">
     <configuration name="보석쇼핑2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO2020인턴.보석쇼핑2" />
       <module name="ProblemSolving" />
@@ -151,6 +146,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BOJ1911" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.Greedy.BOJ1911" />
+      <module name="ProblemSolving" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BOJ.Greedy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BOJ3197" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BOJ.DFS_BFS.BOJ3197" />
       <module name="ProblemSolving" />
@@ -177,15 +185,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -195,9 +201,11 @@
       <item itemvalue="Application.보석쇼핑2" />
       <item itemvalue="Application.BOJ11726" />
       <item itemvalue="Application.BOJ3197" />
+      <item itemvalue="Application.BOJ1911" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BOJ1911" />
         <item itemvalue="Application.BOJ3197" />
         <item itemvalue="Application.BOJ11726" />
         <item itemvalue="Application.보석쇼핑2" />
@@ -337,7 +345,9 @@
       <workItem from="1614677130044" duration="4288000" />
       <workItem from="1614817713061" duration="109167000" />
       <workItem from="1616039783917" duration="64950000" />
-      <workItem from="1616898209646" duration="9792000" />
+      <workItem from="1616898209646" duration="12726000" />
+      <workItem from="1617149633211" duration="678000" />
+      <workItem from="1617321807249" duration="3446000" />
     </task>
     <servers />
   </component>

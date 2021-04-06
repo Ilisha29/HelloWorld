@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +60,7 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603035913230" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/BOJ/Implement_BF" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -80,20 +81,7 @@
       <recent name="BOJ" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BOJ9461">
-    <configuration name="수식최대화2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO2020인턴.수식최대화2" />
-      <module name="ProblemSolving" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="KAKAO.KAKAO2020인턴.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.BOJ1010">
     <configuration name="경주로건설2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO2020인턴.경주로건설2" />
       <module name="ProblemSolving" />
@@ -107,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ10653" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.Greedy.BOJ10653" />
+    <configuration name="BOJ1010" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.Math.BOJ1010" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BOJ.Greedy.*" />
+          <option name="PATTERN" value="BOJ.Math.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ1911" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.Greedy.BOJ1911" />
+    <configuration name="KC3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.KC3" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BOJ.Greedy.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ2579" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.DP.BOJ2579" />
+    <configuration name="P1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spring_dev.P1" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BOJ.DP.*" />
+          <option name="PATTERN" value="spring_dev.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ3197" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.DFS_BFS.BOJ3197" />
+    <configuration name="P2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spring_dev.P2" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BOJ.DFS_BFS.*" />
+          <option name="PATTERN" value="spring_dev.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ9461" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.DP.BOJ9461" />
+    <configuration name="P3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spring_dev.P3" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BOJ.DP.*" />
+          <option name="PATTERN" value="spring_dev.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,33 +160,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BOJ3197" />
-      <item itemvalue="Application.BOJ1911" />
-      <item itemvalue="Application.BOJ10653" />
-      <item itemvalue="Application.BOJ2579" />
-      <item itemvalue="Application.BOJ9461" />
+      <item itemvalue="Application.KC3" />
+      <item itemvalue="Application.P1" />
+      <item itemvalue="Application.P2" />
+      <item itemvalue="Application.P3" />
+      <item itemvalue="Application.BOJ1010" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BOJ9461" />
-        <item itemvalue="Application.BOJ2579" />
-        <item itemvalue="Application.BOJ10653" />
-        <item itemvalue="Application.BOJ1911" />
-        <item itemvalue="Application.BOJ3197" />
+        <item itemvalue="Application.BOJ1010" />
+        <item itemvalue="Application.P3" />
+        <item itemvalue="Application.P2" />
+        <item itemvalue="Application.P1" />
+        <item itemvalue="Application.KC3" />
       </list>
     </recent_temporary>
   </component>
@@ -337,7 +323,8 @@
       <workItem from="1616898209646" duration="12726000" />
       <workItem from="1617149633211" duration="678000" />
       <workItem from="1617321807249" duration="9648000" />
-      <workItem from="1617411578197" duration="2592000" />
+      <workItem from="1617411578197" duration="18818000" />
+      <workItem from="1617698224665" duration="1228000" />
     </task>
     <servers />
   </component>
@@ -1018,6 +1005,36 @@
           <url>file://$PROJECT_DIR$/src/KAKAO/KAKAO2020인턴/경주로건설2.java</url>
           <line>46</line>
           <option name="timeStamp" value="367" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/kakaocommerce/KC1.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="368" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/kakaocommerce/KC2.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="373" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/kakaocommerce/KC4.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="378" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/kakaocommerce/KC3.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="379" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/spring_dev/P2.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="381" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BOJ/Math/BOJ1010.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="382" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/BOJ/BOJ13460.java</url>

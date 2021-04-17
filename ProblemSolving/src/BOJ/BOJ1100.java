@@ -18,7 +18,5 @@ public class BOJ1100 {
             }
             System.out.println();
         }
-
-
     }
 }

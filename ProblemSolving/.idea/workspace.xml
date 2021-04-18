@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ/BOJ1100.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/BOJ1100.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Greedy/BOJ16953.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/Greedy/BOJ16953.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +81,7 @@
       <recent name="BOJ" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BOJ16953">
+  <component name="RunManager" selected="Application.KAKAO2019인턴_불량_사용자2">
     <configuration name="BOJ1010" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BOJ.Math.BOJ1010" />
       <module name="ProblemSolving" />
@@ -101,6 +101,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="BOJ.Greedy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KAKAO2019인턴_불량_사용자2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO2019윈터인턴.KAKAO2019인턴_불량_사용자2" />
+      <module name="ProblemSolving" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="KAKAO.KAKAO2019윈터인턴.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,19 +147,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="spring_dev.P2" />
-      <module name="ProblemSolving" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="spring_dev.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="P3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="spring_dev.P3" />
       <module name="ProblemSolving" />
@@ -160,31 +160,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.P2" />
       <item itemvalue="Application.P3" />
       <item itemvalue="Application.BOJ1010" />
       <item itemvalue="Application.KAKAO인턴_크레인2" />
       <item itemvalue="Application.BOJ16953" />
+      <item itemvalue="Application.KAKAO2019인턴_불량_사용자2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KAKAO2019인턴_불량_사용자2" />
         <item itemvalue="Application.BOJ16953" />
         <item itemvalue="Application.KAKAO인턴_크레인2" />
         <item itemvalue="Application.BOJ1010" />
         <item itemvalue="Application.P3" />
-        <item itemvalue="Application.P2" />
       </list>
     </recent_temporary>
   </component>
@@ -331,7 +333,8 @@
       <workItem from="1618245209430" duration="453000" />
       <workItem from="1618546265065" duration="4094000" />
       <workItem from="1618551646122" duration="9000" />
-      <workItem from="1618656816509" duration="1228000" />
+      <workItem from="1618656816509" duration="3043000" />
+      <workItem from="1618707755281" duration="6589000" />
     </task>
     <servers />
   </component>

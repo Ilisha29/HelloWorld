@@ -80,7 +80,7 @@
       <recent name="BOJ" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BOJ1449">
+  <component name="RunManager" selected="Application.BOJ2343">
     <configuration name="BOJ1149" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BOJ.DP.BOJ1149" />
       <module name="ProblemSolving" />
@@ -107,19 +107,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ1654" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.BinarySearch.BOJ1654" />
-      <module name="ProblemSolving" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BOJ.BinarySearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BOJ18870" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BOJ.Sorting.BOJ18870" />
       <module name="ProblemSolving" />
@@ -133,12 +120,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KAKAO2019인턴_불량_사용자2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO2019윈터인턴.KAKAO2019인턴_불량_사용자2" />
+    <configuration name="BOJ2343" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.BinarySearch.BOJ2343" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="KAKAO.KAKAO2019윈터인턴.*" />
+          <option name="PATTERN" value="BOJ.BinarySearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BOJ9935" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.String.BOJ9935" />
+      <module name="ProblemSolving" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BOJ.String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,19 +184,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.KAKAO2019인턴_불량_사용자2" />
-      <item itemvalue="Application.BOJ1654" />
       <item itemvalue="Application.BOJ1149" />
       <item itemvalue="Application.BOJ18870" />
       <item itemvalue="Application.BOJ1449" />
+      <item itemvalue="Application.BOJ9935" />
+      <item itemvalue="Application.BOJ2343" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BOJ2343" />
+        <item itemvalue="Application.BOJ9935" />
         <item itemvalue="Application.BOJ1449" />
         <item itemvalue="Application.BOJ18870" />
         <item itemvalue="Application.BOJ1149" />
-        <item itemvalue="Application.BOJ1654" />
-        <item itemvalue="Application.KAKAO2019인턴_불량_사용자2" />
       </list>
     </recent_temporary>
   </component>
@@ -347,7 +347,7 @@
       <workItem from="1618707755281" duration="10795000" />
       <workItem from="1618794706237" duration="5740000" />
       <workItem from="1618828880424" duration="1591000" />
-      <workItem from="1618832381708" duration="5129000" />
+      <workItem from="1618832381708" duration="20910000" />
     </task>
     <servers />
   </component>
@@ -1151,6 +1151,11 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="input" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ProblemSolving$.ic" NAME="보석쇼핑 Coverage Results" MODIFIED="1599704695103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

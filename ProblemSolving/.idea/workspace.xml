@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ/Dijkstra/BOJ1916.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/Dijkstra/BOJ1916.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,13 +88,13 @@
       <recent name="BOJ" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BOJ5972">
-    <configuration name="BOJ1449" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.Greedy.BOJ1449" />
+  <component name="RunManager" selected="Application.BOJ13549">
+    <configuration name="BOJ13549" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.Dijkstra.BOJ13549" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BOJ.Greedy.*" />
+          <option name="PATTERN" value="BOJ.Dijkstra.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ18870" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.Sorting.BOJ18870" />
+    <configuration name="BOJ1449" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.Greedy.BOJ1449" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BOJ.Sorting.*" />
+          <option name="PATTERN" value="BOJ.Greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,20 +154,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.BOJ18870" />
       <item itemvalue="Application.BOJ1449" />
       <item itemvalue="Application.BOJ9935" />
       <item itemvalue="Application.BOJ2343" />
       <item itemvalue="Application.BOJ5972" />
+      <item itemvalue="Application.BOJ13549" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BOJ13549" />
         <item itemvalue="Application.BOJ5972" />
         <item itemvalue="Application.BOJ2343" />
         <item itemvalue="Application.BOJ9935" />
         <item itemvalue="Application.BOJ1449" />
-        <item itemvalue="Application.BOJ18870" />
       </list>
     </recent_temporary>
   </component>
@@ -321,7 +331,7 @@
       <workItem from="1618828880424" duration="1591000" />
       <workItem from="1618832381708" duration="23722000" />
       <workItem from="1618971305193" duration="12229000" />
-      <workItem from="1619049686576" duration="447000" />
+      <workItem from="1619049686576" duration="2367000" />
     </task>
     <servers />
   </component>

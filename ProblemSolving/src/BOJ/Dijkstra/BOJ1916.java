@@ -40,10 +40,6 @@ public class BOJ1916 {
         priorityQueue.offer(new NODE(start, 0));
         while (!priorityQueue.isEmpty()) {
             NODE node = priorityQueue.poll();
-            for (int i = 0; i < minLengthTable.length; i++) {
-                System.out.print(minLengthTable[i] + " ");
-            }
-            System.out.println();
             if (minLengthTable[node.to] < node.length) {
                 continue;
             }

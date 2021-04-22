@@ -88,13 +88,13 @@
       <recent name="BOJ" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BOJ13549">
-    <configuration name="BOJ13549" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.Dijkstra.BOJ13549" />
+  <component name="RunManager" selected="Application.BOJ10844">
+    <configuration name="BOJ10844" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.DP.BOJ10844" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BOJ.Dijkstra.*" />
+          <option name="PATTERN" value="BOJ.DP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ1449" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.Greedy.BOJ1449" />
+    <configuration name="BOJ13549" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.Dijkstra.BOJ13549" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BOJ.Greedy.*" />
+          <option name="PATTERN" value="BOJ.Dijkstra.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,19 +166,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BOJ1449" />
       <item itemvalue="Application.BOJ9935" />
       <item itemvalue="Application.BOJ2343" />
       <item itemvalue="Application.BOJ5972" />
       <item itemvalue="Application.BOJ13549" />
+      <item itemvalue="Application.BOJ10844" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BOJ10844" />
         <item itemvalue="Application.BOJ13549" />
         <item itemvalue="Application.BOJ5972" />
         <item itemvalue="Application.BOJ2343" />
         <item itemvalue="Application.BOJ9935" />
-        <item itemvalue="Application.BOJ1449" />
       </list>
     </recent_temporary>
   </component>
@@ -331,7 +331,7 @@
       <workItem from="1618828880424" duration="1591000" />
       <workItem from="1618832381708" duration="23722000" />
       <workItem from="1618971305193" duration="12229000" />
-      <workItem from="1619049686576" duration="2367000" />
+      <workItem from="1619049686576" duration="5425000" />
     </task>
     <servers />
   </component>

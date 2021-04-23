@@ -3,7 +3,7 @@ package SeobNote;
 public class Permutation {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5, 6, 7};
-        perm(arr, 0, 7, 1);
+        perm(arr, 0, 7, 7);
     }
 
     //매개변수로 arrayList를 넣어서 nPr에 맞는 배열만 넣어서 순열문제 해결하기

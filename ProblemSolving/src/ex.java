@@ -1,34 +1,34 @@
-import java.util.*;
-
 public class ex {
+    private static int count = 0;
     public static void main(String[] args) {
-        List<Integer> arrayList = new ArrayList<>();
-        Collections.sort(arrayList, new Comparator<Integer>() {
-            @Override
-            public int compare(Integer o1, Integer o2) {
-                return 0;
-            }
-        });
+        int[] array = {1, 2, 3, 4, 5};
 
-        Node[] array = new Node[10];
-        Arrays.sort(array, new Comparator<Node>() {
-            @Override
-            public int compare(Node o1, Node o2) {
-                return 0;
-            }
-        });
-
-        int[] array2 = new int[10];
-        Arrays.fill(array2,10);
-
+        permutation(array, 0, 5, 5);
     }
-}
-class Node{
-    int x;
-    int y;
 
-    public Node(int x, int y) {
-        this.x = x;
-        this.y = y;
+    private static void permutation(int[] array, int depth, int n, int k) {
+        if (depth == k) {
+            print2(array, k);
+        }
+        for (int i = depth; i < n; i++) {
+            swap2(array, i, depth);
+            permutation(array, depth + 1, n, k);
+            swap2(array, i, depth);
+        }
     }
+
+    private static void swap2(int[] array, int i, int depth) {
+        int tmp = array[i];
+        array[i] = array[depth];
+        array[depth] = tmp;
+    }
+
+    private static void print2(int[] array, int k) {
+        for (int i = 0; i < k; i++) {
+            System.out.print(array[i] + " ");
+        }
+        count = count + 1;
+        System.out.println(count);
+    }
+
 }

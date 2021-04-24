@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SeobNote/Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SeobNote/Permutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SeobNote/StringReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SeobNote/StringReverse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,20 +88,7 @@
       <recent name="BOJ" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ex">
-    <configuration name="입국심사" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Programmers.이분탐색.입국심사" />
-      <module name="ProblemSolving" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Programmers.이분탐색.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.BOJ2847">
     <configuration name="BOJ13549" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BOJ.Dijkstra.BOJ13549" />
       <module name="ProblemSolving" />
@@ -118,12 +102,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ1717" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.Union_Find.BOJ1717" />
+    <configuration name="BOJ14938" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.Dijkstra.BOJ14938" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BOJ.Union_Find.*" />
+          <option name="PATTERN" value="BOJ.Dijkstra.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BOJ2847" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.Greedy.BOJ2847" />
+      <module name="ProblemSolving" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BOJ.Greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,19 +141,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="섬연결하기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Programmers.그리디.Kruskal.섬연결하기" />
-      <module name="ProblemSolving" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Programmers.그리디.Kruskal.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ex" />
       <module name="ProblemSolving" />
@@ -164,31 +148,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.BOJ13549" />
-      <item itemvalue="Application.입국심사" />
-      <item itemvalue="Application.BOJ1717" />
       <item itemvalue="Application.Permutation" />
       <item itemvalue="Application.ex" />
+      <item itemvalue="Application.BOJ14938" />
+      <item itemvalue="Application.BOJ2847" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BOJ2847" />
+        <item itemvalue="Application.BOJ14938" />
         <item itemvalue="Application.ex" />
         <item itemvalue="Application.Permutation" />
         <item itemvalue="Application.BOJ13549" />
-        <item itemvalue="Application.BOJ1717" />
-        <item itemvalue="Application.입국심사" />
       </list>
     </recent_temporary>
   </component>
@@ -343,7 +329,8 @@
       <workItem from="1618971305193" duration="12229000" />
       <workItem from="1619049686576" duration="19692000" />
       <workItem from="1619136116941" duration="713000" />
-      <workItem from="1619178216187" duration="2400000" />
+      <workItem from="1619178216187" duration="4886000" />
+      <workItem from="1619232251756" duration="2513000" />
     </task>
     <servers />
   </component>

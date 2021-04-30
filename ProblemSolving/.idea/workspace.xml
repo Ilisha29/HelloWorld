@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KAKAO/KAKAO2019윈터인턴/prac1/K5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KAKAO/KAKAO2019윈터인턴/prac1/K5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KAKAO/KAKAO2019윈터인턴/prac1/K4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KAKAO/KAKAO2019윈터인턴/prac1/K4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +89,7 @@
       <recent name="BOJ" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.K5">
+  <component name="RunManager" selected="Application.K4">
     <configuration name="K1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO2019윈터인턴.prac1.K1" />
       <module name="ProblemSolving" />
@@ -129,8 +129,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="K5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO2019윈터인턴.prac1.K5" />
+    <configuration name="K4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO2019윈터인턴.prac1.K4" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
@@ -142,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KAKAO2018공채_자동완성2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO2018공채.KAKAO2018공채_자동완성2" />
+    <configuration name="K5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO2019윈터인턴.prac1.K5" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="KAKAO.KAKAO2018공채.*" />
+          <option name="PATTERN" value="KAKAO.KAKAO2019윈터인턴.prac1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,19 +169,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.KAKAO2018공채_자동완성2" />
       <item itemvalue="Application.K1" />
       <item itemvalue="Application.K2" />
       <item itemvalue="Application.K3" />
       <item itemvalue="Application.K5" />
+      <item itemvalue="Application.K4" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.K4" />
         <item itemvalue="Application.K5" />
         <item itemvalue="Application.K3" />
         <item itemvalue="Application.K2" />
         <item itemvalue="Application.K1" />
-        <item itemvalue="Application.KAKAO2018공채_자동완성2" />
       </list>
     </recent_temporary>
   </component>
@@ -342,7 +342,7 @@
       <workItem from="1619256407292" duration="1721000" />
       <workItem from="1619408296331" duration="10317000" />
       <workItem from="1619578163635" duration="1911000" />
-      <workItem from="1619778258588" duration="10431000" />
+      <workItem from="1619778258588" duration="13551000" />
     </task>
     <servers />
   </component>
@@ -1093,6 +1093,16 @@
           <url>file://$PROJECT_DIR$/src/KAKAO/KAKAO2019윈터인턴/prac1/K5.java</url>
           <line>14</line>
           <option name="timeStamp" value="414" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/KAKAO/KAKAO2019윈터인턴/prac1/K4.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="415" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/KAKAO/KAKAO2019윈터인턴/prac1/K4.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="416" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/BOJ/BOJ13460.java</url>

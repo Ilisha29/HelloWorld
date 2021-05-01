@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KAKAO/KAKAO2019윈터인턴/prac1/K4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KAKAO/KAKAO2019윈터인턴/prac1/K4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,14 +87,17 @@
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="BOJ" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="KAKAO.KAKAO2020공채.prac1" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.K4">
-    <configuration name="K1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO2019윈터인턴.prac1.K1" />
+  <component name="RunManager" selected="Application.K2 (1)">
+    <configuration name="K1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO2020공채.prac1.K1" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="KAKAO.KAKAO2019윈터인턴.prac1.*" />
+          <option name="PATTERN" value="KAKAO.KAKAO2020공채.prac1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="K2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO2019윈터인턴.prac1.K2" />
+    <configuration name="K2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO2020공채.prac1.K2" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="KAKAO.KAKAO2019윈터인턴.prac1.*" />
+          <option name="PATTERN" value="KAKAO.KAKAO2020공채.prac1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,33 +157,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.K1" />
-      <item itemvalue="Application.K2" />
       <item itemvalue="Application.K3" />
       <item itemvalue="Application.K5" />
       <item itemvalue="Application.K4" />
+      <item itemvalue="Application.K1 (1)" />
+      <item itemvalue="Application.K2 (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.K2 (1)" />
+        <item itemvalue="Application.K1 (1)" />
         <item itemvalue="Application.K4" />
         <item itemvalue="Application.K5" />
         <item itemvalue="Application.K3" />
-        <item itemvalue="Application.K2" />
-        <item itemvalue="Application.K1" />
       </list>
     </recent_temporary>
   </component>
@@ -342,7 +342,8 @@
       <workItem from="1619256407292" duration="1721000" />
       <workItem from="1619408296331" duration="10317000" />
       <workItem from="1619578163635" duration="1911000" />
-      <workItem from="1619778258588" duration="13551000" />
+      <workItem from="1619778258588" duration="14437000" />
+      <workItem from="1619827726761" duration="4759000" />
     </task>
     <servers />
   </component>
@@ -1101,8 +1102,28 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/KAKAO/KAKAO2019윈터인턴/prac1/K4.java</url>
-          <line>32</line>
+          <line>33</line>
           <option name="timeStamp" value="416" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/KAKAO/KAKAO2020공채/prac1/K1.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="417" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/KAKAO/KAKAO2020공채/prac1/K1.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="418" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/KAKAO/KAKAO2020공채/prac1/K2.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="419" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/KAKAO/KAKAO2020공채/prac1/K2.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="420" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/BOJ/BOJ13460.java</url>

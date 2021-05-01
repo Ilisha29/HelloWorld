@@ -148,7 +148,7 @@ public class K4 {
 
         if (map[x][y].row) {
             if (y == 0 || y == Y - 1) {
-                if (!map[x - 1][y].column && !map[x - 1][yy + 1].column) {
+                if (!map[x - 1][y].column && !map[x - 1][y + 1].column) {
                     row = false;
                 }
             } else {

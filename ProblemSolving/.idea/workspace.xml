@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KAKAO/KAKAO2019공채/try1/K19_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KAKAO/KAKAO2019공채/try1/K19_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KAKAO/KAKAO2019공채/try1/K19_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KAKAO/KAKAO2019공채/try1/K19_3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +93,7 @@
       <recent name="KAKAO.KAKAO2020공채.prac1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.K19_2">
+  <component name="RunManager" selected="Application.K19_3">
     <configuration name="K19_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO2019공채.try1.K19_1" />
       <module name="ProblemSolving" />
@@ -120,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="K2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO2020공채.prac1.K2" />
+    <configuration name="K19_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO2019공채.try1.K19_3" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="KAKAO.KAKAO2020공채.prac1.*" />
+          <option name="PATTERN" value="KAKAO.KAKAO2019공채.try1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,19 +173,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.K2 (1)" />
       <item itemvalue="Application.K5 (1)" />
       <item itemvalue="Application.K4 (1)" />
       <item itemvalue="Application.K19_1" />
       <item itemvalue="Application.K19_2" />
+      <item itemvalue="Application.K19_3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.K19_3" />
         <item itemvalue="Application.K19_2" />
         <item itemvalue="Application.K19_1" />
         <item itemvalue="Application.K4 (1)" />
         <item itemvalue="Application.K5 (1)" />
-        <item itemvalue="Application.K2 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -348,7 +348,7 @@
       <workItem from="1619578163635" duration="1911000" />
       <workItem from="1619778258588" duration="14437000" />
       <workItem from="1619827726761" duration="20304000" />
-      <workItem from="1619922638841" duration="3535000" />
+      <workItem from="1619922638841" duration="8380000" />
     </task>
     <servers />
   </component>

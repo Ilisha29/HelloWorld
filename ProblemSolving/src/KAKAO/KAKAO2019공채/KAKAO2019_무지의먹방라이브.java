@@ -15,8 +15,6 @@ public class KAKAO2019_무지의먹방라이브 {
     public static int solution(int[] food_times, long k) {
         int answer = -1;
         ArrayList<Food> foodArrayList = new ArrayList<Food>();
-        Queue<Food> foods = new LinkedList<>();
-        ArrayList<Integer> integers = new ArrayList<>();
         for (int i = 0; i < food_times.length; i++) {
             foodArrayList.add(new Food(i + 1, food_times[i]));
         }
@@ -25,14 +23,12 @@ public class KAKAO2019_무지의먹방라이브 {
         long beforesize = 0;
         long list_size = foodArrayList.size();
         long sum = 0;
-        int index = 0;
-        for (int i = 0; i < foodArrayList.size(); i++) {
+        for (int i = 0; i < list_size; i++) {
             long gap = (long) foodArrayList.get(i).time - beforesize;
-            if (gap *list_size + sum > k){
-                index = i;
+            if (gap * (list_size - i) + sum > k) {
                 break;
             }
-            sum += gap * list_size;
+            sum += gap * (list_size - i);
             beforesize = foodArrayList.get(i).time;
         }
         return answer;

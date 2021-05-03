@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KAKAO/KAKAO2019공채/KAKAO2019_무지의먹방라이브.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KAKAO/KAKAO2019공채/KAKAO2019_무지의먹방라이브.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,33 +94,7 @@
       <recent name="KAKAO.KAKAO2020공채.prac1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.KAKAO2019_무지의먹방라이브2">
-    <configuration name="K19_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO2019공채.try1.K19_2" />
-      <module name="ProblemSolving" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="KAKAO.KAKAO2019공채.try1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="K19_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO2019공채.try1.K19_3" />
-      <module name="ProblemSolving" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="KAKAO.KAKAO2019공채.try1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.KAKAO공채_자물쇠와_열쇠2">
     <configuration name="K19_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO2019공채.try1.K19_5" />
       <module name="ProblemSolving" />
@@ -132,12 +108,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="KAKAO2019_무지의먹방라이브" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO2019공채.KAKAO2019_무지의먹방라이브" />
+      <module name="ProblemSolving" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="KAKAO.KAKAO2019공채.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="KAKAO2019_무지의먹방라이브2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO2019공채.KAKAO2019_무지의먹방라이브2" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="KAKAO.KAKAO2019공채.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KAKAO공채_자물쇠와_열쇠2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO2020공채.KAKAO공채_자물쇠와_열쇠2" />
+      <module name="ProblemSolving" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="KAKAO.KAKAO2020공채.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,19 +166,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.K19_2" />
-      <item itemvalue="Application.K19_3" />
       <item itemvalue="Application.K19_5" />
       <item itemvalue="Application.ex" />
       <item itemvalue="Application.KAKAO2019_무지의먹방라이브2" />
+      <item itemvalue="Application.KAKAO2019_무지의먹방라이브" />
+      <item itemvalue="Application.KAKAO공채_자물쇠와_열쇠2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.KAKAO2019_무지의먹방라이브2" />
+        <item itemvalue="Application.KAKAO공채_자물쇠와_열쇠2" />
         <item itemvalue="Application.ex" />
+        <item itemvalue="Application.KAKAO2019_무지의먹방라이브" />
+        <item itemvalue="Application.KAKAO2019_무지의먹방라이브2" />
         <item itemvalue="Application.K19_5" />
-        <item itemvalue="Application.K19_3" />
-        <item itemvalue="Application.K19_2" />
       </list>
     </recent_temporary>
   </component>
@@ -340,7 +342,7 @@
       <workItem from="1619778258588" duration="14437000" />
       <workItem from="1619827726761" duration="20304000" />
       <workItem from="1619922638841" duration="19389000" />
-      <workItem from="1620000224426" duration="9532000" />
+      <workItem from="1620000224426" duration="12628000" />
     </task>
     <servers />
   </component>
@@ -1144,7 +1146,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/KAKAO/KAKAO2019공채/KAKAO2019_무지의먹방라이브2.java</url>
-          <line>36</line>
+          <line>30</line>
           <option name="timeStamp" value="430" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">

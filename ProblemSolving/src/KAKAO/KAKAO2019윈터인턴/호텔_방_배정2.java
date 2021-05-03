@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-public class KAKAO2019인턴_호텔_방_배정2 {
+public class 호텔_방_배정2 {
     public static void main(String[] args) {
         long k = 10;
         long[] room_num = {1, 3, 4, 1, 3, 1};

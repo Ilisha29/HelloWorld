@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 // 01 : 35
-public class KAKAO2019인턴_호텔_방_배정 {
+public class 호텔_방_배정 {
     public static void main(String[] args) {
         long k = 10;
         long[] room_number = {1, 3, 4, 1, 3, 1};

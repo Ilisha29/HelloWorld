@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 
-public class KAKAO2019인턴_불량_사용자2 {
+public class 불량_사용자2 {
     public static void main(String[] args) {
         String[][] user_id = {{"frodo", "fradi", "crodo", "abc123", "frodoc"}, {"frodo", "fradi", "crodo", "abc123", "frodoc"}, {"frodo", "fradi", "crodo", "abc123", "frodoc"}};
         String[][] banned_id = {{"fr*d*", "abc1**"}, {"*rodo", "*rodo", "******"}, {"fr*d*", "*rodo", "******", "******"}};

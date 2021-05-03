@@ -4,7 +4,7 @@ import java.util.Stack;
 
 // 13 : 25 stack 잘못씀..
 // 14 : 23 new Start
-public class KAKAO2019인턴_크레인_인형뽑기 {
+public class 크레인_인형뽑기 {
     public static void main(String[] args) {
         int[][] board = {
                 {0, 0, 0, 0, 0},

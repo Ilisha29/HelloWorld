@@ -3,7 +3,7 @@ package KAKAO.KAKAO2019윈터인턴;
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class KAKAO인턴_튜플2 {
+public class 튜플2 {
     public static void main(String[] args) {
         String[] strings = {"{{2},{2,1},{2,1,3},{2,1,3,4}}", "{{1,2,3},{2,1},{1,2,4,3},{2}}", "{{20,111},{111}}", "{{123}}", "{{4,2,3},{3},{2,3,4,1},{2,3}}"};
         for (int i = 1; i < 2; i++) {

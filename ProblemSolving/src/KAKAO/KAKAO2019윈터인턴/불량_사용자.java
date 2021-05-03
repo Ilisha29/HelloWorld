@@ -1,7 +1,7 @@
 package KAKAO.KAKAO2019윈터인턴;
 
 // 17 : 35 start
-public class KAKAO2019인턴_불량_사용자 {
+public class 불량_사용자 {
     /*user_id 배열의 크기는 1 이상 8 이하입니다.
     user_id 배열 각 원소들의 값은 길이가 1 이상 8 이하인 문자열입니다.
     응모한 사용자 아이디들은 서로 중복되지 않습니다.

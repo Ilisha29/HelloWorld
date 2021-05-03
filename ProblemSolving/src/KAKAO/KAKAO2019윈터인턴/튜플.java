@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 // 16 : 40
-public class KAKAO2019인턴_튜플 {
+public class 튜플 {
     public static void main(String[] args) {
         String s1 = "{{2},{2,1},{2,1,3},{2,1,3,4}}"; //[2, 1, 3, 4]
         String s2 = "{{1,2,3},{2,1},{1,2,4,3},{2}}"; //[2, 1, 3, 4]

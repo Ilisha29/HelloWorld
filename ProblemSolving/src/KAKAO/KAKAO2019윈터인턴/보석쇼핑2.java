@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-public class KAKO2019인턴_보석쇼핑2 {
+public class 보석쇼핑2 {
     public static void main(String[] args) {
         String[][] gems = {{"DIA", "RUBY", "RUBY", "DIA", "DIA", "EMERALD", "SAPPHIRE", "DIA"},
                 {"AA", "AB", "AC", "AA", "AC"},

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KAKAO/KAKAO2020인턴/prac/k2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KAKAO/KAKAO2020인턴/prac/k2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +51,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.batch/spring-batch-infrastructure/4.3.2/8a9ffa1b41ee35c8a02d6fc354fca49d528da4ec/spring-batch-infrastructure-4.3.2-sources.jar!/org/springframework/batch/item/database/JdbcCursorItemReader.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectId" id="1fE79ISg0yHX3Zc6f1CNGcW3lU6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -71,7 +75,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -92,20 +96,7 @@
       <recent name="KAKAO.KAKAO2020공채.prac1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.k1">
-    <configuration name="KAKAO2019_무지의먹방라이브" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO2019공채.KAKAO2019_무지의먹방라이브" />
-      <module name="ProblemSolving" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="KAKAO.KAKAO2019공채.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.k2">
     <configuration name="KAKAO2019_블록게임" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO2019공채.KAKAO2019_블록게임" />
       <module name="ProblemSolving" />
@@ -165,6 +156,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="k2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO2020인턴.prac.k2" />
+      <module name="ProblemSolving" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="KAKAO.KAKAO2020인턴.prac.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -178,18 +182,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.ex" />
-      <item itemvalue="Application.KAKAO2019_무지의먹방라이브" />
       <item itemvalue="Application.KAKAO공채_자물쇠와_열쇠2" />
       <item itemvalue="Application.불량_사용자3" />
       <item itemvalue="Application.k1" />
+      <item itemvalue="Application.k2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.k2" />
         <item itemvalue="Application.k1" />
         <item itemvalue="Application.불량_사용자3" />
         <item itemvalue="Application.KAKAO공채_자물쇠와_열쇠2" />
         <item itemvalue="Application.ex" />
-        <item itemvalue="Application.KAKAO2019_무지의먹방라이브" />
       </list>
     </recent_temporary>
   </component>
@@ -357,7 +361,7 @@
       <workItem from="1620059194707" duration="465000" />
       <workItem from="1620090850253" duration="2678000" />
       <workItem from="1620100860308" duration="450000" />
-      <workItem from="1620101361392" duration="962000" />
+      <workItem from="1620101361392" duration="6610000" />
     </task>
     <servers />
   </component>
@@ -1183,6 +1187,11 @@
           <url>file://$PROJECT_DIR$/src/KAKAO/KAKAO2020공채/블록이동2.java</url>
           <line>8</line>
           <option name="timeStamp" value="435" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/KAKAO/KAKAO2020인턴/prac/k2.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="444" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/BOJ/BOJ13460.java</url>

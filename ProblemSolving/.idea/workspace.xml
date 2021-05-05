@@ -358,7 +358,7 @@
       <workItem from="1620090850253" duration="2678000" />
       <workItem from="1620100860308" duration="450000" />
       <workItem from="1620101361392" duration="22783000" />
-      <workItem from="1620173234270" duration="14152000" />
+      <workItem from="1620173234270" duration="14975000" />
     </task>
     <servers />
   </component>
@@ -1239,6 +1239,16 @@
           <url>file://$PROJECT_DIR$/src/KAKAO/KAKAO2018공채/prac/k5.java</url>
           <line>44</line>
           <option name="timeStamp" value="470" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/KAKAO/KAKAO2018공채/prac/k3.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="471" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/KAKAO/KAKAO2018공채/prac/k3.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="472" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/BOJ/BOJ13460.java</url>

@@ -1,7 +1,6 @@
 package KAKAO.KAKAO2018공채.prac;
 
-import java.util.HashSet;
-import java.util.Set;
+import java.util.Arrays;
 
 public class k3 {
     public static void main(String[] args) {
@@ -15,28 +14,32 @@ public class k3 {
 
     public static int solution(String[] words) {
         int answer = 0;
+        Arrays.sort(words);
         for (int i = 0; i < words.length; i++) {
-            String[] target = words[i].split("");
-            Set<String> set = new HashSet<>();
-            for (int j = 0; j < words.length; j++) {
-                if (i != j) {
-                    String[] strings = words[j].split("");
-                    StringBuilder stringBuilder = new StringBuilder("");
-                    for (int k = 0; k < strings.length; k++) {
-                        stringBuilder.append(strings[k]);
-                        set.add(stringBuilder.toString());
-                    }
-                }
-            }
-            StringBuilder stringBuilder = new StringBuilder("");
-            for (int j = 0; j < target.length; j++) {
-                stringBuilder.append(target[j]);
-                answer++;
-                if (!set.contains(stringBuilder.toString())) {
-                    break;
-                }
+            if (i == 0) {
+                answer += calculate(words[i], words[i + 1]);
+            } else if (i == words.length - 1) {
+                answer += calculate(words[i], words[i - 1]);
+            } else {
+                answer += Math.max(calculate(words[i], words[i - 1]), calculate(words[i], words[i + 1]));
             }
         }
         return answer;
+    }
+
+    private static int calculate(String target, String word) {
+        String[] splitTarget = target.split("");
+        String[] splitWord = word.split("");
+        if (word.contains(target)) {
+            return target.length();
+        }
+        int minLength = Math.min(splitTarget.length, splitWord.length);
+        int index;
+        for (index = 0; index < minLength; index++) {
+            if (!splitTarget[index].equals(splitWord[index])) {
+                break;
+            }
+        }
+        return index + 1;
     }
 }

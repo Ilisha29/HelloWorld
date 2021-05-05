@@ -96,20 +96,7 @@
       <recent name="KAKAO.KAKAO2020공채.prac1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="KAKAO2019_블록게임" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO2019공채.KAKAO2019_블록게임" />
-      <module name="ProblemSolving" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="KAKAO.KAKAO2019공채.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.k1 (1)">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DesignPattern.Behavior.TemplateMethod.Main" />
       <module name="ProblemSolving" />
@@ -123,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="k1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO2020인턴.prac.k1" />
+    <configuration name="k1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO2018공채.prac.k1" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="KAKAO.KAKAO2020인턴.prac.*" />
+          <option name="PATTERN" value="KAKAO.KAKAO2018공채.prac.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,31 +162,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.k1" />
       <item itemvalue="Application.k2" />
       <item itemvalue="Application.k3" />
       <item itemvalue="Application.k4" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.k1 (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.k1 (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.k4" />
         <item itemvalue="Application.k3" />
         <item itemvalue="Application.k2" />
-        <item itemvalue="Application.k1" />
       </list>
     </recent_temporary>
   </component>
@@ -367,7 +356,8 @@
       <workItem from="1620059194707" duration="465000" />
       <workItem from="1620090850253" duration="2678000" />
       <workItem from="1620100860308" duration="450000" />
-      <workItem from="1620101361392" duration="15629000" />
+      <workItem from="1620101361392" duration="22783000" />
+      <workItem from="1620173234270" duration="5414000" />
     </task>
     <servers />
   </component>
@@ -1213,6 +1203,16 @@
           <url>file://$PROJECT_DIR$/src/KAKAO/KAKAO2020인턴/prac/k4.java</url>
           <line>14</line>
           <option name="timeStamp" value="452" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/KAKAO/KAKAO2018공채/prac/k1.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="454" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/KAKAO/KAKAO2018공채/prac/k1.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="456" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/BOJ/BOJ13460.java</url>

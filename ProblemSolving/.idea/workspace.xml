@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KAKAO/KAKAO2018공채/prac/k2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KAKAO/KAKAO2018공채/prac/k2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KAKAO/KAKAO2018공채/prac/k4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KAKAO/KAKAO2018공채/prac/k4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +97,7 @@
       <recent name="KAKAO.KAKAO2020공채.prac1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.k2 (1)">
+  <component name="RunManager" selected="Application.k4 (1)">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DesignPattern.Behavior.TemplateMethod.Main" />
       <module name="ProblemSolving" />
@@ -138,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="k3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO2020인턴.prac.k3" />
+    <configuration name="k4 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO2018공채.prac.k4" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="KAKAO.KAKAO2020인턴.prac.*" />
+          <option name="PATTERN" value="KAKAO.KAKAO2018공채.prac.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,19 +177,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.k3" />
       <item itemvalue="Application.k4" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.k1 (1)" />
       <item itemvalue="Application.k2 (1)" />
+      <item itemvalue="Application.k4 (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.k4 (1)" />
         <item itemvalue="Application.k2 (1)" />
         <item itemvalue="Application.k1 (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.k4" />
-        <item itemvalue="Application.k3" />
       </list>
     </recent_temporary>
   </component>
@@ -359,7 +358,7 @@
       <workItem from="1620090850253" duration="2678000" />
       <workItem from="1620100860308" duration="450000" />
       <workItem from="1620101361392" duration="22783000" />
-      <workItem from="1620173234270" duration="9014000" />
+      <workItem from="1620173234270" duration="10226000" />
     </task>
     <servers />
   </component>
@@ -1218,12 +1217,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/KAKAO/KAKAO2018공채/prac/k2.java</url>
-          <line>46</line>
+          <line>43</line>
           <option name="timeStamp" value="463" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/KAKAO/KAKAO2018공채/prac/k2.java</url>
-          <line>36</line>
+          <line>33</line>
           <option name="timeStamp" value="467" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">

@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KAKAO/K2021공채/K1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KAKAO/K2021공채/K1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KAKAO/K2021공채/K2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KAKAO/K2021공채/K2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,20 +97,7 @@
       <recent name="KAKAO.KAKAO2020공채.prac1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.K1">
-    <configuration name="자동완성" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO2018공채.자동완성" />
-      <module name="ProblemSolving" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="KAKAO.KAKAO2018공채.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.K2">
     <configuration name="자동완성2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO2018공채.자동완성2" />
       <module name="ProblemSolving" />
@@ -176,6 +163,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="K2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KAKAO.K2021공채.K2" />
+      <module name="ProblemSolving" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="KAKAO.K2021공채.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -190,19 +190,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.자동완성" />
       <item itemvalue="Application.자동완성2" />
       <item itemvalue="Application.Before" />
       <item itemvalue="Application.After" />
       <item itemvalue="Application.K1" />
+      <item itemvalue="Application.K2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.K2" />
         <item itemvalue="Application.K1" />
         <item itemvalue="Application.After" />
         <item itemvalue="Application.Before" />
         <item itemvalue="Application.자동완성2" />
-        <item itemvalue="Application.자동완성" />
       </list>
     </recent_temporary>
   </component>
@@ -373,7 +373,7 @@
       <workItem from="1620101361392" duration="22783000" />
       <workItem from="1620173234270" duration="17002000" />
       <workItem from="1620203677966" duration="15940000" />
-      <workItem from="1620261342556" duration="4435000" />
+      <workItem from="1620261342556" duration="6639000" />
     </task>
     <servers />
   </component>
@@ -1284,6 +1284,11 @@
           <url>file://$PROJECT_DIR$/src/KAKAO/K2021공채/K1.java</url>
           <line>17</line>
           <option name="timeStamp" value="477" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/KAKAO/K2021공채/K2.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="478" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/BOJ/BOJ13460.java</url>

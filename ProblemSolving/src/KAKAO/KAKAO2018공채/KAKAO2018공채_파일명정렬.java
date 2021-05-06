@@ -1,4 +1,4 @@
-package KAKAO.KAKAO2020공채;
+package KAKAO.KAKAO2018공채;
 
 import java.util.Arrays;
 import java.util.Comparator;

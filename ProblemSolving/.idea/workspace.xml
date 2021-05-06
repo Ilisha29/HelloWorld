@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KAKAO/KAKAO2018공채/prac/k3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KAKAO/KAKAO2018공채/prac/k3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KAKAO/KAKAO2018공채/KAKAO2018_방금그곡.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KAKAO/KAKAO2018공채/KAKAO2018_방금그곡.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KAKAO/KAKAO2020공채/KAKAO2018공채_파일명정렬.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KAKAO/KAKAO2018공채/KAKAO2018공채_파일명정렬.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +37,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -97,13 +98,13 @@
       <recent name="KAKAO.KAKAO2020공채.prac1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.k3">
-    <configuration name="k1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO2018공채.prac.k1" />
+  <component name="RunManager" selected="Application.After">
+    <configuration name="자동완성" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO2018공채.자동완성" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="KAKAO.KAKAO2018공채.prac.*" />
+          <option name="PATTERN" value="KAKAO.KAKAO2018공채.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="k2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO2018공채.prac.k2" />
+    <configuration name="자동완성2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO2018공채.자동완성2" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="KAKAO.KAKAO2018공채.prac.*" />
+          <option name="PATTERN" value="KAKAO.KAKAO2018공채.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="k3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO2018공채.prac.k3" />
+    <configuration name="가사검색2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO2020공채.가사검색2" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="KAKAO.KAKAO2018공채.prac.*" />
+          <option name="PATTERN" value="KAKAO.KAKAO2020공채.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="k4 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO2018공채.prac.k4" />
+    <configuration name="After" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPattern.Behavior.State.After" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="KAKAO.KAKAO2018공채.prac.*" />
+          <option name="PATTERN" value="DesignPattern.Behavior.State.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,12 +151,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="k5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO2018공채.prac.k5" />
+    <configuration name="Before" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPattern.Behavior.State.Before" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="KAKAO.KAKAO2018공채.prac.*" />
+          <option name="PATTERN" value="DesignPattern.Behavior.State.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KAKAO2018_방금그곡" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO2018공채.KAKAO2018_방금그곡" />
+      <module name="ProblemSolving" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="KAKAO.KAKAO2018공채.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,19 +191,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.k1 (1)" />
-      <item itemvalue="Application.k2 (1)" />
-      <item itemvalue="Application.k4 (1)" />
-      <item itemvalue="Application.k5" />
-      <item itemvalue="Application.k3" />
+      <item itemvalue="Application.KAKAO2018_방금그곡" />
+      <item itemvalue="Application.자동완성" />
+      <item itemvalue="Application.자동완성2" />
+      <item itemvalue="Application.Before" />
+      <item itemvalue="Application.After" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.k3" />
-        <item itemvalue="Application.k5" />
-        <item itemvalue="Application.k4 (1)" />
-        <item itemvalue="Application.k2 (1)" />
-        <item itemvalue="Application.k1 (1)" />
+        <item itemvalue="Application.After" />
+        <item itemvalue="Application.Before" />
+        <item itemvalue="Application.자동완성2" />
+        <item itemvalue="Application.자동완성" />
+        <item itemvalue="Application.KAKAO2018_방금그곡" />
       </list>
     </recent_temporary>
   </component>
@@ -358,7 +372,9 @@
       <workItem from="1620090850253" duration="2678000" />
       <workItem from="1620100860308" duration="450000" />
       <workItem from="1620101361392" duration="22783000" />
-      <workItem from="1620173234270" duration="14975000" />
+      <workItem from="1620173234270" duration="17002000" />
+      <workItem from="1620203677966" duration="15940000" />
+      <workItem from="1620261342556" duration="2911000" />
     </task>
     <servers />
   </component>
@@ -667,7 +683,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/KAKAO/KAKAO2018공채/KAKAO2018_방금그곡.java</url>
-          <line>47</line>
+          <line>48</line>
           <option name="timeStamp" value="187" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1242,13 +1258,28 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/KAKAO/KAKAO2018공채/prac/k3.java</url>
-          <line>18</line>
+          <line>16</line>
           <option name="timeStamp" value="471" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/KAKAO/KAKAO2018공채/prac/k3.java</url>
-          <line>33</line>
+          <line>30</line>
           <option name="timeStamp" value="472" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/KAKAO/KAKAO2018공채/자동완성.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="473" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/KAKAO/KAKAO2018공채/자동완성.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="474" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/KAKAO/KAKAO2020공채/가사검색2.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="476" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/BOJ/BOJ13460.java</url>

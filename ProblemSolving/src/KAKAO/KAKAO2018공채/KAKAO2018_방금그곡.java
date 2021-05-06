@@ -33,6 +33,7 @@ public class KAKAO2018_방금그곡 {
                 }
             }
         }
+        System.out.println("##########" + newM);
 
         ArrayList<Answer> answerStringArray = new ArrayList<>();
         int musics = musicinfos.length;

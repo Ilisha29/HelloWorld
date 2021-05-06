@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KAKAO/K2021공채/K4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KAKAO/K2021공채/K4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KAKAO/K2021공채/K5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KAKAO/K2021공채/K5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -374,7 +372,7 @@
       <workItem from="1620101361392" duration="22783000" />
       <workItem from="1620173234270" duration="17002000" />
       <workItem from="1620203677966" duration="15940000" />
-      <workItem from="1620261342556" duration="17026000" />
+      <workItem from="1620261342556" duration="18714000" />
     </task>
     <servers />
   </component>

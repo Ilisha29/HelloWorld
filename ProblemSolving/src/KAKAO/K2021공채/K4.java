@@ -55,7 +55,7 @@ public class K4 {
         points.add(new Point5(i, 0));
         while (!points.isEmpty()) {
             Point5 point = points.poll();
-            if (minLength[point.to] <= point.length) {
+            if (minLength[point.to] < point.length) {
                 continue;
             }
             minLength[point.to] = point.length;
@@ -64,15 +64,15 @@ public class K4 {
             }
             List<Point5> list = hashMap.get(point.to);
             for (int j = 0; j < list.size(); j++) {
-                int dist = point.length + list.get(j).length;
-                if (dist < minLength[list.get(j).to]) {
-                    points.add(new Point5(list.get(j).to, dist));
+                Point5 tmp = list.get(j);
+                int dist = point.length + tmp.length;
+                if (dist < minLength[tmp.to]) {
+                    points.add(new Point5(tmp.to, dist));
                 }
             }
         }
         return minLength[to];
     }
-
 }
 
 class Point5 {

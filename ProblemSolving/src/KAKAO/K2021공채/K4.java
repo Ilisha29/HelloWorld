@@ -34,16 +34,16 @@ public class K4 {
             hashMap.get(x).add(new Point5(y, length));
             hashMap.get(y).add(new Point5(x, length));
         }
+        int[] startTo = Dijkstra(s, n);
+        int[] aTo = Dijkstra(a, n);
+        int[] bTo = Dijkstra(b, n);
         for (int i = 1; i <= n; i++) {
-            int length1 = Dijkstra(i, s, n);
-            int length2 = Dijkstra(i, a, n);
-            int length3 = Dijkstra(i, b, n);
-            answer = Math.min(length1 + length2 + length3, answer);
+            answer = Math.min(answer, startTo[i] + aTo[i] + bTo[i]);
         }
         return answer;
     }
 
-    private static int Dijkstra(int i, int to, int size) {
+    private static int[] Dijkstra(int i, int size) {
         int[] minLength = new int[size + 1];
         Arrays.fill(minLength, INF);
         PriorityQueue<Point5> points = new PriorityQueue<>(new Comparator<Point5>() {
@@ -59,9 +59,6 @@ public class K4 {
                 continue;
             }
             minLength[point.to] = point.length;
-            if (point.to == to) {
-                break;
-            }
             List<Point5> list = hashMap.get(point.to);
             for (int j = 0; j < list.size(); j++) {
                 Point5 tmp = list.get(j);
@@ -71,7 +68,7 @@ public class K4 {
                 }
             }
         }
-        return minLength[to];
+        return minLength;
     }
 }
 

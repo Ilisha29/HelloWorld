@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KAKAO/K2021공채/K4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KAKAO/K2021공채/K4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KAKAO/Level3_4/Intern/보석쇼핑.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KAKAO/Level3_4/Intern/보석쇼핑.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +100,33 @@
       <recent name="KAKAO.KAKAO2020공채.prac1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.K4">
+  <component name="RunManager" selected="Application.경주로건설">
+    <configuration name="보석쇼핑" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KAKAO.Level3_4.Intern.보석쇼핑" />
+      <module name="ProblemSolving" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="KAKAO.Level3_4.Intern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="불량사용자" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KAKAO.Level3_4.Intern.불량사용자" />
+      <module name="ProblemSolving" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="KAKAO.Level3_4.Intern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="가사검색2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="KAKAO.KAKAO2020공채.가사검색2" />
       <module name="ProblemSolving" />
@@ -114,38 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="K1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KAKAO.K2021공채.K1" />
+    <configuration name="경주로건설" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KAKAO.Level3_4.Intern.경주로건설" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="KAKAO.K2021공채.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="K2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KAKAO.K2021공채.K2" />
-      <module name="ProblemSolving" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="KAKAO.K2021공채.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="K3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KAKAO.K2021공채.K3" />
-      <module name="ProblemSolving" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="KAKAO.K2021공채.*" />
+          <option name="PATTERN" value="KAKAO.Level3_4.Intern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,19 +193,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.K1" />
-      <item itemvalue="Application.K2" />
-      <item itemvalue="Application.K3" />
       <item itemvalue="Application.K4" />
       <item itemvalue="Application.K5" />
+      <item itemvalue="Application.보석쇼핑" />
+      <item itemvalue="Application.불량사용자" />
+      <item itemvalue="Application.경주로건설" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.경주로건설" />
+        <item itemvalue="Application.불량사용자" />
+        <item itemvalue="Application.보석쇼핑" />
         <item itemvalue="Application.K4" />
         <item itemvalue="Application.K5" />
-        <item itemvalue="Application.K3" />
-        <item itemvalue="Application.K2" />
-        <item itemvalue="Application.K1" />
       </list>
     </recent_temporary>
   </component>
@@ -376,7 +376,7 @@
       <workItem from="1620101361392" duration="22783000" />
       <workItem from="1620173234270" duration="17002000" />
       <workItem from="1620203677966" duration="15940000" />
-      <workItem from="1620261342556" duration="22715000" />
+      <workItem from="1620261342556" duration="30485000" />
     </task>
     <servers />
   </component>
@@ -1297,6 +1297,21 @@
           <url>file://$PROJECT_DIR$/src/KAKAO/K2021공채/K3.java</url>
           <line>68</line>
           <option name="timeStamp" value="480" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/KAKAO/Level3_4/Intern/불량사용자.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="484" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/KAKAO/Level3_4/Intern/경주로건설.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="485" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/KAKAO/Level3_4/Intern/경주로건설.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="486" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/BOJ/BOJ13460.java</url>

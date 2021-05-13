@@ -97,12 +97,13 @@
       <recent name="KAKAO.Level3_4.Intern" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="DesignPattern.Structural.Adaptor" />
       <recent name="KAKAO.tmp" />
       <recent name="KAKAO.KAKAO2019공채.try1" />
       <recent name="KAKAO.KAKAO2020공채.prac1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BOJ14425">
+  <component name="RunManager" selected="Application.LC1351">
     <configuration name="AfterDecorator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DesignPattern.Structural.Decorator.AfterDecorator" />
       <module name="ProblemSolving" />
@@ -142,12 +143,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BeforeDecorator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPattern.Structural.Decorator.BeforeDecorator" />
+    <configuration name="Home" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPattern.Structural.Adaptor.Home" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPattern.Structural.Decorator.*" />
+          <option name="PATTERN" value="DesignPattern.Structural.Adaptor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,12 +156,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="t2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Programmers.tmp.t2" />
+    <configuration name="LC1351" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.BinarySearch.LC1351" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Programmers.tmp.*" />
+          <option name="PATTERN" value="LeetCode.BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,33 +169,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.t2" />
-      <item itemvalue="Application.BeforeDecorator" />
       <item itemvalue="Application.AfterDecorator" />
       <item itemvalue="Application.AfterProxy" />
       <item itemvalue="Application.BOJ14425" />
+      <item itemvalue="Application.Home" />
+      <item itemvalue="Application.LC1351" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LC1351" />
+        <item itemvalue="Application.Home" />
         <item itemvalue="Application.BOJ14425" />
         <item itemvalue="Application.AfterProxy" />
         <item itemvalue="Application.AfterDecorator" />
-        <item itemvalue="Application.BeforeDecorator" />
-        <item itemvalue="Application.t2" />
       </list>
     </recent_temporary>
   </component>
@@ -367,7 +366,8 @@
       <workItem from="1620203677966" duration="15940000" />
       <workItem from="1620261342556" duration="63338000" />
       <workItem from="1620532406410" duration="22831000" />
-      <workItem from="1620793067378" duration="1820000" />
+      <workItem from="1620793067378" duration="2438000" />
+      <workItem from="1620864361881" duration="3350000" />
     </task>
     <servers />
   </component>
@@ -1316,12 +1316,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/BOJ/Trie/BOJ14425.java</url>
-          <line>24</line>
+          <line>28</line>
           <option name="timeStamp" value="496" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/BOJ/Trie/BOJ14425.java</url>
-          <line>33</line>
+          <line>37</line>
           <option name="timeStamp" value="497" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">

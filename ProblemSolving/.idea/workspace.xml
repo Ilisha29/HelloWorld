@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/BinarySearch/LC1351.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/BinarySearch/LC1351.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +77,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -103,13 +104,13 @@
       <recent name="KAKAO.KAKAO2020공채.prac1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LC1351">
-    <configuration name="AfterDecorator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPattern.Structural.Decorator.AfterDecorator" />
+  <component name="RunManager" selected="Application.BOJ1197">
+    <configuration name="AfterProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPattern.Structural.Proxy.AfterProxy" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPattern.Structural.Decorator.*" />
+          <option name="PATTERN" value="DesignPattern.Structural.Proxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AfterProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPattern.Structural.Proxy.AfterProxy" />
+    <configuration name="BOJ1197" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.MST.BOJ1197" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPattern.Structural.Proxy.*" />
+          <option name="PATTERN" value="BOJ.MST.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,31 +170,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AfterDecorator" />
       <item itemvalue="Application.AfterProxy" />
       <item itemvalue="Application.BOJ14425" />
       <item itemvalue="Application.Home" />
       <item itemvalue="Application.LC1351" />
+      <item itemvalue="Application.BOJ1197" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BOJ1197" />
         <item itemvalue="Application.LC1351" />
         <item itemvalue="Application.Home" />
         <item itemvalue="Application.BOJ14425" />
         <item itemvalue="Application.AfterProxy" />
-        <item itemvalue="Application.AfterDecorator" />
       </list>
     </recent_temporary>
   </component>
@@ -367,7 +370,8 @@
       <workItem from="1620261342556" duration="63338000" />
       <workItem from="1620532406410" duration="22831000" />
       <workItem from="1620793067378" duration="2438000" />
-      <workItem from="1620864361881" duration="3350000" />
+      <workItem from="1620864361881" duration="4889000" />
+      <workItem from="1620958300926" duration="3176000" />
     </task>
     <servers />
   </component>

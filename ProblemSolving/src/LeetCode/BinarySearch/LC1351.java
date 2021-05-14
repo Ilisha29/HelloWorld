@@ -33,4 +33,18 @@ public class LC1351 {
         }
         return index;
     }
+
+    /*public static int countNegatives(int[][] grid) {
+        int answer = 0;
+        for (int i = 0; i < grid.length; i++) {
+            int[] tmpGrid = grid[i];
+            for (int j = 0; j < tmpGrid.length; j++) {
+                if (tmpGrid[j] < 0) {
+                    answer += tmpGrid.length - j;
+                    break;
+                }
+            }
+        }
+        return answer;
+    }*/
 }

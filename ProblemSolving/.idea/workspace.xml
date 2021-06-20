@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="230458cc-7d02-4a01-adfd-f21ec3a1e8cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,9 +51,6 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.batch/spring-batch-infrastructure/4.3.2/8a9ffa1b41ee35c8a02d6fc354fca49d528da4ec/spring-batch-infrastructure-4.3.2-sources.jar!/org/springframework/batch/item/database/JdbcCursorItemReader.java" root0="SKIP_INSPECTION" />
-  </component>
   <component name="ProjectId" id="1fE79ISg0yHX3Zc6f1CNGcW3lU6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -98,19 +94,20 @@
       <recent name="KAKAO.Level3_4.Intern" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="DesignPattern.TMP" />
       <recent name="DesignPattern.Structural.Adaptor" />
       <recent name="KAKAO.tmp" />
       <recent name="KAKAO.KAKAO2019공채.try1" />
       <recent name="KAKAO.KAKAO2020공채.prac1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="AfterStrategyPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPattern.Behavior.Strategy.AfterStrategyPattern" />
+  <component name="RunManager" selected="Application.exPs">
+    <configuration name="exPs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Codility.exPs" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPattern.Behavior.Strategy.*" />
+          <option name="PATTERN" value="Codility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ11780_must_review" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ._7MinimumLength.Floyd.BOJ11780_must_review" />
+    <configuration name="tmp1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CS.tmp.tmp1" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BOJ._7MinimumLength.Floyd.*" />
+          <option name="PATTERN" value="CS.tmp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ1197" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ._8GraphTheory.MST.BOJ1197" />
+    <configuration name="tmp2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CS.tmp.tmp2" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BOJ._8GraphTheory.MST.*" />
+          <option name="PATTERN" value="CS.tmp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,12 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LC1351" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.BinarySearch.LC1351" />
+    <configuration name="tmp2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tmp.tmp2" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.BinarySearch.*" />
+          <option name="PATTERN" value="tmp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,33 +154,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPattern.Behavior.Observer.Main" />
+    <configuration name="tmp22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CS.tmp.tmp22" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPattern.Behavior.Observer.*" />
+          <option name="PATTERN" value="CS.tmp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LC1351" />
-      <item itemvalue="Application.BOJ1197" />
-      <item itemvalue="Application.BOJ11780_must_review" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.AfterStrategyPattern" />
+      <item itemvalue="Application.tmp1 (1)" />
+      <item itemvalue="Application.tmp2" />
+      <item itemvalue="Application.tmp2 (1)" />
+      <item itemvalue="Application.tmp22" />
+      <item itemvalue="Application.exPs" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.AfterStrategyPattern" />
-        <item itemvalue="Application.BOJ11780_must_review" />
-        <item itemvalue="Application.BOJ1197" />
-        <item itemvalue="Application.LC1351" />
+        <item itemvalue="Application.exPs" />
+        <item itemvalue="Application.tmp22" />
+        <item itemvalue="Application.tmp2 (1)" />
+        <item itemvalue="Application.tmp2" />
+        <item itemvalue="Application.tmp1 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -361,7 +371,18 @@
       <workItem from="1620958300926" duration="3937000" />
       <workItem from="1621033858660" duration="5359000" />
       <workItem from="1621043406927" duration="7766000" />
-      <workItem from="1621124522191" duration="7125000" />
+      <workItem from="1621124522191" duration="7175000" />
+      <workItem from="1621331911773" duration="5713000" />
+      <workItem from="1621699354122" duration="182000" />
+      <workItem from="1621729378731" duration="4366000" />
+      <workItem from="1622044558232" duration="578000" />
+      <workItem from="1622081631034" duration="3248000" />
+      <workItem from="1622471063759" duration="204000" />
+      <workItem from="1622510392934" duration="166000" />
+      <workItem from="1622592474647" duration="542000" />
+      <workItem from="1622707212373" duration="304000" />
+      <workItem from="1622953993141" duration="379000" />
+      <workItem from="1624159675472" duration="474000" />
     </task>
     <servers />
   </component>
